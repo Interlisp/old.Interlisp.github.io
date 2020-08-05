@@ -18,7 +18,7 @@
 <!-- Theme fonts -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700" />
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
 <!-- end fonts -->
 <link rel="stylesheet" href="theme.css">
 </head>
@@ -29,7 +29,7 @@
     <div class="personal-info clearfix"> <a href="#"> <img src="Interlisp-D.jpg" class="float-left" alt="Interlisp-D" width="50" height="50"></a>
       <div class="infos float-left">
         <h1><a href="#">Interlisp / Medley</a></h1>
-        <p class="p-info"> Email: <a href="mailto:Interlisp@googlegroups.com">Interlisp@googlegroups.com</a><br>
+        <p class="p-info"> Email: <a href="mailto:Interlisp@googlegroups.com" >Interlisp@googlegroups.com</a><br>
           Social Media: <a target="_blank" href="https://www.facebook.com/groups/Interlisp" class="btn-social facebook"></a> <a target="_blank" href="https://twitter.com/interlisp" class="btn-social twitter"></a> Other links: <a target="_blank" href="https://www.github.com/Interlisp">GitHub</a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Interlisp">Wikipedia</a> </p>
       </div>
     </div>
@@ -59,9 +59,10 @@ The intent of this document is to lay out what we know, planned actions, and que
 For discussion on the mailing list interlisp@googlegroups.com or as comments on or edits to this document.
 
  <h2>What is Interlisp-D Medley?</h2>
-
-The 1992 ACM Software System Award, to Daniel G. Bobrow, Richard R. Burton, L. Peter Deutsch, Ronald M. Kaplan, Larry Masinter, Warren Teitelman  For their pioneering work in programming environments that integrated source-language debuggers, fully compatible integrated interpreter/compiler, automatic change management, structure-based editing, logging facilities, interactive graphics, and analysis/profiling tools in the Interlisp system.
-
+ <p>An integrated software development environment for (IDE) Lisp programming, written in
+  Lisp. </p>
+<p>The 1992 ACM Software System Award, to Daniel G. Bobrow, Richard R. Burton, L. Peter Deutsch, Ronald M. Kaplan, Larry Masinter, Warren Teitelman  For their pioneering work in programming environments that integrated source-language debuggers, fully compatible integrated interpreter/compiler, automatic change management, structure-based editing, logging facilities, interactive graphics, and analysis/profiling tools in the Interlisp system.
+	</p>
 <h3>History</h3> 
 			 development continued until 2009, and many early AI companies built applications on the platform.
 The hope is by preserving a “working emulator” that people could use some of these older applications and possibly continue to develop them.
@@ -111,12 +112,13 @@ PARC backups
 <li>Envos files</li></ul>
 <h2>Who is involved </h2>
 
-Larry Masinter, Ron Kaplan, Nick Briggs, Wayne Marci
+<a href="https://LarryMasinter.net">Larry Masinter</a>, Ron Kaplan, Nick Briggs, Wayne Marci.<br>
 Interested users:
-   Michele Denber
-   Paul McJones
-   John Cowan
-   interlisp@googlegroups.google.com
+	<ul><li>Michele Denber</li>
+   <li>Paul McJones</li>
+   <li>John Cowan</li>
+	  <li> interlisp@googlegroups.com </li>
+	</ul> 
 <h2>Copyright Narrative</h2>
 <p>
 The following history is different from that above in  that it mainly focuses on copyright / license issues.
@@ -156,24 +158,24 @@ There were some architectural changes for newer versions of maiko / medley. Thes
 <h3>Raspberry PI</h3>
 
 (see article regarding Smalltalk on a Raspberry Pi -- https://www.linkedin.com/pulse/relive-part-xerox-parcs-history-smalltalk-80-raspberry-michael-engel/ -- Compiling the maiko code for a Pi is close to trivial, assuming it has an X compatible window system available to the OS.)
-<h3> GitHub repos & LICENSE files</h3>
+<h3> GitHub repos &amp; LICENSE files</h3>
 
 There is a GitHub Organization Interlisp with repositories for Maiko and Medley.
 Medley will have directories for LispCore, Library, fonts, docs and LispUsers.
 The LICENSE for each is the MIT License, with Medley starting with “Copyright Interlisip contributors” while Maiko/LICENSE says more.
 The Maiko sources (in C) mostly say Copyright Venue.
-The LispCore and Library files in source and compiled form. These files mostly say copyright Xerox
+The LispCore and Library files in source and compiled form. These files mostly say copyright Xerox.
 The Fonts directories will have a LICENSE that points out that raster fonts are not subject to copyright in the US.
-If there is a desire to have sources for older versions, we can add a history directory with versions under that  (a fugue, harmony, koto). (There weren’t sub-versions fugue.2 fugue.3)
+If there is a desire to have sources for older versions, we can add a <strong>history</strong> directory with versions under that  (a fugue, harmony, koto). (There weren’t sub-versions fugue.2 fugue.3)
 The LICENSE file in history can apply to all the older versions.
 We have a domain (Interlisp.org)  We can use it for a web site specifically about Interlisp-D.
-For now we can just use GitPages. Some parts of this document should be there too. And PDFs of the documentation.
-We’re planning Zoom meetings (at least of LispCore@googlegroups.com) let Larry LMM@acm.org know if you’d like to help.
+For now we can just use GitPages. And PDFs of the documentation.
+	<p>
+We’re meeting weekly via zoom; (at least of LispCore@googlegroups.com) let Larry LMM@acm.org know if you’d like to help.
 
 <h3 id="interlisp">Interlisp</h3>
 <p>Through around 1986 I worked on an evolving code base for Interlisp,
-  a integrated software development environment for (IDE) Lisp programming, written in
-  Lisp. </p>
+
 <ul>
   <li>(1992) <a href="https://awards.acm.org/award_winners/masinter_3814811">ACM
     Software System Award</a> for our work on the Interlisp
