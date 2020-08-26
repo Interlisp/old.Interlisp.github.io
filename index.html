@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Interlisp / Medley</title>
+<title>Interlisp.org / Interlisp-D / Medley</title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 <!-- Bootstrap CSS -->
@@ -29,10 +29,7 @@
       <div class="infos float-left">
         <h1><a href="#">Interlisp / Medley</a></h1>
         <p class="p-info"> Email: <a href="mailto:Interlisp@googlegroups.com" >Interlisp@googlegroups.com</a> <a href="https://groups.google.com/forum/#!topic/interlisp/jq0dJQEWDkU">(archived)</a><br>
-          Social Media:
-
-	  <!-- <a target="_blank" href="https://www.facebook.com/groups/Interlisp" class="btn-social facebook"></a> -->
-	  <a target="_blank" href="https://twitter.com/interlisp8" class="btn-social twitter"></a> Other links: <a target="_blank" href="https://www.github.com/Interlisp">GitHub</a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Interlisp">Wikipedia</a> </p>
+        Links: <a target="_blank" href="https://github.com/Interlisp">github.com/Interlisp</a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Interlisp">Wikipedia Interlisp</a> </p>
       </div>
     </div>
   </div>
@@ -49,11 +46,11 @@
 <h2>About the Interlisp project</h2>
 <p>Our goal: restore Interlisp-D to usability on modern OSes.
 Think of this as a kind of
-               "vintage software" project, to try to recapture the sense of fluidity in the development cycle. The development cycle was quite different than in most modern IDEs.</p>
+               "vintage software" project, to try to recapture the sense of fluidity in the development cycle. The development cycle was quite different than in most modern IDEs. Also known as the Xerox D-series Lisp Machines.</p>
 	
 <h2>What is Interlisp-D Medley?</h2>
 <p>An integrated software development environment IDE for Lisp programming, written in
-Lisp. One of the first (if not <strong>the</strong> first) IDE. </p>
+Lisp. One of the first Integrated Development Enviornments (IDE). </p>
 
   <p>The 1992 <a href="https://awards.acm.org/award_winners/masinter_3814811">ACM
     Software System Award</a>, to Daniel G. Bobrow, Richard R. Burton, L. Peter Deutsch, Ronald M. Kaplan, Larry Masinter, Warren Teitelman
@@ -62,7 +59,7 @@ Lisp. One of the first (if not <strong>the</strong> first) IDE. </p>
 
 	<h2>Who is involved </h2>
 
-<a href="https://LarryMasinter.net">Larry Masinter</a>, Ron Kaplan, Nick Briggs, Wayne Marci.<br>
+<a href="https://LarryMasinter.net">Larry Masinter</a>, Ron Kaplan, Nick Briggs, Wayne Marci, and now others<br>
 Interested users:
 	<ul><li>Michele Denber</li>
    <li>Paul McJones</li>
@@ -71,13 +68,13 @@ Interested users:
 	</ul> 
 	<p>
 We’re meeting weekly via zoom; (at least of LispCore@googlegroups.com) let Larry LMM@acm.org know if you’d like to help.
-	<p>We'd like to coordinate with the Computer History Museum
-                and the Internet Archive.
+	<p>We're coordinating with the Computer History Museum
+                and would like to with the Internet Archive.
 		
 <h2>Basic components</h2>
 <ul><li>An implementation of the virtual machine (it is a port of the microcode that turned the xerox hardware into a lisp machine.) The emulator was called “<strong>maiko</strong>” initially developed by Fuji Xerox and made to run on the SunOS/SPARC. It was subsequently ported to many different OS and hardware combinations. The sources are used to build an emulator binary called lde.</li>
 <li>The Lisp system itself was split into layered parts
-<ul><li>LispCore The core of the system written in Lisp to implement system components including thread scheduler; drivers for disk, floppy, display, keyboard; windows, menus, fonts, networking (originally PUP, then XNS, then TCP/IP) etc.</li>
+<ul><li>The core of the system written in Lisp to implement system components including thread scheduler; drivers for disk, floppy, display, keyboard; windows, menus, fonts, networking (originally PUP, then XNS, then TCP/IP) etc.</li>
   <li>For <strong>maiko</strong>, some additions and  changes were made to allow integration into a host operating system (so that programs could use the host file system, run in a window of the OS) like with VMs</li>
 <li>LispLibrary which contained additional utilities and the development environment, text editor, debugger, source file manager, etc.</li>
 <li>LispUsers packages which were contributed by users but curated by the Interlisp developer group</li></ul></li>
@@ -87,30 +84,23 @@ We’re meeting weekly via zoom; (at least of LispCore@googlegroups.com) let Lar
 
 <h3>More Pointers</h3>
 <ul>
-<li><a href="http://bitsavers.org/pdf/xerox/interlisp-d/">CHM PDF files </a>	</li>
-<li><a href="http://bitsavers.org/pdf/xerox/interlisp/">Interlisp-D files at CHM</a></li>
-<li><a href="https://www.dropbox.com/sh/usv6cextmhyqpeh/AAAGLQzTpTKTbE_yXbIU7ZZJa?dl=0">Ron’s Interlisp dropbox</a> (please read only) </li>
-<li>Current best known good for maiko <a href="https://gitlab.com/nbriggs/maiko">at GitLab</a> </li>
-<li> <a href="https://gitlab.com/masinter/maiko">A repo</a> Larry got to run on 32-bit linux </li>
-<li><a href="https://github.com/livingcomputermuseum/Darkstar ">DarkStar Dandelion hardware emulator</a>-- can be used to run old sysouts. Article at Introducing Darkstar: A Xerox Star Emulator #VintageComputing #Xerox #Emulation and </li>
-	<li>Getting Interlisp-D running with Medley on Debian 3.1 </li>
-<li>Envos files from 1992 (ask for access)</li></ul>
-
+<li><a href="http://bitsavers.org/pdf/xerox/interlisp-d/">Interlisp-D</a> and <a href="http://bitsavers.org/pdf/xerox/interlisp/">Interlisp</a> files at CHM</li>
+<li>Maiko files now on GitHub; Lisp files and others soon to be (available on DropBox and iCloud temporarily.) </li>
+<li><a href="https://github.com/livingcomputermuseum/Darkstar">DarkStar Dandelion hardware emulator</a>-- can be used to run older sysouts. Article at Introducing Darkstar: A Xerox Star Emulator #VintageComputing #Xerox #Emulation </li>
 	<h2> GitHub repos &amp; LICENSE files</h2>
 
-There is a GitHub Organization Interlisp with repositories for Maiko, Medley, and this web site.
-Medley will have directories for LispCore, Library, fonts, docs and LispUsers.
+There is a GitHub Organization Interlisp with repositories for Maiko, Medley, this web site and others.
+Medley will have directories for Lisp Sources, Library, fonts, docs and LispUsers.
 	The LICENSE for LispUsers should tale into account it's software from lots of contributors.
 The LICENSE for the rest is the MIT License, with Medley starting with “Copyright Interlisp contributors” while Maiko/LICENSE says more.
 The Maiko sources (in C) mostly say Copyright Venue.
-The LispCore and Library files in source and compiled form. These files mostly say copyright Xerox.
-The Fonts directories will have a LICENSE that points out that raster fonts are not subject to copyright in the US.
+The Lisp Sources and Library files in source and compiled form. These files mostly say copyright Xerox.
 If there is a desire to have sources for older versions, we can add a <strong>history</strong> directory with versions under that  (a fugue, harmony, koto). (There weren’t sub-versions fugue.2 fugue.3)
 The LICENSE file in history can apply to all the older versions.
 
 
 <h2>Objectives</h2>
-<p>These should be migrated to github issues on Interlisp/medley or Interlisp/maiko.
+<p>These are being be migrated to github issues on Interlisp/medley or Interlisp/maiko.
 
 <ul>
   <li>Ability to run old Interlisp-D code
@@ -123,7 +113,6 @@ The LICENSE file in history can apply to all the older versions.
 <li>Web assembly</li>
 <li>Raspberry pi</li>
 <li>Make Tedit and lisp source files printable</li>
-<li>Unicode filters? Versioned file system emulation with git?</li>
 <li>UI modernization (small patches)</li>
 		
 </ul>
@@ -132,17 +121,13 @@ The LICENSE file in history can apply to all the older versions.
 
 <h3>Sysout compatibility</h3>
 
-There were some architectural changes for newer versions of maiko / medley. These changes were gated by #ifdef so in theory we could make a new lde that could run the old sysouts.
-(may not be possible with maiko which needs LispCore changes and later versions changed address space and atom table .) -- the maiko code still has all the pre-BIGVM code present, but we’ve not compiled with those flags in my time working with the code.   Michele had a sysout that predated the Medley 3.5 minimum version that the newest lde requires
+There were some architectural changes for newer versions of maiko / medley. These changes were gated by #ifdef so in theory we could make a new lde that could run older Medley sysouts.
+(may not be possible with maiko which needs LispCore changes and later versions changed address space and atom table .) 
 <h3>WebAssembly</h3>
-
-( compile the code with clang rather than gcc, which in theory supports WebAssembly output, but there’s window system and file system integration to figure out)
-<h3>Raspberry PI</h3>
-
-(see article regarding Smalltalk on a Raspberry Pi -- https://www.linkedin.com/pulse/relive-part-xerox-parcs-history-smalltalk-80-raspberry-michael-engel/ -- Compiling the maiko code for a Pi is close to trivial, assuming it has an X compatible window system available to the OS.)
+This would allow you to run in a browser. Compile the code with clang rather than gcc, which in theory supports WebAssembly output, but there’s window system and file system integration to figure out.
 	
 	<h2>History</h2> <p>40 years ago, it was said Lisp was the second oldest programming language
-  in common use (FORTRAN being the oldest); that's still true. </p>
+  in common use (FORTRAN being the oldest). Is Lisp still "commonly used"? </p>
 	<p>Interlisp had its roots in an interactive Lisp system for the Digital Equipment Corporatation's PDP-10, originally developed at Bolt-Beranek and Neuman in Boston. With the move of Danny Bobrow and Warren Teitelman to Xerox PARC, the system was renamed Interlisp. Development was funded in part by DARPA to support researchers in Artificial Intelligence, who chose LISP over Fortran for symbolic computing.
        When PARC built the Alto and subsequently the D-machines, the development of Interlisp for D machines was originally focused on supporting those internal Dorado users. 
 		... (more below)...
