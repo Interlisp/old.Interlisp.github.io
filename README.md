@@ -1,6 +1,8 @@
 # Interlisp.github.io
-Web site for Interlisp.org
+Files for the web site https://Interlisp.
 
-Served by GItHub Pages automatically updated when new commits are pushed.
+The web site is served by GItHub Pages 
+and automatically updated when new commits
+are pushed.
 
 

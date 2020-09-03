@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Interlisp.org / Interlisp-D / Medley</title>
+<title>Medley Interlisp Common Lisp</title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 <!-- Bootstrap CSS -->
@@ -12,7 +12,7 @@
       href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"/>
 <!-- SEO -->
 <meta name="description"
-      content="Restoration of Interlisp-D Medley">
+      content="Restoration of Medley Interlisp / Common Lisp">
 <meta name="Robots" content="index, follow">
 <link rel="Canonical" href="https://Interlisp.org/">
 <!-- Theme fonts -->
@@ -25,11 +25,11 @@
 <!-- START: Header -->
 <header class="site-header">
   <div class="container text-center text-md-left">
-    <div class="personal-info clearfix"> <a href="#"> <img src="images/Interlisp-D.png" class="float-left" alt="Interlisp-D" width="50" height="50"></a>
+    <div class="personal-info clearfix"> <a href="#"> <img src="images/Interlisp-D.png" class="float-left" alt="Interlisp-D logo showing windows" width="50" height="50"></a>
       <div class="infos float-left">
-        <h1><a href="#">Interlisp / Medley</a></h1>
-        <p class="p-info"> Email: <a href="mailto:Interlisp@googlegroups.com" >Interlisp@googlegroups.com</a> <a href="https://groups.google.com/forum/#!topic/interlisp/jq0dJQEWDkU">(archived)</a><br>
-        Links: <a target="_blank" href="https://github.com/Interlisp">github.com/Interlisp</a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Interlisp">Wikipedia Interlisp</a> </p>
+        <h1><a href="#">Medley Interlisp Project</a></h1>
+        <p class="p-info"> Email: <a href="mailto:Interlisp@googlegroups.com" >Interlisp@googlegroups.com</a> <a href="https://groups.google.com/forum/#!topic/interlisp/jq0dJQEWDkU">(archives)</a><br>
+        Links: <a target="_blank" href="https://github.com/Interlisp">github.com/Interlisp</a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Interlisp">Wikipedia on Interlisp</a> </p>
       </div>
     </div>
   </div>
@@ -43,12 +43,16 @@
 </div>
 <!-- main content area -->
 <div class="col-sm-9">
-<h2>About the Interlisp project</h2>
-<p>Our goal: restore Interlisp-D to usability on modern OSes.
-Think of this as a kind of
-"vintage software" project, to try to recapture the sense of fluidity in the development cycle. The development cycle was quite different than in most modern IDEs. Also known as the Xerox D-series Lisp Machines.</p>
+<h2>About the Medley Interlisp Project</h2>
+<p>Our goal: restore Medley Interlisp to usability on modern
+systems. Think of this as a kind of "vintage software" project, to try
+to capture the sense of fluidity in the development cycle. The
+development cycle was quite different than in most modern IDEs.
+Interlisp was developed to support researchers in AI (linguits,
+psychologists, etc) for which the act of programming wasn't the
+point.</p>
 	
-<h2>What is Interlisp-D Medley?</h2>
+<h2>What is Medley Interlisp?</h2>
 <p>An integrated software development environment IDE for Lisp programming, written in
 Lisp. One of the first Integrated Development Enviornments (IDE). </p>
 
@@ -59,20 +63,19 @@ Lisp. One of the first Integrated Development Enviornments (IDE). </p>
 </p>
 	<h2>Who is involved </h2>
 
-<a href="https://LarryMasinter.net">Larry Masinter</a>, Ron Kaplan, Nick Briggs, Wayne Marci, and now others<br>
-Interested users:
-	<ul><li>Michele Denber</li>
-   <li>Paul McJones</li>
-   <li>John Cowan</li>
-	  <li> interlisp@googlegroups.com </li>
-	</ul> 
-	<p>
-We’re meeting weekly (Monday 10:30am PT) via zoom; (at least of LispCore@googlegroups.com). Let Larry LMM@acm.org know if you’d like to join us.
+(<a href="mailto:lispcore@googlegroups.com>LispCore</a>)
+
+<a href="https://LarryMasinter.net">Larry Masinter</a>, Ron Kaplan, Nick Briggs, Wayne Marci, Paul McJones, John Cowan, Arun Welch, Michele Denber, Bob Bane.
+For less email, join: interlisp@googlegroups.com.
+
+
+<p>
+We’re meeting weekly (Monday 10:30am PT) via zoom; (at least of LispCore@googlegroups.com).
 We're coordinating with the Computer History Museum
 	and would like to with the Internet Archive.</p>
 		
 <h2>Basic components</h2>
-<p>An implementation of the virtual machine (it is a port of the microcode that turned the xerox hardware into a lisp machine.) The emulator, called <strong>maiko</strong>, was  initially developed at Fuji Xerox for the SunOS/SPARC. It was subsequently ported to many different OS and hardware combinations. The sources are used to build an emulator binary called <strong>lde</strong>. </p>
+<p>An implementation of the virtual machine (like a port of the microcode that turned the xerox hardware into a lisp machine.) The emulator, called <strong>maiko</strong>, was  initially developed at Fuji Xerox for the SunOS/SPARC. It was subsequently ported to many different OS and hardware combinations. The sources are used to build an emulator binary called <strong>lde</strong>. </p>
 	<p>The Lisp system itself was split into layered parts:</p>
 <ul><li>The core of the system written in Lisp to implement system components including thread scheduler, drivers for disk, floppy, display, keyboard; windows, menus, fonts, networking (originally PUP, then XNS, then TCP/IP).
   For <strong>maiko</strong>, some additions and  changes were made to allow integration into a host operating system (so that programs could use the host file system, run in a window of the OS) like with VMs</li>
@@ -101,17 +104,8 @@ For the older sources from the CHM collection, there is a <strong>history</stron
 
 
 <h2>Objectives</h2>
-<p>The focus of this project is to make Medley usable enough that
-people can use it in a modern environment, as it was intended. For
-example, we're adding Unicode support for IO (Interlisp-D was built
-before Unicode, and supports an older Xerox encoding). We're relying
-on code obtained from Venue. The first order of business is testing
-and debugging what we have and raising issues, and, as volunteers,
-opportunity and time permits, dealing with them. Issues should be
-raised in github
-under <a href="https://github.com/Interlisp/medley/issues"
->Interlisp/medley</a>.
-  
+<p>The focus of this project is to make Medley usable enough that people can use it in a modern environment, as it was intended. For example, we're adding Unicode support for IO (Interlisp-D was built before Unicode, and supports an older Xerox encoding). We're relying on code obtained from Venue. The first order of business is testing and debugging what we have and raising issues, and, as volunteers, opportunity and time permits, dealing with them. Issues should be raised in github under <a href="https://github.com/Interlisp/medley/issues">Interlisp/medley</a>.
+	</p>
 <ul>
   <li>Ability to run old Interlisp-D code
     <ul>
