@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Medley Interlisp (&amp; CommonLisp)</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet"
+      href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"/>
+<!-- SEO -->
+<meta name="description"
+      content="Restoration of Medley Interlisp / Common Lisp">
+<meta name="Robots" content="index, follow">
+<link rel="Canonical" href="https://Interlisp.org/">
+<!-- Theme fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
+<!-- end fonts -->
+<link rel="stylesheet" href="theme.css">
+</head>
+<body data-spy="scroll" data-target="#toc">
+<!-- START: Header -->
+<header class="site-header">
+  <div class="container text-center text-md-left">
+    <div class="personal-info clearfix"> <a href="#"> <img src="images/Interlisp-D.png" class="float-left" alt="Interlisp-D logo showing windows" width="50" height="50"></a>
+      <div class="infos float-left">
+        <h1><a href="#">Medley Interlisp Project</a></h1>
+        <p class="p-info"> Email: <a href="mailto:Interlisp@googlegroups.com" >Interlisp@googlegroups.com</a> <a href="https://groups.google.com/forum/#!topic/interlisp/jq0dJQEWDkU">(archives)</a><br>
+        Links: <a target="_blank" href="https://github.com/Interlisp">github.com/Interlisp</a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Interlisp">Wikipedia on Interlisp</a> </p>
+      </div>
+    </div>
+  </div>
+</header>
+<main class="site-main">
+<div class="container">
+<div class="row">
+<!-- sidebar, which will move to the top on a small screen -->
+<div class="col-sm-3">
+  <nav id="toc" data-toggle="toc" class="sticky-top"></nav>
+</div>
+<!-- main content area -->
+<div class="col-sm-9">
+<h2>News</h2>
+<p>
+  <h3>March 2021</h3>
+  <ul><li>Newly available <a href="docs/Medley1.0ReleaseNotes.pdf">Medley 1.0 Release Notes (1988)</a> in (searchable) PDF.</li>
+    <li>Much progress on cleaning up the C and Lisp code build proccesses. Fun fact: "Doing a loadup" used to take hours on a Dorado; now takes less than 7 seconds on a mac mini.
+      </li>
+  </ul>
+  <h3>February 2021</h3>
+  <ul>
+    <li>New! <a href="docs/IRM.pdf">Interlisp Reference Manual </a>in searchable PDF</li>
+    <li> Also available 1991 <a href="docs/SunUserGuide.pdf">Sun User Guide</a>, also available <a href="SunUserGuide.html">converted to HTML</a>.
+    </li>
+    </ul>
+<h3>January 2021</h3>
+  <ul>
+    <li> Newly available: 1992 edition of <a href="docs/Medley-Primer.pdf">Medley for the Novice</a> (also <a href="Primer.html">HTML conversion</a>).</li>
+    <li>
+      New <a href="https://github.com/Interlisp/medley/wiki">Wiki</a> with (revised) instructions for <a href="https://github.com/Interlisp/medley/wiki/Building-Medley-Interlisp">Building</a>, <a href="https://github.com/Interlisp/medley/wiki/Running-Medley-Interlisp">Running</a> and <a href="https://github.com/Interlisp/medley/wiki/Using-Medley-Interlisp">Using</a> Medley Interlisp.
+   Watch the <a href="https://github.com/Interlisp/medley/wiki">Wiki</a> for news.
+    </li>
+  </ul>
+<h3>December 2020</h3>
+<ul><li>
+	<a href="https://youtu.be/x6-b_hazcyk">LispNYC Meetup recording 8Dec20</s>
+	</li>
+	<li>
+		<a href="https://docs.google.com/presentation/d/e/2PACX-1vRXr79RIRkRrvvJBYSWbmmiBtbwYAmeah8V64BJQPjqINUePhk3YMWd4oVnIzYbUf9P1APkhnZi8hpF/pub?start=false&loop=false&delayms=3000"> slide deck for presentation.</a>
+	<li><a href="https://www.meetup.com/LispNYC/events/vqhmbpybcqblb/">meetup announcement and 75 RSVPs</a> </li>
+	<li><a href="https://docs.google.com/document/d/e/2PACX-1vROuZzj7UKCkUWVh0KK6jYM-rpyn2CFyALlC9GBfzb-XhY55XhToDn13km4Ye6YicbTr-v0V0ALbLK3/pub" target="new">Medley Project Goals</a> </li>
+</ul>
+<h2>About the Medley Interlisp Project</h2>
+<p>Our goal: restore Medley Interlisp to usability on modern
+systems. You could think of this as a kind of "vintage software" project, to try
+to capture the sense of fluidity in the development cycle. The
+development cycle was quite different than in most modern IDEs.
+Interlisp was developed to support researchers in AI
+ for whom the act of programming wasn't the point.</p>
+	
+<h2>What is Medley Interlisp?</h2>
+
+<p>Medley Interlisp is the environment developed for the  Xerox Lisp
+  machines (called D-machines, names Dorado, Dolphin, Dandelion, Daybreak).
+  The project was spun out to a company called Envos, which then
+turned into Venue.</p>
+
+<p>It was once a commercial software development environment aimed at
+  the 1980s AI market, and it contained many influential ideas.
+  For example, D-EDIT and S-EDIT are the canonical ancestral
+  structure editors. Masterscope and the "file package" included
+  system-management tools that combined features of version control
+  and build systems, with comprehensive cross referencing support.</p>
+
+<p>Medley was the latest release of the Xerox Lisp environment, before
+the whole environment was renamed Medley. It was originally written in
+Interlisp (a dialect separate from the MACLISP/Common Lisp tradition,
+with its own ancestry), but later, Common Lisp also became part of the
+environment. Medley includes WYSIWYG text editor (TEdit), email
+organizer (Lafite), performance tools (Spy) and many other libraries
+and user contributed code (from the 1980s).</p>
+
+<p> The 1992 <a href=
+"https://awards.acm.org/award_winners/masinter_3814811" >ACM Software
+System Award</a>, to Daniel G. Bobrow, Richard R. Burton, L. Peter
+Deutsch, Ronald M. Kaplan, Larry Masinter, Warren Teitelman
+
+<div><em>for their pioneering work in programming environments that
+integrated source-language debuggers, fully compatible integrated
+interpreter/compiler, automatic change management, structure-based
+editing, logging facilities, interactive graphics, and
+analysis/profiling tools in the Interlisp system.</em>
+</div>
+</p>
+
+<p>See <a href="#History">History section</a> below.</p>
+<p>At this point the base system is usable enough on 64-bit OSes and
+  quite fast (A $40 pi runs Lisp hundreds of times faster than
+  it did on a a $30,000 Xerox 1108 in 1982).</p>
+
+<h2>Who is involved? </h2>
+
+<p>The <a href="https://groups.google.com/g/lispcore">core group of
+contributors</a> includes <a href="https://LarryMasinter.net">Larry
+Masinter</a>, Ron Kaplan, Nick Briggs, Wayne Marci, Paul McJones, John
+Cowan, Arun Welch, Michele Denber, Blake McBride, Abe Jellinek, Bob Bane. If you want to help out,
+please join
+in. See <a href="https://github.com/interlisp/medley/issues"> GitHub
+issues</a> for some ideas.
+<p>We’re meeting weekly (Monday 10:30am PT) via zoom.</p>
+
+<p>We're hoping to make some demos of various features but could use
+some help. We're  coordinating with the Computer History Museum and
+would like to with the Internet Archive, Fuji Xerox and PARC.</p>
+		
+<h2>Basic components</h2>
+
+<p>An implementation of the virtual machine (like a port of the microcode that turned the xerox hardware into a lisp machine.) The emulator, called <strong>maiko</strong>, was  initially developed at Fuji Xerox for the SunOS/SPARC. It was subsequently ported to many different OS and hardware combinations. The sources are used to build an emulator binary called <strong>lde</strong>. </p>
+
+<p>The Lisp system itself was split into layered parts:</p>
+<ul><li>The core of the system written in Lisp to implement system components including thread scheduler, drivers for disk, floppy, display, keyboard; windows, menus, fonts, networking (originally PUP, then XNS, then TCP/IP).
+  For <strong>maiko</strong>, some additions and  changes were made to allow integration into a host operating system (so that programs could use the host file system, run in a window of the OS) like with VMs</li>
+<li>The <strong>Library</strong> contains additional utilities and the development environment, text editor (TEdit), debugger, source file manager, email client,etc.</li>
+<li><strong>LispUsers</strong> packages were contributed by users but curated by the Interlisp developer group</li>
+<li>Raster image <strong>Fonts</strong> in display and print resolution</li>
+<li>Documentation and release notes</li>
+<li>Memory images (<strong>sysouts</strong>) that could be started and run without loading or compiling anything. Some applications were released as sysouts, and sysouts could move from machine to machine. Of particular interest are init.sysout lisp.sysout. Msking a sysout is called doing a <strong>loadup</strong>.</li>
+<li>Applications done by Xerox groups: LFG, Loops, Trillium, Rooms, Notecards, Colab, as well as those by customers. Some of these may be only available by sysout; others we have sources that need to be sorted.</li></ul>
+
+<h2> GitHub integration</h2>
+
+There is a GitHub Organization <strong>Interlisp</strong> with
+repositories for <strong>Maiko</strong>, <strong>Medley</strong>, this
+web site (Interlisp.github.io) and others.
+
+The Lisp Sources, Library and LispUsers files are in source and compiled form. 
+We hope to link the releases with Git history. 
+
+<h2>Objectives</h2>
+<p>The focus of this project is to make Medley usable enough that people can use it in a modern environment. For example, we're adding Unicode support for IO (Interlisp-D was built before Unicode, and supports an older Xerox encoding). We're relying on code obtained from Venue. The first order of business is testing and debugging what we have and raising issues, and, as volunteers, opportunity and time permits, dealing with them. Issues should be raised in github under <a href="https://github.com/Interlisp/medley/issues">Interlisp/medley</a>.&nbsp; &nbsp;See Medley Project Goals
+	</p>
+<ul>
+  <li>Ability to run old Interlisp-D code
+    <ul>
+      <li>from source and/or compiled code</li>
+      <li>from old sysouts</li>
+    </ul>
+  </li>
+
+  <li>A distribution including lde for various OS systems,
+  fonts, documentation, lisp.sysout, full.sysout, lisp library and
+  lispusers </li>
+  
+  <li> Lde for Mac, Linux 64, Raspberry Pi, native windows, in a
+  browser, in a docker 'container.</li>
+
+  <li>Web assembly would let us run in a browser. Getting the code to
+    compile under clang with webassembly output and libraries is the easy
+    part; dealing with window system and file system integration are
+    still to figure out.</li>
+
+  <li>UI modernization (small patches)</li>
+  <li>Clean up sources and build procceses and documentation to make it easy for others to use, port, and to contribute.</li>
+		
+</ul>
+ <h2>History</h2> 
+	<p>(We're	working on <a href="https://docs.google.com/document/d/1QXUMQ0OUttYYzWUvgdVcnkz5Gym_t1MDnMT8XZJe-NI/edit?usp=sharing">a merged Interlisp History timeline</a> from all of the narratives and pointers below.) </p>
+	<p>40 years ago, it was said Lisp was the second oldest programming language
+	  in common use (FORTRAN being the oldest). Is Lisp still commonly used? </p>
+	<p>Interlisp had its roots in an interactive Lisp system for the Digital Equipment Corporatation's PDP-10, originally developed at Bolt-Beranek and Neuman in Boston. With the move of Danny Bobrow and Warren Teitelman to Xerox PARC in 1970, BBN LISP was renamed Interlisp. Development was funded in part by DARPA to support researchers in Artificial Intelligence, who chose LISP over Fortran for symbolic computing.
+       When PARC built the Alto and subsequently the D-machines, the development of Interlisp for D machines was originally focused on supporting those internal Dorado users. 
+	   The machines were meant for office document processing and used (with different microcode, product names  ) for Mesa, Cedar, and Smalltalk development and release.
+		Many early AI companies built applications on the platform.</p>
+       <p>The hope is by preserving a “working emulator” that people could use some of these older applications.
+	</p>
+<h3>Links to Papers and Publication</h3>	
+	<ul>
+<li>An extensive history: <a href="http://www.softwarepreservation.org/projects/LISP/interlisp_family#Interlisp-D_">History of Lisp including Interlisp-D </a></li>
+<li><a href="https://en.wikipedia.org/wiki/Interlisp">Wikipedia article for Interlisp</a></li> 
+<li>
+<a href="http://www.softwarepreservation.net/projects/LISP/interlisp-d/Papers_On_Interlisp-D.pdf">Papers on Interlisp-D</a> </li>
+<li>	Warren Teitelman’s “<a href="https://dl.acm.org/profile/81339532165">History of Interlisp</a>”.</li>
+	<li>L Peter Deutsch, "<a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.109.6660">A LISP Machine with Very Compact Programs</a>"</li> 
+<li>An even older version of <a href="https://github.com/PDP-10/Interlisp-10">Interlisp for PDP-10 TENEX</a></li> 
+<li> Beau Sheil “<a href="https://www.oreilly.com/library/view/readings-in-artificial/9780934613125/xhtml/B9780934613125500483.xhtml">Power Tools for Programmers</a>” 1983</li>
+	
+<li><a href="https://photos.app.goo.gl/826EbhnkQSl8rePE3">Photos from IJCAI 1982 Announcing sale of Dorado and Dandelion</a></li>
+
+<li><a href="http://bitsavers.org/pdf/xerox/interlisp-d/">Interlisp-D</a> and <a href="http://bitsavers.org/pdf/xerox/interlisp/">Interlisp</a> PDF files at CHM</li>
+<li>Maiko files now on <a href="https://github.com/Interlisp/maiko">GitHub</a>; <a href="https://github.com/Interlisp/medley">Lisp and other files</a> soon to be (available on DropBox and iCloud temporarily.) </li>
+<li><a href="https://github.com/livingcomputermuseum/Darkstar">DarkStar Dandelion hardware emulator</a>-- can be used to run older sysouts. Article at Introducing Darkstar: A Xerox Star Emulator #VintageComputing #Xerox #Emulation </li>
+  </ul>
+
+	<h3>More history</h3>
+<p>At PARC, researchers were developing the idea of using the Xerox Alto with a machine architecture that supported more compact programs by microcoded processor that would interpret byte-coded instruction sequences; this approach was used by Mesa, Cedar, Smalltalk and Interlisp as separate languages/virtual machines. However, the Alto was too memory-constrained for Lisp. The D machines were Dandelion, Dolphin, Dorado, Daybreak, aka Xerox 1108, Xerox 1100, Xerox 1132, Xerox 1186 when running Lisp. Each machine had different microcode and engines (1108, 1186 were the same). Each microcode implementation was done mainly by different people -- Alto by Willie-Sue Haugeland, Dorado by Willie-Sue and Larry Masinter, Dolphin by Alan Bell, Dandelion by Steve Purcell and later Don Charnley.</p>
+<p>The software was called Interlisp-D. Interlisp-D releases were named alphabetically, starting with Allegro, Bravo, Carol, D[?] E[?] Fugue,G[?] Harmony, Intermezzo, Jazz, Koto, Lyric, Medley.
+The language that it implemented was Interlisp. Later, with the addition of Common Lisp, the programmer could freely mix Interlisp and Common Lisp using a common Virtual Machine.
+When the ownership changed the name “Medley” was adopted as a name for the whole system.
+</p>
+	<h3>Copyright Narrative</h3>
+The following history is different from that above in  that it mainly focuses on copyright / license issues.
+<p>Interlisp was developed at BBN and Xerox in the early 70s, with the understanding at the time that the results were public domain because of ARPA funding.</p>
+<p>The LispUsers collection was started as a set of “Hacks” in the sense that they weren’t supported by Xerox.</p>
+<p>At some point a feature was added to insert a copyright notice of the developer’s choice automatically in Lisp source files when they were edited.</p>
+<p>The development of Interlisp continued through commercialization and release by “Xerox Artificial Intelligence Systems.” Sometime in the mid-80s, [cite] a spin-out from Xerox called Envos was started, and several employees left Xerox to join Envos.</p>
+<p>In 1990 [cite], Envos shut down and John Sybalsky started Venue as a smaller venture based on porting Maiko to other machines and OS’s.  Wayne Marci inherited the assets of Venue in 2019.</p>
+<p> Paul McJones has completed gathering files from Xerox PARC for release to the Computer History Museum. The "CHM collection" represents snapshots of the code from a time when the intellectual property rights were clear (Xerox owned everything at the time of the snapshot(s), and gave permission to CHM to display and distribute it); the opportunity is in curating the code, and perhaps creating a new execution environment for it (e.g. Josh Dersh’s Darkstar emulator).</p>
+<p>Wayne Marci (John Sybalsky’s stepson) has given permission to use Venue code and license to release the software as open source, consistent with Venue's license.</p>
+  <h3>More pointers</h3>
+  <ul>
+    <li>(1986) <a href="docs/1986-commonloops.pdf">CommonLoops:
+      merging Lisp and object-oriented programming</a>, OOPLSA '86.
+      Conference proceedings on Object-oriented programming systems,
+      languages and applications </li>
+    <li>(1983) <a href="docs/1983-interlisp-manual-opt.pdf">1983 Interlisp Reference Manual</a> (one of many editions) </li>
+    <li>(1982) Richard P. Gabriel, Larry Masinter. <a
+                href="http://portal.acm.org/citation.cfm?id=802143"> Performance of Lisp
+      Systems.</a> ACM Symposium on LISP and Functional Programming. </li>
+    <li>(1981) Warren Teitelman, Larry Masinter. <i><a href="docs/interlisp-ieee.pdf">The
+      Interlisp Programming Environment</a>.</i> IEEE Computer, April 1981. </li>
+    <li><a href="https://larrymasinter.net/stefik-loops.pdf">Selling Lisp machines ~1980</a>. </li>
+    <li>(1980) <em><a href="https://larrymasinter.net/thesis.pdf">Global Program Analysis in an Interactive
+      Environment</a> (Larry's PhD thesis).</em> </li>
+    <li>(1980) <a href="docs/1980-doradolisp.pdf">Overview and Status of DoradoLisp</a>, 1980
+      Lisp conference. </li>
+    <li>(1980) Larry Masinter, L. Peter
+      Deutsch. <a href="docs/1980-local-optimization.pdf">Local
+        Optimization in a Compiler for Stack-Based Lisp Machines.</a> Lisp
+		Conference. Stanford University. </li>
+      
+    <li>(1988) <a href="http://www.softwarepreservation.org/projects/LISP/conference/iwoleas88/Masinter-CommonLispCleanup.pdf">Common
+            LISP Cleanup</a>. A description of the process of "cleaning up" the
+            Common Lisp standard. See <a href="http://en.wikipedia.org/wiki/X3J13#Cleanup_subcommittee">Wikipedia
+              article</a> and <a href="https:/larrymasinter.net/cl-cleanup-proposal.txt">cleanup proposal
+		template</a>. </li>
+               
+    <li>(1985) <a href="https://larrymasinter.net/85-ai-tutorial.pdf">AI Systems and Technologies</a>, (initial
+                    part of) a 2-day tutorial. Page 4 is still true: "AI
+                    is a goal, not a fact". </li>
+                  </ul>
+
+
+	</div>
+	</div>
+	</div>
+	</main>
+			  <!-- START: JS --> 
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+<script
+      src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+</body>
+</html>
