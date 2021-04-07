@@ -43,6 +43,9 @@
 </div>
 <!-- main content area -->
 <div class="col-sm-9">
+  <p><em>See <a href="https://github.com/interlisp/medley/wiki">the Medley Interlisp Wiki</a>
+      for a list of available documentation</em></p>
+  
 <h2>What is Medley Interlisp?</h2>
 
 <p>Medley Interlisp is the environment developed for the  Xerox Lisp
@@ -50,7 +53,7 @@
   The project was spun out to a company called Envos, which then
 turned into Venue.</p>
 <p> It was the first IDE with a window/mouse/menu GUI, launched as a product from Xerox
-in 1980, well before other systems. It was a base from which AI
+in 1980. It was a base from which AI
 applications were built, as well as a reseaarch project in its own
 right.</p>
 
@@ -63,7 +66,7 @@ right.</p>
 the whole environment was renamed Medley. It was originally written in
 Interlisp (a dialect separate from the MACLISP/Common Lisp tradition,
 with its own ancestry), but later, Common Lisp also became part of the
-environment. Medley includes WYSIWYG text editor (TEdit), email
+environment. Medley includes a WYSIWYG text editor (TEdit), email
 organizer (Lafite), performance tools (Spy) and many other libraries
 and user contributed code (from the 1980s).</p>
 
@@ -107,7 +110,7 @@ issues</a> for some ideas.
 
 <p>We're hoping to make some demos of various features but could use
 some help. We're  coordinating with the Computer History Museum and
-would like to with the Internet Archive, Fuji Xerox and PARC.</p>
+would like to with the ACM History group, the Internet Archive, Fuji Xerox and PARC.</p>
 		
 <h2>Basic components</h2>
 
@@ -116,7 +119,7 @@ would like to with the Internet Archive, Fuji Xerox and PARC.</p>
 <p>The Lisp system itself was split into layered parts:</p>
 <ul>
   <li>The core of the system written in Lisp to implement system components including memory management, Interlisp and Common Lisp interpreters and compilers.</li>
-  <li>Basic operating system compnents: thread scheduler, drivers for disk, floppy, display, keyboard; windows, menus, fonts, networking (originally PUP, then XNS, then TCP/IP).</li>
+  <li>Basic operating system components: thread scheduler, drivers for disk, floppy, display, keyboard; windows, menus, fonts, networking (originally PUP, then XNS, then TCP/IP).</li>
   <li>The <strong>Library</strong> contains additional utilities and the development environment, text editor (TEdit), debugger, source file manager, email client,etc.</li>
 <li><strong>LispUsers</strong> packages were contributed by users but curated by the Interlisp developer group</li>
 <li>Raster image <strong>Fonts</strong> in display and print resolution</li>
@@ -133,16 +136,28 @@ are all under the <a href="https://github.com/interlisp/medley">Medley repositor
 
 
 <h2>Objectives</h2>
-<p>The primary focus of this project is to make Medley usable enough that people can use it in a modern environment. Primarily this is a matter of testing and debugging; raise issues in the <a href="https://github.com/Interlisp/medley/issues">Interlisp/medley</a> repo. But we're also trying to "modernize" some things; for example, we're adding Unicode support for IO (Interlisp-D was built before Unicode, and supports an older Xerox encoding). 
+<p>The primary focus of this project is to make Medley usable enough that people can use it in a modern environment. Primarily this is a matter of testing and debugging; raise issues in the <a href="https://github.com/Interlisp/medley/issues">Interlisp/medley</a> repo. But we're also trying to "modernize" some things; for example, we're adding Unicode support for IO (Interlisp-D was built before Unicode, and supports an older Xerox encoding). As with most open source projects, what we're able to accomplish depends on volunteers.
   <ul>
-    <li><a href="https://github.com/Interlisp/medley/wiki/Guest-Book">Medley Interlisp Virtual Guest Book</a></li>
-    <li><a href="https://docs.google.com/document/d/e/2PACX-1vROuZzj7UKCkUWVh0KK6jYM-rpyn2CFyALlC9GBfzb-XhY55XhToDn13km4Ye6YicbTr-v0V0ALbLK3/pub" target="new">Medley Project Goals</a> </li>
+    <li>See the <a href="https://github.com/Interlisp/medley/wiki/Guest-Book">Medley Interlisp Virtual Guest Book</a></li>
+    <li>and <a href="https://docs.google.com/document/d/e/2PACX-1vROuZzj7UKCkUWVh0KK6jYM-rpyn2CFyALlC9GBfzb-XhY55XhToDn13km4Ye6YicbTr-v0V0ALbLK3/pub" target="new">Medley Project Goals</a> </li>
     </ul>
 </p>
 
 <h2>Releases</h2>
 <p>
-  We have yet to do any formal releases, but there are some samples in the <a href="https://github.com/interlisp/medley/releases">Medley repo</a>. Download the medley tgz and maiko for your host OS and architecture. Or build your own maiko following the build instructions.
+  We have yet to do any formal releases, but there are some samples in the <a href="https://github.com/interlisp/medley/releases">Medley repo</a>. Download the medley tgz and maiko for your host OS and architecture. Or build your own maiko following the build instructions.</p>
+<h2>History</h2>
+<p>To facilitate revision, the History section of the web site has been moved. See
+  <ul>
+    <li><a href="https://docs.google.com/document/d/1QXUMQ0OUttYYzWUvgdVcnkz5Gym_t1MDnMT8XZJe-NI/edit?usp=sharing">
+	Interlisp Timeline </a>, and</li>
+    <li><a href="https://docs.google.com/document/d/1znqCtOMNYP3sb1UVv1S3iYEZIcboL9-SwTSiym6Zym8/edit?usp=sharing">
+	Interlisp History </a></li>
+  </ul>
+  There is also a separate <a href="https://github.com/interlisp/history">Interlisp History</a> repository for older snapshots
+  of Interlisp implementations and documentation.
+      
+</p>
 	</div>
 	</div>
 	</main>
