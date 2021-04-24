@@ -7,7 +7,6 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>Interlisp Bibliography</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -23,10 +22,8 @@
     <!-- SEO -->
     <meta
       name="description"
-      content="Restoration of Medley Interlisp / Common Lisp"
+      content="Bibliography for Interlisp"
     />
-    <meta name="Robots" content="index, follow" />
-    <link rel="Canonical" href="https://Interlisp.org/" />
     <!-- Theme fonts -->
     <link
       rel="stylesheet"
@@ -172,7 +169,7 @@
        */
       async function loadBibliography(table) {
         var citations = await fetchAllItems(
-          "https://api.zotero.org/groups/2914042/items/top"
+          "https://api.zotero.org/groups/2914042/collections/NJZ9D7MA/items"
         );
         console.log(citations);
 
