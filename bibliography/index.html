@@ -124,7 +124,7 @@
           ),
         };
 
-        const style = await fetch("ieee.csl").then((response) =>
+        const style = await fetch("simple.csl").then((response) =>
           response.text()
         );
 
@@ -174,7 +174,6 @@
         var citations = await fetchAllItems(
           "https://api.zotero.org/groups/2914042/items/top"
         );
-        console.log(citations);
 
         var engine = await initializeEngine((id) => citations[id]);
 
@@ -183,19 +182,25 @@
         var tbody = document.createElement("tbody");
         engine.updateItems(Object.keys(citations));
         var bibliography = engine.makeBibliography();
-        console.log(bibliography);
         var ids = bibliography[0].entry_ids;
-        bibliography[1].forEach((entry, i) => {
+        bibliography[1].forEach((generatedHTML, i) => {
+          var citation = citations[ids[i]];
           var metadataRow = document.createElement("tr");
 
           var citationCell = document.createElement("td");
-          citationCell.innerHTML = entry;
+          if (citation.URL) {
+            var citationLink = document.createElement("a");
+            citationLink.href = citation.URL;
+            citationLink.innerHTML = generatedHTML;
+            citationCell.appendChild(citationLink);
+          } else {
+            citationCell.innerHTML = generatedHTML;
+          }
           citationCell.style = "word-wrap: break-word";
           metadataRow.appendChild(citationCell);
 
           var fullTextCell = document.createElement("td");
-          fullTextCell.innerText =
-            extractAnnotation(citations[ids[i]].note) || "";
+          fullTextCell.innerText = extractAnnotation(citation.note) || "";
           metadataRow.appendChild(fullTextCell);
 
           tbody.appendChild(metadataRow);
