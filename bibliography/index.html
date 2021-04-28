@@ -60,7 +60,7 @@
               height="50"
           /></a>
           <div class="infos float-left">
-            <h1><a href="#">Medley Interlisp Project</a></h1>
+            <h1><a href="/">Medley Interlisp Project</a></h1>
             <p class="p-info">
               Email:
               <a href="mailto:Interlisp@googlegroups.com"
@@ -85,14 +85,17 @@
     <main class="site-main">
       <div class="container">
         <div class="row">
-          <!-- sidebar, which will move to the top on a small screen -->
-          <div class="col-sm-3">
-            <nav id="toc" data-toggle="toc" class="sticky-top"></nav>
-          </div>
-          <!-- main content area -->
-          <div class="col-sm-9">
+          <div class="col-sm-12">
             <h2>Bibliography</h2>
-            <table id="bib" class="table"></table>
+            <table id="bib" class="table">
+              <tr>
+                <td class="text-center">
+                  <div class="spinner-border" role="status">
+                    <span class="sr-only">Loading...</span>
+                  </div>
+                </td>
+              </tr>
+            </table>
           </div>
         </div>
       </div>
