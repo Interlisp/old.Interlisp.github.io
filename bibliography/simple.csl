@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <style class="note" version="1.0" page-range-format="chicago" demote-non-dropping-particle="sort-only" default-locale="en-US" xmlns="http://purl.org/net/xbiblio/csl">
   <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/visualEditor/) -->
   <info>
@@ -436,13 +436,14 @@
   </citation>
   <bibliography et-al-min="7" et-al-use-first="6" hanging-indent="true">
     <sort>
+
       <key macro="author"/>
       <key variable="title"/>
     </sort>
     <layout>
       <group delimiter=", ">
-        <text macro="author"/>
         <text macro="title-note"/>
+        <text macro="author"/>
       </group>
       <text macro="issued" prefix=" (" suffix=")"/>
     </layout>
