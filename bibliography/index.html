@@ -20,13 +20,6 @@
       rel="stylesheet"
       href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"
     />
-    <!-- SEO -->
-    <meta
-      name="description"
-      content="Restoration of Medley Interlisp / Common Lisp"
-    />
-    <meta name="Robots" content="index, follow" />
-    <link rel="Canonical" href="https://Interlisp.org/" />
     <!-- Theme fonts -->
     <link
       rel="stylesheet"
@@ -175,7 +168,7 @@
        */
       async function loadBibliography(table) {
         var citations = await fetchAllItems(
-          "https://api.zotero.org/groups/2914042/items/top"
+			  "https://api.zotero.org/groups/2914042/collections/3CNYFDHF/items"
         );
 
         var engine = await initializeEngine((id) => citations[id]);
