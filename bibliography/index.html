@@ -146,7 +146,7 @@
       async function fetchAllItems(srcUrl, start = 0) {
         var cslJsonResponse = await fetch(
           srcUrl +
-            `?itemType=-attachment&format=csljson&sort=date&direction=asc&limit=100&start=${start}`
+            `&itemType=-attachment&format=csljson&sort=date&direction=asc&limit=100&start=${start}`
         );
         var total = parseInt(cslJsonResponse.headers.get("Total-Results"));
         var citations = reorganizeCslJson(await cslJsonResponse.json());
@@ -168,7 +168,7 @@
        */
       async function loadBibliography(table) {
         var citations = await fetchAllItems(
-			  "https://api.zotero.org/groups/2914042/collections/3CNYFDHF/items"
+          "https://api.zotero.org/groups/2914042/collections/3CNYFDHF/items?v=3"
         );
 
         var engine = await initializeEngine((id) => citations[id]);
