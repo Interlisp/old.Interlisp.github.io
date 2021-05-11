@@ -37,6 +37,46 @@
         table-layout: fixed;
         word-wrap: break-word;
       }
+
+      .sort {
+        cursor: pointer;
+      }
+
+      .sort:after {
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 5px solid transparent;
+        content: "";
+        position: relative;
+        top: -10px;
+        right: -5px;
+      }
+
+      .sort.asc:after {
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid black;
+        content: "";
+        position: relative;
+        top: 13px;
+        right: -5px;
+      }
+
+      .sort.desc:after {
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 5px solid black;
+        content: "";
+        position: relative;
+        top: -10px;
+        right: -5px;
+      }
     </style>
   </head>
   <body data-spy="scroll" data-target="#toc">
@@ -76,11 +116,18 @@
       </div>
     </header>
     <main class="site-main">
-      <div class="container">
+      <div id="bib" class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-8">
+            <h2>Bibliography</h2>
+          </div>
+          <div class="col-md-4 col-sm-6 d-flex align-items-center">
+            <input class="search form-control" placeholder="Search" />
+          </div>
+        </div>
         <div class="row">
           <div class="col-sm-12">
-            <h2>Bibliography</h2>
-            <table id="bib" class="table">
+            <table id="bibTable" class="table">
               <tr>
                 <td class="text-center">
                   <div class="spinner-border" role="status">
@@ -111,6 +158,7 @@
     ></script>
     <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
     <script src="citeproc.js"></script>
+    <script src="list.min.js"></script>
 
     <script>
       async function initializeEngine(retrieveItem) {
@@ -128,6 +176,16 @@
           {
             retrieveLocale: (lang) => locales[lang],
             retrieveItem,
+            variableWrapper: (params, prePunct, str, postPunct) => {
+              if (params.variableNames[0] === "title" && params.itemData.URL) {
+                let url = params.itemData.URL;
+                return (
+                  prePunct + "<a href='" + url + "'>" + str + "</a>" + postPunct
+                );
+              } else {
+                return prePunct + str + postPunct;
+              }
+            },
           },
           style
         );
@@ -136,22 +194,10 @@
       function reorganizeCslJson(rawData) {
         var citations = {};
 
-        for (var citation of rawData["items"]) {
+        for (var citation of rawData) {
           citations[citation.id] = citation;
         }
 
-        return citations;
-      }
-
-      async function fetchAllItems(srcUrl, start = 0) {
-        var cslJsonResponse = await fetch(
-          srcUrl +
-            `&itemType=-attachment&format=csljson&sort=date&direction=asc&limit=100&start=${start}`
-        );
-        var total = parseInt(cslJsonResponse.headers.get("Total-Results"));
-        var citations = reorganizeCslJson(await cslJsonResponse.json());
-        if (start + 100 < total)
-          Object.assign(citations, await fetchAllItems(srcUrl, start + 100));
         return citations;
       }
 
@@ -167,15 +213,16 @@
        * @param {String} srcUrl The URL to load the CSL JSON from.
        */
       async function loadBibliography(table) {
-        var citations = await fetchAllItems(
-          "https://api.zotero.org/groups/2914042/collections/FSK5IX4F/items?v=3"
+        var citations = reorganizeCslJson(
+          await fetch("bibliography.json").then((r) => r.json())
         );
 
         var engine = await initializeEngine((id) => citations[id]);
 
         table.innerHTML =
-          "<thead><tr><th>Citation</th><th>Note</th></tr></thead>";
+          "<thead><tr><th class='sort' data-sort='citation'>Citation</th><th class='sort' data-sort='note'>Note</th></tr></thead>";
         var tbody = document.createElement("tbody");
+        tbody.className = "list";
         engine.updateItems(Object.keys(citations));
         var bibliography = engine.makeBibliography();
         var ids = bibliography[0].entry_ids;
@@ -184,18 +231,13 @@
           var metadataRow = document.createElement("tr");
 
           var citationCell = document.createElement("td");
-          if (citation.URL) {
-            var citationLink = document.createElement("a");
-            citationLink.href = citation.URL;
-            citationLink.innerHTML = generatedHTML;
-            citationCell.appendChild(citationLink);
-          } else {
-            citationCell.innerHTML = generatedHTML;
-          }
+          citationCell.className = "citation";
+          citationCell.innerHTML = generatedHTML;
           citationCell.style = "word-wrap: break-word";
           metadataRow.appendChild(citationCell);
 
           var fullTextCell = document.createElement("td");
+          fullTextCell.className = "note";
           fullTextCell.innerText = extractAnnotation(citation.note) || "";
           metadataRow.appendChild(fullTextCell);
 
@@ -204,8 +246,14 @@
         table.appendChild(tbody);
       }
 
-      var table = document.getElementById("bib");
-      loadBibliography(table);
+      var table = document.getElementById("bibTable");
+      loadBibliography(table).then(() => {
+        var options = {
+          valueNames: ["citation", "note"],
+        };
+
+        var userList = new List("bib", options);
+      });
     </script>
   </body>
 </html>
