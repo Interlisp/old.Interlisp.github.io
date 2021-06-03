@@ -1,47 +1,5 @@
 [
 	{
-		"id": "http://zotero.org/groups/2914042/items/TW3UD7XP",
-		"type": "paper-conference",
-		"abstract": "This paper addresses the general problem of creating a suitable on-line environment for programming. The amount of software, and the effort required to produce it, to support such an on-line environment is very large relative to that needed to produce a programming language, and is largely responsible for the scarcity of such programming environments. The size of this effort was largely responsible for the scrapping of a major language (QA4) as a separate entity and its inclusion instead as a set of extensions in a LISP environment. The few systems which do exist (e.g., LISP, APL, BASIC, and PL/I) have greatly benefited their users and have strongly contributed to the widespread acceptance of the associated language.",
-		"collection-title": "AFIPS '74",
-		"container-title": "Proceedings of the May 6-10, 1974, national computer conference and exposition on - AFIPS '74",
-		"DOI": "10.1145/1500175.1500251",
-		"event": "the May 6-10, 1974, national computer conference and exposition",
-		"event-place": "Chicago, Illinois",
-		"ISBN": "978-1-4503-7920-5",
-		"language": "en",
-		"page": "365-370",
-		"publisher": "ACM Press",
-		"publisher-place": "Chicago, Illinois",
-		"source": "DOI.org (Crossref)",
-		"title": "A language-independent programmer's interface",
-		"URL": "http://portal.acm.org/citation.cfm?doid=1500175.1500251",
-		"author": [
-			{
-				"family": "Balzer",
-				"given": "Robert M."
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2021",
-					4,
-					15
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"1974",
-					5,
-					6
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/groups/2914042/items/XMCBCFMT",
 		"type": "chapter",
 		"abstract": "CAST.FSM denotes a CAST tool which has been developed at the Institute of Systems Science at the University of Linz during the years 1986–1993. The first version of CAST.FSM was implemented in INTERLISP-D and LOOPS for the Siemens-Xerox workstation 5815 (“Dandelion”). CAST.FSM supports the application of the theory of finite state machines for hardware design tasks between the architecture level and the level of gate circuits. The application domain, to get practical experience for CAST.FSM, was the field of VLSI design of ASICS’s where the theory of finite state machines can be applied to improve the testability of such circuits (“design for testability”) and to optimise the required silicon area of the circuit (“floor planning”). An overview of CAST as a whole and of CAST.FSM as a CAST tool is given in [11]. In our presentation we want to report on the re-engineering of CAST.FSM and on new types of applications of CAST.FSM which are currently under investigation. In this context we will distinguish between three different problems:\n1.\nthe implementation of CAST.FSM in ANSI Common Lisp and the design of a new user interface by Rudolf Mittelmann [5].\n\n \n2.\nthe search for systemstheoretical concepts in modelling intelligent hierarchical systems based on the past work of Arthur Koestler [3] following the concepts presented by Franz Pichler in [10].\n\n \n3.\nthe construction of hierarchical formal models (of multi-layer type) to study attributes which are assumed for SOHO-structures (SOHO = Self Organizing Hierarchical Order) of A. Koestler.\n\n \nThe latter problem will deserve the main attention in our presentation. In the present paper we will build such a hierarchical model following the concepts of parallel decomposition of finite state machines (FSMs) and interpret it as a multi-layer type of model.",
@@ -341,7 +299,8 @@
 			"date-parts": [
 				[
 					"1989",
-					10
+					10,
+					1
 				]
 			]
 		}
@@ -354,7 +313,7 @@
 		"DOI": "10.1145/567532.567543",
 		"event": "the 8th ACM SIGPLAN-SIGACT symposium",
 		"event-place": "Williamsburg, Virginia",
-		"ISBN": "978-0-89791-029-3",
+		"ISBN": "978-0-89791-029-X",
 		"language": "en",
 		"page": "92-104",
 		"publisher": "ACM Press",
@@ -690,7 +649,7 @@
 		"container-title": "Proceedings of the 1980 ACM SIGMOD international conference on Management of data",
 		"DOI": "10.1145/582250.582274",
 		"event-place": "New York, NY, USA",
-		"ISBN": "978-0-89791-018-7",
+		"ISBN": "978-0-89791-018-4",
 		"page": "151–156",
 		"publisher": "Association for Computing Machinery",
 		"publisher-place": "New York, NY, USA",
@@ -739,7 +698,7 @@
 		"container-title": "Proceedings of the 6th annual conference on Computer graphics and interactive techniques",
 		"DOI": "10.1145/800249.807428",
 		"event-place": "New York, NY, USA",
-		"ISBN": "978-0-89791-004-0",
+		"ISBN": "978-0-89791-004-4",
 		"page": "83–93",
 		"publisher": "Association for Computing Machinery",
 		"publisher-place": "New York, NY, USA",
@@ -816,6 +775,7 @@
 		"abstract": "The fully parenthesized Cambridge Polish syntax of Lisp, originally regarded as a temporary expedient to be replaced by more conventional syntax, possesses a peculiar virtue: A read procedure can parse it without knowing the syntax of any expressions, statements, definitions, or declarations it may represent. The result of that parsing is a list structure that establishes a standard representation for uninterpreted abstract syntax trees. This representation provides a convenient basis for macro processing, which allows the programmer to specify that some simple piece of abstract syntax should be replaced by some other, more complex piece of abstract syntax. As is well-known, this yields an abstraction mechanism that does things that procedural abstraction cannot, such as introducing new binding structures. The existence of that standard representation for uninterpreted abstract syntax trees soon led Lisp to a greater reliance upon macros than was common in other high-level languages. The importance of those features is suggested by the ten pages devoted to macros in an earlier ACM HOPL paper, “The Evolution of Lisp.” However, na'ive macro expansion was a leaky abstraction, because the movement of a piece of syntax from one place to another might lead to the accidental rebinding of a program’s identifiers. Although this problem was recognized in the 1960s, it was 20 years before a reliable solution was discovered, and another 10 before a solution was discovered that was reliable, flexible, and efficient. In this paper, we summarize that early history with greater focus on hygienic macros, and continue the story by describing the further development, adoption, and influence of hygienic and partially hygienic macro technology in Scheme. The interplay between the desire for standardization and the development of new algorithms is a major theme of that story. We then survey the ways in which hygienic macro technology has been adapted into recent non-parenthetical languages. Finally, we provide a short history of attempts to provide a formal account of macro processing.",
 		"container-title": "Proceedings of the ACM on Programming Languages",
 		"DOI": "10.1145/3386330",
+		"ISSN": "2475-1421",
 		"issue": "HOPL",
 		"journalAbbreviation": "Proc. ACM Program. Lang.",
 		"page": "80:1–80:110",
@@ -1367,7 +1327,7 @@
 		"container-title": "Proceedings of the 6th international conference on Aspect-oriented software development",
 		"DOI": "10.1145/1218563.1218573",
 		"event-place": "New York, NY, USA",
-		"ISBN": "978-1-59593-615-8",
+		"ISBN": "978-1-59593-615-7",
 		"page": "73–84",
 		"publisher": "Association for Computing Machinery",
 		"publisher-place": "New York, NY, USA",
@@ -1448,7 +1408,7 @@
 		"container-title": "Proceedings of the 14th ACM SIGSOFT international symposium on Foundations of software engineering",
 		"DOI": "10.1145/1181775.1181777",
 		"event-place": "New York, NY, USA",
-		"ISBN": "1-59593-468-0",
+		"ISBN": "978-1-59593-468-5",
 		"page": "1–11",
 		"publisher": "Association for Computing Machinery",
 		"publisher-place": "New York, NY, USA",
@@ -1492,7 +1452,7 @@
 		"container-title": "Proceedings of the 18th annual ACM symposium on User interface software and technology",
 		"DOI": "10.1145/1095034.1095038",
 		"event-place": "New York, NY, USA",
-		"ISBN": "1-59593-271-6",
+		"ISBN": "978-1-59593-271-2",
 		"page": "13–22",
 		"publisher": "Association for Computing Machinery",
 		"publisher-place": "New York, NY, USA",
@@ -1579,13 +1539,12 @@
 		"type": "chapter",
 		"abstract": "Fortran (q.v.) is the only language in widespread use that is older than Lisp (LISt Processor). Lisp owes its longevity to two facts. First, its core elements occupy a kind of local optimum in the \"space\" of programming languages, given the resistance to purely notational changes. Recursive use of conditional expressions, representation of symbolic information externally by lists and internally by list data structures (q.v.), and the representation of programs in the same way as data will probably have a very long life.",
 		"container-title": "Encyclopedia of Computer Science",
-		"event-place": "GBR",
-		"ISBN": "978-0-470-86412-8",
+		"ISBN": "0-470-86412-5",
 		"page": "991–992",
 		"publisher": "John Wiley and Sons Ltd.",
-		"publisher-place": "GBR",
 		"source": "ACM Digital Library",
 		"title": "Lisp",
+		"URL": "https://dl.acm.org/doi/10.5555/1074100.1074543",
 		"author": [
 			{
 				"family": "Fateman",
@@ -1620,13 +1579,12 @@
 		"type": "chapter",
 		"abstract": "Terminology concerning linkers and loaders is confusing, having changed over the years as technology has changed. In older mainframe operating systems, processing of a program between compiling and execution took place in two distinct stages. The function of the linker (or linkage editor) was to combine a number of independently compiled or assembled object files into a single load module, resolving cross-references and incorporating routines from libraries as required. The loader then prepared this module for execution, physically loaded it into memeory, and started execution. Early versions of Unix (q.v.) blurred this distinction: the functions of the linker were incorporated into the C (q.v.) compiler in what was confusingly called the \"load phase,\" and the actual loading was done as part of the \"exec,\" operation that installed a new process image for execution.",
 		"container-title": "Encyclopedia of Computer Science",
-		"event-place": "GBR",
-		"ISBN": "978-0-470-86412-8",
+		"ISBN": "0-470-86412-5",
 		"page": "988–991",
 		"publisher": "John Wiley and Sons Ltd.",
-		"publisher-place": "GBR",
 		"source": "ACM Digital Library",
 		"title": "Linkers and loaders",
+		"URL": "https://dl.acm.org/doi/10.5555/1074100.1074541",
 		"author": [
 			{
 				"family": "Barron",
@@ -1648,55 +1606,6 @@
 					"2003",
 					1,
 					1
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/groups/2914042/items/ERLRMBYJ",
-		"type": "paper-conference",
-		"abstract": "DrJava is a pedagogic programming environment for Java that enables students to focus on designing programs, rather than learning how to use the environment. The environment provides a simple interface based on a \"read-eval-print loop\" that enables a programmer to develop, test, and debug Java programs in an interactive, incremental fashion. This paper gives an overview of DrJava including its pedagogic rationale, functionality, and implementation.",
-		"collection-title": "SIGCSE '02",
-		"container-title": "Proceedings of the 33rd SIGCSE technical symposium on Computer science education",
-		"DOI": "10.1145/563340.563395",
-		"event-place": "New York, NY, USA",
-		"ISBN": "978-1-58113-473-5",
-		"page": "137–141",
-		"publisher": "Association for Computing Machinery",
-		"publisher-place": "New York, NY, USA",
-		"source": "ACM Digital Library",
-		"title": "DrJava: a lightweight pedagogic environment for Java",
-		"title-short": "DrJava",
-		"URL": "https://doi.org/10.1145/563340.563395",
-		"author": [
-			{
-				"family": "Allen",
-				"given": "Eric"
-			},
-			{
-				"family": "Cartwright",
-				"given": "Robert"
-			},
-			{
-				"family": "Stoler",
-				"given": "Brian"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2021",
-					4,
-					15
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2002",
-					2,
-					27
 				]
 			]
 		}
@@ -1913,6 +1822,7 @@
 	{
 		"id": "http://zotero.org/groups/2914042/items/VHAN5FPQ",
 		"type": "paper-conference",
+		"abstract": "Software performance measurement can be a difficult and tedious procedure, and this difficulty may explain the lack of interest shown in software performance optimisation in all but the most demanding areas, such as parallel computation and embedded systems. This paper describes the measurement shim. an approach to software perfor-mance which we have found to significantly reduce the effort required to make performance measurements. The measurement shim exploits the interfaces between software modules, and allows measurement at both data stream and procedure call interfaces. Experimental results indicate that the measurement shim provides high-quality data, and can he inserted with low impact on system performance.",
 		"collection-title": "WOSP '98",
 		"container-title": "Proceedings of the 1st international workshop on Software and performance",
 		"DOI": "10.1145/287318.287364",
@@ -2003,7 +1913,7 @@
 		"container-title": "25 years of the international symposia on Computer architecture (selected papers)",
 		"DOI": "10.1145/285930.285978",
 		"event-place": "New York, NY, USA",
-		"ISBN": "978-1-58113-058-4",
+		"ISBN": "978-1-58113-058-9",
 		"page": "180–194",
 		"publisher": "Association for Computing Machinery",
 		"publisher-place": "New York, NY, USA",
@@ -2171,7 +2081,7 @@
 		"container-title": "Proceedings of the tenth annual conference on Object-oriented programming systems, languages, and applications",
 		"DOI": "10.1145/217838.217845",
 		"event-place": "New York, NY, USA",
-		"ISBN": "978-0-89791-703-2",
+		"ISBN": "978-0-89791-703-0",
 		"page": "73–87",
 		"publisher": "Association for Computing Machinery",
 		"publisher-place": "New York, NY, USA",
@@ -2383,7 +2293,7 @@
 		"container-title": "Proceedings of the ACM conference on Hypertext",
 		"DOI": "10.1145/168466.171510",
 		"event-place": "New York, NY, USA",
-		"ISBN": "0-89791-547-X",
+		"ISBN": "978-0-89791-547-X",
 		"page": "251–261",
 		"publisher": "Association for Computing Machinery",
 		"publisher-place": "New York, NY, USA",
@@ -2504,49 +2414,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/groups/2914042/items/7B8HICZI",
-		"type": "paper-conference",
-		"collection-title": "PLDI '93",
-		"container-title": "Proceedings of the ACM SIGPLAN 1993 conference on Programming language design and implementation",
-		"DOI": "10.1145/155090.155093",
-		"event-place": "New York, NY, USA",
-		"ISBN": "978-0-89791-598-4",
-		"page": "26–35",
-		"publisher": "Association for Computing Machinery",
-		"publisher-place": "New York, NY, USA",
-		"source": "ACM Digital Library",
-		"title": "Isolation and analysis of optimization errors",
-		"URL": "https://doi.org/10.1145/155090.155093",
-		"author": [
-			{
-				"family": "Boyd",
-				"given": "Mickey R."
-			},
-			{
-				"family": "Whalley",
-				"given": "David B."
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2021",
-					4,
-					15
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"1993",
-					6,
-					1
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/groups/2914042/items/9AC4DWJS",
 		"type": "paper-conference",
 		"abstract": "The abihly to undo operations is a standard feature in most single-user interactive applications. However, most current collaborative applications that allow several users to work simultaneously on a shared document lack undo capabilities; those which provide undo generally provide only a globe undo, in which the last change made by anyone to a document is undone, rather than allowing users to individually reverse their own changes. In this paper, we propose a general framework for undoing actions in collaborative systems. The framework takes into account the possibility of conflicts between different users' actions that may prevent a normal undo. The framework also allows selection of actions to undo based on who performed them, where they occurred, or any other appropriate criterion.",
@@ -2642,7 +2509,7 @@
 		"container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
 		"DOI": "10.1145/142750.143053",
 		"event-place": "New York, NY, USA",
-		"ISBN": "978-0-89791-513-7",
+		"ISBN": "978-0-89791-513-5",
 		"page": "609–618",
 		"publisher": "Association for Computing Machinery",
 		"publisher-place": "New York, NY, USA",
@@ -2845,7 +2712,7 @@
 		"DOI": "10.1145/800068.802138",
 		"event": "the 1982 ACM symposium",
 		"event-place": "Pittsburgh, Pennsylvania, United States",
-		"ISBN": "0-89791-082-8",
+		"ISBN": "978-0-89791-082-6",
 		"language": "en",
 		"page": "81-87",
 		"publisher": "ACM Press",
@@ -2976,28 +2843,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/groups/2914042/items/JGAEQ2PL",
-		"type": "report",
-		"abstract": "The INTERLISP Virtual Machine is the environment in which the INTERLISP System is implemented. It includes such abstract objects as ~Literal Atom s~. List CelIs~, ‘Integers. etc.. the basic LISP functions for manipulating them, the underlying program control, and variable binding mechanisms. the input/output facilities, and interrupt processing facilities. In order to implement the INTERLISP System (as described in The INTERLISP Reference Manual by W. Teitelman. et. al.) on some physical machine, it is only necessary to implement the INTERLISP Virtual Machine. since Virtual Machine compatible source code for the rest of the INTERLISP System can be obtained from publicly available files. This document specifies the behavior of the INTERLISP Virtual Machine from the implementor s point of view. That is. it is an attempt to make explicit those things that must be implemented to allow the INTERLISP System to run on some machine.",
-		"page": "131",
-		"source": "CiteSeer",
-		"title": "The INTERLISP Virtual Machine Specification",
-		"author": [
-			{
-				"family": "Moore",
-				"given": "J. Strother"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"1976",
-					9
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/groups/2914042/items/S2ZC62QX",
 		"type": "webpage",
 		"abstract": "17 new photos added to shared album",
@@ -3005,12 +2850,31 @@
 		"language": "en",
 		"title": "Interlisp-D at AAAI-82",
 		"URL": "https://photos.google.com/share/AF1QipORUrk2uwraYYJVOZ2R8mH51U4n5uv30V1KJk5zvu5Pd5XtEXuXp8jg1BfwdHBHkw?key=OGxZSU5LbXZPaTdmbnU3QmZiOTRlYnR6SDdMNUJ3",
+		"author": [
+			{
+				"family": "Masinter",
+				"given": "Larry"
+			},
+			{
+				"family": "Klotz",
+				"given": "Leigh"
+			}
+		],
 		"accessed": {
 			"date-parts": [
 				[
 					"2021",
 					4,
 					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					9,
+					30
 				]
 			]
 		}
@@ -3116,12 +2980,13 @@
 	{
 		"id": "http://zotero.org/groups/2914042/items/W8I3UZC8",
 		"type": "webpage",
-		"title": "http://www.nhplace.com/kent/CL/Revision-18.txt",
+		"title": "Common Lisp Condition System",
+		"title-short": "Common-Lisp",
 		"URL": "http://www.nhplace.com/kent/CL/Revision-18.txt",
 		"author": [
 			{
 				"family": "Pitman",
-				"given": "Kent"
+				"given": "Kent M."
 			}
 		],
 		"accessed": {
@@ -3132,6 +2997,9 @@
 					15
 				]
 			]
+		},
+		"issued": {
+			"literal": "12-Mar-88"
 		}
 	},
 	{
@@ -3500,35 +3368,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/groups/2914042/items/83S6VGVB",
-		"type": "thesis",
-		"publisher": "PALO ALTO RESEARCH CENTER",
-		"title": "Global Program Analysis in an Interactive Environment",
-		"URL": "https://larrymasinter.net/thesis.pdf",
-		"author": [
-			{
-				"family": "Masinter",
-				"given": "Larrry"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2021",
-					4,
-					21
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"1980"
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/groups/2914042/items/9B3ESHMP",
 		"type": "report",
 		"abstract": "This report consists of five papers on Interlisp-0, a refinement and implementation of the\nI[ tnterlisp virtual machine [Moore, 761 which supports the interlisp programming system\n[Teitelman et at., 781 on the Dolphin and Dorado personal computers",
@@ -3651,7 +3490,7 @@
 	{
 		"id": "http://zotero.org/groups/2914042/items/IRKEPIAR",
 		"type": "post-weblog",
-		"abstract": "Via libingcomputers.org: Josh Dersch writes about research into the Xerox 8010 Information System (codenamed “Dandelion” during development) and commonly referred to as the Star. The Star was envis…",
+		"abstract": "Via libingcomputers.org: Josh Dersch writes about research into the Xerox 8010 Information System (codenamed “Dandelion” during development) and commonly referred to as the Star. The Star was envisioned as center point of the office of the future, combining high-resolution graphics with the now-familiar mouse, Ethernet networking for sharing and collaborating, and Xerox’s Laser Printer technology for faithful “WYSIWYG” document reproduction. A revolutionary system when most everyone else was using text based systems.",
 		"container-title": "Adafruit Industries - Makers, hackers, artists, designers and engineers!",
 		"language": "en-US",
 		"title": "Introducing Darkstar: A Xerox Star Emulator",
@@ -3684,10 +3523,15 @@
 	},
 	{
 		"id": "http://zotero.org/groups/2914042/items/LYDGRGW4",
-		"type": "webpage",
-		"container-title": "Software Preservation Group",
-		"title": "Larry Masinter. Common Lisp Cleanup. — Software Preservation Group",
-		"URL": "http://www.softwarepreservation.org/projects/LISP/conference/iwoleas88/Masinter-CommonLispCleanup.pdf/view",
+		"type": "paper-conference",
+		"abstract": "This paper describes some of the activities of the \"cleanup\" sub-committee of the ANSI X3J13 group. It\ndescribes some fundamental assumptions of our work in this sub-committee, the process we use to consider changes, and a sampler of some of the changes we are considering.",
+		"container-title": "Proceedings of the First International Workshop on LISP Evolution and Standardization",
+		"event-place": "Amsterdam",
+		"page": "6",
+		"publisher": "IOS",
+		"publisher-place": "Amsterdam",
+		"title": "Common Lisp Cleanup. — Software Preservation Group",
+		"URL": "http://www.softwarepreservation.org/projects/LISP/conference/iwoleas88/Masinter-CommonLispCleanup.pdf",
 		"author": [
 			{
 				"family": "Masinter",
@@ -3700,6 +3544,15 @@
 					"2021",
 					4,
 					17
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1988",
+					1,
+					10
 				]
 			]
 		}
@@ -3903,7 +3756,7 @@
 		"DOI": "10.1145/62678.62694",
 		"event": "the 1988 ACM conference",
 		"event-place": "Snowbird, Utah, United States",
-		"ISBN": "0-89791-273-X",
+		"ISBN": "978-0-89791-273-X",
 		"language": "en",
 		"page": "132-142",
 		"publisher": "ACM Press",
@@ -4087,55 +3940,6 @@
 			"date-parts": [
 				[
 					"1976",
-					1
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/groups/2914042/items/3DZKKXXW",
-		"type": "paper-conference",
-		"abstract": "CommonLoops blends object-oriented programming smoothly and tightly with the procedure-oriented design of Lisp. Functions and methods are combined in a more general abstraction. Message passing is invoked via normal Lisp function call. Methods are viewed as partial descriptions of procedures. Lisp data types are integrated with object classes. With these integrations, it is easy to incrementally move a program between the procedure and object-oriented styles.\n\nOne of the most important properties of CommonLoops is its extensive use of meta-objects. We discuss three kinds of meta-objects: objects for classes, objects for methods, and objects for discriminators. We argue that these meta-objects make practical both efficient implementation and experimentation with new ideas for object-oriented programming.\n\nCommonLoops' small kernel is powerful enough to implement the major object-oriented systems in use today.",
-		"collection-title": "OOPSLA '86",
-		"container-title": "Object-Oriented Programming Systems, Languages and Applications",
-		"DOI": "10.1145/28697",
-		"event": "SPLASH",
-		"ISBN": "0-89791-204-7",
-		"page": "17-29",
-		"source": "Google Scholar",
-		"title": "CommonLoops: Merging lisp and object-oriented programming",
-		"URL": "https://dl.acm.org/doi/10.1145/28697.28700",
-		"author": [
-			{
-				"family": "Bobrow",
-				"given": "D."
-			},
-			{
-				"family": "Kahn",
-				"given": "K."
-			},
-			{
-				"family": "Kiczales",
-				"given": "G."
-			},
-			{
-				"family": "Masinter",
-				"given": "L."
-			},
-			{
-				"family": "Stefik",
-				"given": "M."
-			},
-			{
-				"family": "Zdybel",
-				"given": "F."
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"1988",
-					6,
 					1
 				]
 			]
@@ -4344,9 +4148,14 @@
 	{
 		"id": "http://zotero.org/groups/2914042/items/B2PF228B",
 		"type": "report",
+		"abstract": "This report describes measurements performed for the purpose of determining areas of potential improvement to the efficiency of INTERLISP running under TENEX.",
+		"language": "English",
+		"number": "DTIC_ADA1045834",
+		"page": "61",
 		"publisher": "BOLT BERANEK AND NEWMAN INC CAMBRIDGE MA",
 		"source": "Google Scholar",
 		"title": "Interlisp performance measurements",
+		"URL": "https://archive.org/details/DTIC_ADA1045834",
 		"author": [
 			{
 				"family": "Bobrow",
@@ -4360,7 +4169,9 @@
 		"issued": {
 			"date-parts": [
 				[
-					"1976"
+					"1976",
+					6,
+					1
 				]
 			]
 		}
@@ -4635,7 +4446,7 @@
 		"container-title": "Proceedings of the 1984 ACM Symposium on LISP and functional programming",
 		"DOI": "10.1145/800055.802040",
 		"event-place": "New York, NY, USA",
-		"ISBN": "978-0-89791-142-9",
+		"ISBN": "978-0-89791-142-3",
 		"page": "235-246",
 		"publisher": "Association for Computing Machinery",
 		"publisher-place": "New York, NY, USA",
@@ -4693,36 +4504,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/groups/2914042/items/YYMUPUT7",
-		"type": "paper-conference",
-		"container-title": "IJCAI",
-		"page": "859-861",
-		"publisher": "Citeseer",
-		"source": "Google Scholar",
-		"title": "Large-Scale System Development in Several Lisp Environments.",
-		"author": [
-			{
-				"family": "Narain",
-				"given": "Sanjai"
-			},
-			{
-				"family": "McArthur",
-				"given": "David"
-			},
-			{
-				"family": "Klahr",
-				"given": "Philip"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"1983"
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/groups/2914042/items/FHBWRWVS",
 		"type": "paper-conference",
 		"abstract": "This paper reports work-in-progress within the LISP community on efforts to bring the LISP language to national and international standardisation. The paper discusses the objective criteria that have been established, how it is planned that these will be satisfied, when it is expected these will be fulfilled and what it still open. The Common LISP definition has made a very valuable contribution to the standardisation of LISP and the current authors have learned much from that experience. The result is a rationale for how LISP could be standardised along with identification of key features in the language and its environment, which together lead to a layered definition. This is followed by detail of the proposal for LISP standardisation based on the strategies that will have been outlined.",
@@ -4730,7 +4511,7 @@
 		"container-title": "Proceedings of the 1986 ACM conference on LISP and functional programming",
 		"DOI": "10.1145/319838.319850",
 		"event-place": "New York, NY, USA",
-		"ISBN": "978-0-89791-200-6",
+		"ISBN": "978-0-89791-200-4",
 		"page": "54-66",
 		"publisher": "Association for Computing Machinery",
 		"publisher-place": "New York, NY, USA",
@@ -5481,7 +5262,9 @@
 		"issued": {
 			"date-parts": [
 				[
-					"1988"
+					"1988",
+					10,
+					5
 				]
 			]
 		}
@@ -5575,12 +5358,15 @@
 	{
 		"id": "http://zotero.org/groups/2914042/items/9BS48CMP",
 		"type": "paper-conference",
-		"event": "Lisp Conference",
+		"collection-title": "LFP '80",
+		"container-title": "Proceedings of the 1980 ACM conference on LISP and functional programmingProceedings of the 1980 ACM conference on LISP and functional programming",
+		"DOI": "10.1145/800087.802810",
+		"event": "LISP Conference",
 		"event-place": "Stanford University",
 		"ISBN": "978-1-4503-7396-8",
 		"publisher-place": "Stanford University",
-		"title": "LFP '80: Proceedings of the 1980 ACM conference on LISP and functional programming",
-		"URL": "https://www.google.com/search?client=firefox-b-d&q=LFP+%2780%3A+Proceedings+of+the+1980+ACM+conference+on+LISP+and+functional+programming",
+		"title": "ACM Press the 1980 ACM conference",
+		"URL": "https://dl.acm.org/doi/proceedings/10.1145/800087?id=31",
 		"author": [
 			{
 				"family": "Masinter",
@@ -5781,7 +5567,7 @@
 		"container-title": "Proceedings of the 1982 ACM symposium on LISP and functional programming",
 		"DOI": "10.1145/800068.802146",
 		"event-place": "New York, NY, USA",
-		"ISBN": "978-0-89791-082-8",
+		"ISBN": "978-0-89791-082-6",
 		"page": "159-167",
 		"publisher": "Association for Computing Machinery",
 		"publisher-place": "New York, NY, USA",
@@ -5879,10 +5665,13 @@
 		"id": "http://zotero.org/groups/2914042/items/5FXRXRFT",
 		"type": "chapter",
 		"container-title": "Prototypen benutzergerechter Computersysteme",
+		"ISBN": "978-3-11-086190-7",
+		"language": "de",
 		"page": "151-168",
 		"publisher": "De Gruyter",
 		"source": "Google Scholar",
 		"title": "IX. OPTIMIST. Ein System zur Beurteilung und Verbesserung von Lisp-Code",
+		"URL": "https://www.degruyter.com/document/doi/10.1515/9783110861907-010/html",
 		"author": [
 			{
 				"family": "Böcker",
@@ -5892,7 +5681,9 @@
 		"issued": {
 			"date-parts": [
 				[
-					"2019"
+					"2019",
+					7,
+					8
 				]
 			]
 		}
@@ -5900,6 +5691,7 @@
 	{
 		"id": "http://zotero.org/groups/2914042/items/3UNHV59N",
 		"type": "webpage",
+		"container-title": "Table of contents for issues of Lisp and Symbolic Computation",
 		"title": "Lisp and Symbolic Computation",
 		"URL": "http://ftp.math.utah.edu/pub/tex/bib/toc/lispsymbcomput.html",
 		"accessed": {
@@ -5993,8 +5785,11 @@
 	{
 		"id": "http://zotero.org/groups/2914042/items/IGCGZ4Z8",
 		"type": "article-journal",
+		"abstract": "This is a proposal to the X3 J13 committee for both extending and modifying\nthe Common LISP language definition to provide a standard basis for Common\nLISP support of the variety of characters used to represent the languages of the\ninternational community.\nThis proposal was created by the Character Subcommittee of X3 J13. We\nwould like to acknowledge discussions with T. Yuasa and other members of\nthe JIS Technical Working Group, comments from members of X3 J13, and\nthe proposals [Ida87], [Linden87], [Kerns87], and [Kurokawa88] for providing\nthe motivation and direction for these extensions. As all these documents and\ndiscussions were created expressly for LISP standardization usage, we have borrowed freely from their ideas as well as the texts themselves.",
+		"page": "24",
 		"source": "Google Scholar",
 		"title": "Extensions to Common LISP to Support International Character Sets",
+		"URL": "https://www.researchgate.net/profile/Larry-Masinter/publication/237527690_Extensions_to_Common_LISP_to_Support_International_Character_Sets/links/0c960535d33199f90d000000/Extensions-to-Common-LISP-to-Support-International-Character-Sets.pdf",
 		"author": [
 			{
 				"family": "Beckerle",
@@ -6038,32 +5833,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/groups/2914042/items/73EDS8FD",
-		"type": "chapter",
-		"container-title": "Catalogue of Artificial Intelligence Tools",
-		"page": "52-52",
-		"publisher": "Springer",
-		"source": "Google Scholar",
-		"title": "Interlisp-D",
-		"author": [
-			{
-				"family": "Bundy",
-				"given": "Alan"
-			},
-			{
-				"family": "Wallen",
-				"given": "Lincoln"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"1984"
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/groups/2914042/items/QXTFTCCF",
 		"type": "article-journal",
 		"abstract": "The major limitations in building large software have always been (a) its brittleness when confronted by problems that were not foreseen by its builders, and (by the amount of manpower required. The recent history of expert systems, for example highlights how constricting the brittleness and knowledge acquisition bottlenecks are. Moreover, standard software methodology (e.g., working from a detailed \"spec\") has proven of little use in AI, a field which by definition tackles ill- structured problems. How can these bottlenecks be widened? Attractive, elegant answers have included machine learning, automatic programming, and natural language understanding. But decades of work on such systems have convinced us that each of these approaches has difficulty \"scaling up\" for want a substantial base of real world knowledge.",
@@ -6101,32 +5870,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/groups/2914042/items/LYIU2E77",
-		"type": "paper-conference",
-		"container-title": "International Symposium on Symbolic and Algebraic Manipulation",
-		"page": "481-489",
-		"publisher": "Springer",
-		"source": "Google Scholar",
-		"title": "Extending interlisp for modularization and efficiency",
-		"author": [
-			{
-				"family": "Bobrow",
-				"given": "Daniel G."
-			},
-			{
-				"family": "Deutsch",
-				"given": "L. Peter"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"1979"
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/groups/2914042/items/SYH6SCAR",
 		"type": "paper-conference",
 		"abstract": "We present the Computer Science Scholar's Workbench, a tool kit written in Pascal suitable for research and teaching. It has advantages over contemporary workbenches, UNIX and INTERLISP: a host to support the tool kit costs less than $3,000, the tools are free-available in source from publications, and the tools are written in Pascal which is widely used in academic environments. We discuss a) course requirements and problems unique to project oriented software engineering classes, b) the tools we've chosen for the workbench, and c) how they may be used to ameliorate or solve many of the problems. We report our experience using the workbench and evaluate it in terms of cost, performance, portability, extensibility, and effectiveness.",
@@ -6134,7 +5877,7 @@
 		"container-title": "Proceedings of the fifteenth SIGCSE technical symposium on Computer science education",
 		"DOI": "10.1145/800039.808638",
 		"event-place": "New York, NY, USA",
-		"ISBN": "0-89791-126-1",
+		"ISBN": "978-0-89791-126-1",
 		"page": "137-145",
 		"publisher": "Association for Computing Machinery",
 		"publisher-place": "New York, NY, USA",
@@ -6261,7 +6004,7 @@
 		"container-title": "Conference proceedings on Object-oriented programming systems, languages and applications",
 		"DOI": "10.1145/28697.28700",
 		"event-place": "New York, NY, USA",
-		"ISBN": "978-0-89791-204-4",
+		"ISBN": "978-0-89791-204-7",
 		"page": "17-29",
 		"publisher": "Association for Computing Machinery",
 		"publisher-place": "New York, NY, USA",
@@ -6536,7 +6279,7 @@
 		"container-title": "Proceedings of the 1982 ACM symposium on LISP and functional programming",
 		"DOI": "10.1145/800068.802140",
 		"event-place": "New York, NY, USA",
-		"ISBN": "978-0-89791-082-8",
+		"ISBN": "978-0-89791-082-6",
 		"page": "98-107",
 		"publisher": "Association for Computing Machinery",
 		"publisher-place": "New York, NY, USA",
@@ -6601,8 +6344,12 @@
 	{
 		"id": "http://zotero.org/groups/2914042/items/48ESB5WE",
 		"type": "book",
-		"abstract": "A reference of the INTERLISP language and system. 1144 pages, plus front matter.",
+		"abstract": "LISP, as a language, has been around for about 25 years [mcca78]. It was originally developed to support artificial intelligence (AI) research. At first, it seemed\nto be little noticed except by a small band of academics who implemented some\nof the early LISP interpreters and wrote some of the early AI programs. In the\nearly 60’s, LISP began to diverge as various implementations were developed for\ndifferent machines. McCarthy [mcca78] gives a short history of its early days.",
+		"event-place": "Canada",
 		"language": "eng",
+		"number-of-pages": "1181",
+		"publisher": "A Wiley-lnterscience Publication JOHN WILEY & SONS",
+		"publisher-place": "Canada",
 		"source": "Internet Archive",
 		"title": "INTERLISP The Language And Its Usage",
 		"URL": "https://interlisp.org/docs/Interlisp-language-usage-sk.pdf",
@@ -6766,12 +6513,14 @@
 		"type": "motion_picture",
 		"abstract": "Guy DesVignes and R. Wayne Oldford, 1988 \n \nThis video (in 3 pieces) describes the use of graphical programming with an example, showing the encapsulation of several steps of an analysis into a single reusable tool.   An INTERLISP-D programming environment with the object oriented system LOOPS is used for software development. \nWork is on a Xerox Lisp Workstation  (Xerox 1186). \n \nFirst of 3 pieces of a single video. \n \nFirst piece: Graphical Programming (1988) - Part 0 \n       Contains: \n        \"Opening\"   \n            -  Introduction by a young Wayne Oldford   \n               (refers to earlier video called \"Data Analysis Networks \n                in DINDE\")  \n       \"Part 0 Statistical Analysis Maps\" \n            - review of the interactive data analysis network representation  \n              of a statistical analysis. \n \nSecond piece:  Graphical Programming (1988) - Parts 1 and 2 \n       Contains: \n        \"Part 1   Toolboxes\"   \n            -  Review of the elements of a statistical toolbox in DINDE  \n       \"Part 2 The Analysis Path\" \n            - Demonstrates exploration of a path in an existing \n              analysis map and its representation as a pattern, \n              It is shown how to capture this pattern in DINDE as a new \n             new program represented as an \"AnalysisPath\" object.. \n              This is what is meant by  \"graphical programming\". \n \n \nThird piece: \"Graphical Programming (1988) - Part 3\" \n       Contains: \n        \"Part 3   Graphical Programming \n                        Example: Added Variable Plots\"   \n            - Demonstrates graphical programming by constructing \n              an added variable plot.  This is done by constructing the \n              appropriate analysis path on some data, capturing the pattern \n              adding it to the toolbox and then applying it to new data. \n \n        \"Summary\" \n \n \nSound has been cleaned up a little. \nComplete video also available in whole at  \n        stat-graphics.org/movies/graphical-programming.html",
 		"dimensions": "6:28",
+		"publisher": "Xerox Lisp Workstation",
 		"source": "YouTube",
 		"title": "Graphical Programming (1988) - Part 0",
 		"URL": "https://www.youtube.com/watch?v=J4F6ioMKiqw&t=53s",
 		"author": [
 			{
-				"literal": "PBS NewsHour"
+				"family": "Oldford",
+				"given": "Wayne"
 			}
 		],
 		"accessed": {
@@ -6830,13 +6579,15 @@
 		"id": "http://zotero.org/groups/2914042/items/FJ2M3GNL",
 		"type": "motion_picture",
 		"abstract": "Guy DesVignes and R. Wayne Oldford, 1988 \n \nThis video (in 3 pieces) describes the use of graphical programming with an example, showing the encapsulation of several steps of an analysis into a single reusable tool.   An INTERLISP-D programming environment with the object oriented system LOOPS is used for software development. \nWork is on a Xerox Lisp Workstation  (Xerox 1186). \n \nSecond of 3 pieces of a single video. \n \nFirst piece: Graphical Programming (1988) - Part 0 \n       Contains: \n        \"Opening\"   \n            -  Introduction by Wayne Oldford   \n               (refers to earlier video called \"Data Analysis Networks \n                in DINDE\")  \n       \"Part 0 Statistical Analysis Maps\" \n            - review of the interactive data analysis network representation  \n              of a statistical analysis. \n \nSecond piece:  Graphical Programming (1988) - Parts 1 and 2 \n       Contains: \n        \"Part 1   Toolboxes\"   \n            -  Review of the elements of a statistical toolbox in DINDE  \n       \"Part 2 The Analysis Path\" \n            - Demonstrates exploration of a path in an existing \n              analysis map and its representation as a pattern, \n              It is shown how to capture this pattern in DINDE as a new \n             new program represented as an \"AnalysisPath\" object.. \n              This is what is meant by  \"graphical programming\". \n \n \nThird piece: \"Graphical Programming (1988) - Part 3\" \n       Contains: \n        \"Part 3   Graphical Programming \n                        Example: Added Variable Plots\"   \n            - Demonstrates graphical programming by constructing \n              an added variable plot.  This is done by constructing the \n              appropriate analysis path on some data, capturing the pattern \n              adding it to the toolbox and then applying it to new data. \n \n        \"Summary\" \n \n \nSound has been cleaned up a little. \nComplete video also available in whole at  \n        stat-graphics.org/movies/graphical-programming.html",
-		"dimensions": "11:17",
+		"dimensions": "11:18",
+		"publisher": "Xerox Lisp Workstation",
 		"source": "YouTube",
 		"title": "Graphical Programming (1988) - Parts 1 and 2",
 		"URL": "https://www.youtube.com/watch?v=wlN0hHLZL8c",
 		"author": [
 			{
-				"literal": "PBS NewsHour"
+				"family": "Oldford",
+				"given": "Wayne"
 			}
 		],
 		"accessed": {
@@ -6985,55 +6736,6 @@
 					"2014",
 					1,
 					1
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/groups/2914042/items/S8HDDC87",
-		"type": "article-journal",
-		"abstract": "CommonLoops blends object-oriented programming smoothly and tightly with the procedure-oriented design of Lisp. Functions and methods are combined in a more general abstraction. Message passing is invoked via normal Lisp function call. Methods are viewed as partial descriptions of procedures. Lisp data types are integrated with object classes. With these integrations, it is easy to incrementally move a program between the procedure and object-oriented styles.\n\nOne of the most important properties of CommonLoops is its extensive use of meta-objects. We discuss three kinds of meta-objects: objects for classes, objects for methods, and objects for discriminators. We argue that these meta-objects make practical both efficient implementation and experimentation with new ideas for object-oriented programming.\n\nCommonLoops' small kernel is powerful enough to implement the major object-oriented systems in use today.",
-		"container-title": "ACM Sigplan Notices",
-		"DOI": "10.1145/960112",
-		"ISSN": "0362-1340",
-		"issue": "11",
-		"note": "publisher: ACM New York, NY, USA",
-		"page": "17–29",
-		"source": "Google Scholar",
-		"title": "CommonLoops: Merging Lisp and object-oriented programming",
-		"title-short": "CommonLoops",
-		"volume": "21",
-		"author": [
-			{
-				"family": "Bobrow",
-				"given": "Daniel G."
-			},
-			{
-				"family": "Kahn",
-				"given": "Kenneth"
-			},
-			{
-				"family": "Kiczales",
-				"given": "Gregor"
-			},
-			{
-				"family": "Masinter",
-				"given": "Larry"
-			},
-			{
-				"family": "Stefik",
-				"given": "Mark"
-			},
-			{
-				"family": "Zdybel",
-				"given": "Frank"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"1986",
-					11
 				]
 			]
 		}
@@ -7365,7 +7067,7 @@
 		"container-title": "Proceedings of the 1984 ACM Symposium on LISP and functional programming",
 		"DOI": "10.1145/800055.802047",
 		"event-place": "New York, NY, USA",
-		"ISBN": "0-89791-142-3",
+		"ISBN": "978-0-89791-142-3",
 		"page": "299–310",
 		"publisher": "Association for Computing Machinery",
 		"publisher-place": "New York, NY, USA",
@@ -8597,7 +8299,7 @@
 		"container-title": "Proceedings of the 1984 ACM Symposium on LISP and functional programming",
 		"DOI": "10.1145/800055.802019",
 		"event-place": "New York, NY, USA",
-		"ISBN": "0-89791-142-9",
+		"ISBN": "978-0-89791-142-3",
 		"page": "25–44",
 		"publisher": "Association for Computing Machinery",
 		"publisher-place": "New York, NY, USA",
@@ -8641,7 +8343,7 @@
 		"container-title": "Proceedings of the 1984 ACM Symposium on LISP and functional programming",
 		"DOI": "10.1145/800055.802029",
 		"event-place": "New York, NY, USA",
-		"ISBN": "0-89791-142-9",
+		"ISBN": "978-0-89791-142-3",
 		"page": "129–139",
 		"publisher": "Association for Computing Machinery",
 		"publisher-place": "New York, NY, USA",
@@ -8766,7 +8468,7 @@
 		"collection-title": "ICSE '96",
 		"container-title": "Proceedings of the 18th international conference on Software engineering",
 		"event-place": "USA",
-		"ISBN": "0-8186-7246-0",
+		"ISBN": "9780818672463",
 		"page": "398–407",
 		"publisher": "IEEE Computer Society",
 		"publisher-place": "USA",
@@ -9957,6 +9659,7 @@
 		"container-title": "Proceedings of the Second KL-One Workshop",
 		"language": "en",
 		"page": "106-114",
+		"publisher": "Bolt Beranek and Newman",
 		"source": "ebiquity.umbc.edu",
 		"title": "Translating KL-One from interlisp to Franzlisp",
 		"URL": "https://ebiquity.umbc.edu/paper/html/id/738/Translating-KL-One-from-interlisp-to-Franzlisp",
@@ -10333,6 +10036,339 @@
 					"1967",
 					3,
 					23
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/XR77BB2T",
+		"type": "paper-conference",
+		"abstract": "ROSS [7] is an object-oriented language developed for building knowledge-based simulations [4]. SWIRL [5, 6] is a program written in ROSS that embeds knowledge about defensive and offensive air battle strategies. Given an initial configuration of military forces, SWIRL simulates the resulting air battle. We have implemented ROSS and SWIRL in several different Lisp environments. We report upon this experience by comparing the various environments in terms of cpu usage, real-time usage, and various user aids.",
+		"collection-title": "IJCAI'83",
+		"container-title": "Proceedings of the Eighth international joint conference on Artificial intelligence - Volume 2",
+		"event-place": "San Francisco, CA, USA",
+		"page": "859–861",
+		"publisher": "Morgan Kaufmann Publishers Inc.",
+		"publisher-place": "San Francisco, CA, USA",
+		"source": "ACM Digital Library",
+		"title": "Large-scale system development in several lisp environments",
+		"URL": "https://dl.acm.org/doi/10.5555/1623516.1623579",
+		"author": [
+			{
+				"family": "Naraln",
+				"given": "Sanjai"
+			},
+			{
+				"family": "McArthur",
+				"given": "David"
+			},
+			{
+				"family": "Klahr",
+				"given": "Philip"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1983",
+					8,
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/6L8UHVSY",
+		"type": "article-journal",
+		"abstract": "This paper describes two related tools developed to support the isolation and analysts of optimization errors in the vpo optimizer. Both tools rely on vpo identifying sequences of changes, referred to as transformations. that result in semantically equivalent (and usually improved) code. One tool determines the first transfer. motion that causes incorrect output of the execution of the compiled program. This tool not only automatically isolates the illegal transformation, but also identifies the location and instant the transformation is performed in vpo. To assist in the analysis of an optimization error, a graphical optimization viewer was also implemented that can display the state of the generated instructions before and after each transformation performed by vpo. Unique features of the optimization viewer include reverse viewing (or undoing) of transformations and the ability to stop at breakpoints associated with the generated instructions. Both tools are useful independently. Together these tools form a powerful environment for facilitating the retargeting of vpo to a new machine and supporting experimentation with new optimizations. In addition, the optimization viewercan be used as a teaching aid in compiler classes.",
+		"container-title": "ACM SIGPLAN Notices",
+		"DOI": "10.1145/173262.155093",
+		"ISSN": "0362-1340",
+		"issue": "6",
+		"journalAbbreviation": "SIGPLAN Not.",
+		"page": "26–35",
+		"source": "June 1993",
+		"title": "Isolation and analysis of optimization errors",
+		"URL": "https://doi.org/10.1145/173262.155093",
+		"volume": "28",
+		"author": [
+			{
+				"family": "Boyd",
+				"given": "Mickey R."
+			},
+			{
+				"family": "Whalley",
+				"given": "David B."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1993",
+					6,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/YK6MRM4K",
+		"type": "chapter",
+		"abstract": "Major dialect of LISP <34>, designed for high-resolution, bit-mapped display, distinguished by (a) use of in-core editor for structures, and thus code, (b) programming environment of tools for automatic error-correction, syntax (sic) extension and structure declaration/access, (c) implementation of almost-compatible dialects (Interlisp <X>) on several machines, (d) extensive usage of display orientated tools and facilities. Emphasis: Personal Lisp workstation, user interface tools.",
+		"collection-title": "Symbolic Computation",
+		"container-title": "Catalogue of Artificial Intelligence Tools",
+		"event-place": "Berlin, Heidelberg",
+		"ISBN": "978-3-642-96868-6",
+		"language": "en",
+		"note": "DOI: 10.1007/978-3-642-96868-6_103",
+		"page": "52-52",
+		"publisher": "Springer",
+		"publisher-place": "Berlin, Heidelberg",
+		"source": "Springer Link",
+		"title": "Interlisp-D",
+		"URL": "https://doi.org/10.1007/978-3-642-96868-6_103",
+		"author": [
+			{
+				"family": "Bundy",
+				"given": "Alan"
+			},
+			{
+				"family": "Wallen",
+				"given": "Lincoln"
+			}
+		],
+		"editor": [
+			{
+				"family": "Bundy",
+				"given": "Alan"
+			},
+			{
+				"family": "Wallen",
+				"given": "Lincoln"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1984"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/HLN62MVN",
+		"type": "article-journal",
+		"abstract": "CommonLoops blends object-oriented programming smoothly and tightly with the procedure-oriented design of Lisp. Functions and methods are combined in a more general abstraction. Message passing is invoked via normal Lisp function call. Methods are viewed as partial descriptions of procedures. Lisp data types are integrated with object classes. With these integrations, it is easy to incrementally move a program between the procedure and object-oriented styles. One of the most important properties of CommonLoops is its extensive use of meta-objects. We discuss three kinds of meta-objects: objects for classes, objects for methods, and objects for discriminators. We argue that these meta-objects make practical both efficient implementation and experimentation with new ideas for object-oriented programming. CommonLoops' small kernel is powerful enough to implement the major object-oriented systems in use today.",
+		"container-title": "ACM SIGPLAN Notices",
+		"DOI": "10.1145/960112.28700",
+		"ISSN": "0362-1340",
+		"issue": "11",
+		"journalAbbreviation": "SIGPLAN Not.",
+		"page": "17–29",
+		"source": "Nov. 1986",
+		"title": "CommonLoops: merging Lisp and object-oriented programming",
+		"title-short": "CommonLoops",
+		"URL": "https://doi.org/10.1145/960112.28700",
+		"volume": "21",
+		"author": [
+			{
+				"family": "Bobrow",
+				"given": "Daniel G."
+			},
+			{
+				"family": "Kahn",
+				"given": "Kenneth"
+			},
+			{
+				"family": "Kiczales",
+				"given": "Gregor"
+			},
+			{
+				"family": "Masinter",
+				"given": "Larry"
+			},
+			{
+				"family": "Stefik",
+				"given": "Mark"
+			},
+			{
+				"family": "Zdybel",
+				"given": "Frank"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1986",
+					6,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/WW4XTYMU",
+		"type": "article-journal",
+		"abstract": "DrJava is a pedagogic programming environment for Java that enables students to focus on designing programs, rather than learning how to use the environment. The environment provides a simple interface based on a \"read-eval-print loop\" that enables a programmer to develop, test, and debug Java programs in an interactive, incremental fashion. This paper gives an overview of DrJava including its pedagogic rationale, functionality, and implementation.",
+		"container-title": "ACM SIGCSE Bulletin",
+		"DOI": "10.1145/563517.563395",
+		"ISSN": "0097-8418",
+		"issue": "1",
+		"journalAbbreviation": "SIGCSE Bull.",
+		"page": "137–141",
+		"source": "March 2002",
+		"title": "DrJava: a lightweight pedagogic environment for Java",
+		"title-short": "DrJava",
+		"URL": "https://doi.org/10.1145/563517.563395",
+		"volume": "34",
+		"author": [
+			{
+				"family": "Allen",
+				"given": "Eric"
+			},
+			{
+				"family": "Cartwright",
+				"given": "Robert"
+			},
+			{
+				"family": "Stoler",
+				"given": "Brian"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2002",
+					2,
+					27
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/H5Q65H3M",
+		"type": "paper-conference",
+		"collection-title": "EUROSAM '79",
+		"container-title": "Proceedings of the International Symposiumon on Symbolic and Algebraic Computation",
+		"event-place": "Berlin, Heidelberg",
+		"ISBN": "978-3-540-09519-5",
+		"page": "481–489",
+		"publisher": "Springer-Verlag",
+		"publisher-place": "Berlin, Heidelberg",
+		"source": "ACM Digital Library",
+		"title": "Extending Interlisp for modularization and efficiency",
+		"URL": "https://dl.acm.org/doi/10.5555/646670.699000",
+		"author": [
+			{
+				"family": "Bobrow",
+				"given": "Daniel G."
+			},
+			{
+				"family": "Deutsch",
+				"given": "L. Peter"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1979",
+					6,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/ELDJNGJZ",
+		"type": "paper-conference",
+		"abstract": "This paper addresses the general problem of creating a suitable on-line environment for programming. The amount of software, and the effort required to produce it, to support such an on-line environment is very large relative to that needed to produce a programming language, and is largely responsible for the scarcity of such programming environments. The size of this effort was largely responsible for the scrapping of a major language (QA4) as a separate entity and its inclusion instead as a set of extensions in a LISP environment. The few systems which do exist (e.g., LISP, APL, BASIC, and PL/I) have greatly benefited their users and have strongly contributed to the widespread acceptance of the associated language.",
+		"collection-title": "AFIPS '74",
+		"container-title": "Proceedings of the May 6-10, 1974, national computer conference and exposition",
+		"DOI": "10.1145/1500175.1500251",
+		"event-place": "New York, NY, USA",
+		"ISBN": "978-1-4503-7920-5",
+		"language": "en",
+		"page": "365–370",
+		"publisher": "Association for Computing Machinery",
+		"publisher-place": "New York, NY, USA",
+		"source": "ACM Digital Library",
+		"title": "A language-independent programmer's interface",
+		"URL": "https://doi.org/10.1145/1500175.1500251",
+		"author": [
+			{
+				"family": "Balzer",
+				"given": "Robert M."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1974",
+					5,
+					6
 				]
 			]
 		}
