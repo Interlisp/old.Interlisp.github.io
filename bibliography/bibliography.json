@@ -2854,10 +2854,6 @@
 			{
 				"family": "Masinter",
 				"given": "Larry"
-			},
-			{
-				"family": "Klotz",
-				"given": "Leigh"
 			}
 		],
 		"accessed": {
@@ -3448,41 +3444,6 @@
 					"2021",
 					3,
 					24
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/groups/2914042/items/J6V82TJX",
-		"type": "book",
-		"edition": "4th",
-		"ISBN": "0-262-59004-2",
-		"publisher": "The M.I.T. Press",
-		"title": "The Programming Language LISP: Its Operation and Applications: Revised",
-		"title-short": "The programming language LISP",
-		"author": [
-			{
-				"family": "Berkeley",
-				"given": "Edmund Callis"
-			},
-			{
-				"family": "Bobrow",
-				"given": "Daniel Gureasko"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2021",
-					4,
-					21
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"1974"
 				]
 			]
 		}
@@ -5356,45 +5317,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/groups/2914042/items/9BS48CMP",
-		"type": "paper-conference",
-		"collection-title": "LFP '80",
-		"container-title": "Proceedings of the 1980 ACM conference on LISP and functional programmingProceedings of the 1980 ACM conference on LISP and functional programming",
-		"DOI": "10.1145/800087.802810",
-		"event": "LISP Conference",
-		"event-place": "Stanford University",
-		"ISBN": "978-1-4503-7396-8",
-		"publisher-place": "Stanford University",
-		"title": "ACM Press the 1980 ACM conference",
-		"URL": "https://dl.acm.org/doi/proceedings/10.1145/800087?id=31",
-		"author": [
-			{
-				"family": "Masinter",
-				"given": "Larrry"
-			},
-			{
-				"family": "Deutsch",
-				"given": "Peter"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2021",
-					4,
-					21
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"1980"
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/groups/2914042/items/MXG7MRIV",
 		"type": "paper-conference",
 		"abstract": "In 1992 when we completed our first draft of the History of Programming Languages II paper, The Evolution of Lisp [1], it included sections on a theory or model of how complex language families like Lisp grew and evolved, and in particular, how and when diversity would bloom and consolidation would prune. The historian who worked with all the HOPL II authors, Michael S. Mahoney, did not believe our theory was substantiated properly, so he recommended removing the material and sticking with the narrative of Lisp's evolution. We stopped working on those sections, but they remained in the original text sources but removed with conditionals.",
@@ -6272,46 +6194,6 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/groups/2914042/items/6823DBP7",
-		"type": "paper-conference",
-		"abstract": "A dialect of LISP called “COMMON LISP” is being cooperatively developed and implemented at several sites. It is a descendant of the MACLISP family of LISP dialects, and is intended to unify the several divergent efforts of the last five years. We first give an extensive history of LISP, particularly of the MACLISP branch, in order to explain in context the motivation for COMMON LISP. We enumerate the goals and non-goals of the language design, discuss the language features of primary interest, and then consider how these features help to meet the expressed goals. Finally, the status (as of May 1982) of six implementations of COMMON LISP is summarized.",
-		"collection-title": "LFP '82",
-		"container-title": "Proceedings of the 1982 ACM symposium on LISP and functional programming",
-		"DOI": "10.1145/800068.802140",
-		"event-place": "New York, NY, USA",
-		"ISBN": "978-0-89791-082-6",
-		"page": "98-107",
-		"publisher": "Association for Computing Machinery",
-		"publisher-place": "New York, NY, USA",
-		"source": "ACM Digital Library",
-		"title": "An overview of COMMON LISP",
-		"URL": "https://doi.org/10.1145/800068.802140",
-		"author": [
-			{
-				"family": "Steele",
-				"given": "Guy L."
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2021",
-					4,
-					25
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"1982",
-					8,
-					15
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/groups/2914042/items/SWFYUER9",
 		"type": "article-magazine",
 		"abstract": "Lisp has done quite well over the last ten years: becoming nearly standardized, forming the basis of a commercial sector, achieving excellent performance, having good environments, able to deliver applications. Yet the Lisp community has failed to do as well as it could have. In this paper I look at the successes, the failures, and what to do next.",
@@ -6484,11 +6366,6 @@
 		"source": "YouTube",
 		"title": "Lisp Editing in the 80s - Interlisp SEdit",
 		"URL": "https://www.youtube.com/watch?v=2qsmF8HHskg",
-		"author": [
-			{
-				"literal": "PBS NewsHour"
-			}
-		],
 		"accessed": {
 			"date-parts": [
 				[
