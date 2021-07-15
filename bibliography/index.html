@@ -164,14 +164,19 @@
         let titleCell = document.createElement("td");
         titleCell.className = "citation";
 
-        let titleSpan = document.createElement('span');
+        let titleHolder = document.createElement(item.URL ? 'a' : 'span');
         if (item['container-title']) {
-          titleSpan.innerText = `"${item['title']}" (${item['container-title']})`;
+          titleHolder.innerText = `"${item['title']}" (${item['container-title']})`;
         } else {
-          titleSpan.innerText = item['title'];
-          titleSpan.className = 'font-italic';
+          titleHolder.innerText = item['title'];
+          titleHolder.className = 'font-italic';
         }
-        titleCell.appendChild(titleSpan);
+
+        if (item.URL) {
+          titleHolder.href = item.URL;
+        }
+
+        titleCell.appendChild(titleHolder);
 
         titleCell.style = "word-wrap: break-word";
         metadataRow.appendChild(titleCell);
