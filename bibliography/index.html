@@ -1,267 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>Interlisp Bibliography</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"
-    />
-    <!-- Theme fonts -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Lato:400,700"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
-    />
-    <!-- end fonts -->
-    <link rel="stylesheet" href="../theme.css" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Interlisp Bibliography</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
-    <style>
-      table {
-        table-layout: fixed;
-        word-wrap: break-word;
-      }
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css" />
+  <!-- Theme fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
+  <!-- end fonts -->
+  <link rel="stylesheet" href="../theme.css" />
 
-      .sort {
-        cursor: pointer;
-      }
+  <style>
+    table {
+      table-layout: fixed;
+      word-wrap: break-word;
+    }
 
-      .sort:after {
-        width: 0;
-        height: 0;
-        border-left: 5px solid transparent;
-        border-right: 5px solid transparent;
-        border-bottom: 5px solid transparent;
-        content: "";
-        position: relative;
-        top: -10px;
-        right: -5px;
-      }
+    .sort {
+      cursor: pointer;
+    }
 
-      .sort.asc:after {
-        width: 0;
-        height: 0;
-        border-left: 5px solid transparent;
-        border-right: 5px solid transparent;
-        border-top: 5px solid black;
-        content: "";
-        position: relative;
-        top: 13px;
-        right: -5px;
-      }
+    .sort:after {
+      width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      content: "";
+      position: relative;
+      top: -10px;
+      right: -5px;
+    }
 
-      .sort.desc:after {
-        width: 0;
-        height: 0;
-        border-left: 5px solid transparent;
-        border-right: 5px solid transparent;
-        border-bottom: 5px solid black;
-        content: "";
-        position: relative;
-        top: -10px;
-        right: -5px;
-      }
-    </style>
-  </head>
-  <body data-spy="scroll" data-target="#toc">
-    <!-- START: Header -->
-    <header class="site-header">
-      <div class="container text-center text-md-left">
-        <div class="personal-info clearfix">
-          <a href="#">
-            <img
-              src="../images/Interlisp-D.png"
-              class="float-left"
-              alt="Interlisp-D logo showing windows"
-              width="50"
-              height="50"
-          /></a>
-          <div class="infos float-left">
-            <h1><a href="/">Medley Interlisp Project</a></h1>
-            <p class="p-info">
-              Email:
-              <a href="mailto:Interlisp@googlegroups.com"
-                >Interlisp@googlegroups.com</a
-              >
-              <a
-                href="https://groups.google.com/forum/#!topic/interlisp/jq0dJQEWDkU"
-                >(archives)</a
-              ><br />
-              Links:
-              <a target="_blank" href="https://github.com/Interlisp"
-                >github.com/Interlisp</a
-              >,
-              <a target="_blank" href="https://en.wikipedia.org/wiki/Interlisp"
-                >Wikipedia on Interlisp</a
-              >
-            </p>
-          </div>
+    .sort.asc:after {
+      width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 5px solid black;
+      content: "";
+      position: relative;
+      top: 13px;
+      right: -5px;
+    }
+
+    .sort.desc:after {
+      width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-bottom: 5px solid black;
+      content: "";
+      position: relative;
+      top: -10px;
+      right: -5px;
+    }
+  </style>
+</head>
+
+<body data-spy="scroll" data-target="#toc">
+  <!-- START: Header -->
+  <header class="site-header">
+    <div class="container text-center text-md-left">
+      <div class="personal-info clearfix">
+        <a href="#">
+          <img src="../images/Interlisp-D.png" class="float-left" alt="Interlisp-D logo showing windows" width="50"
+            height="50" /></a>
+        <div class="infos float-left">
+          <h1><a href="/">Medley Interlisp Project</a></h1>
+          <p class="p-info">
+            Email:
+            <a href="mailto:Interlisp@googlegroups.com">Interlisp@googlegroups.com</a>
+            <a href="https://groups.google.com/forum/#!topic/interlisp/jq0dJQEWDkU">(archives)</a><br />
+            Links:
+            <a target="_blank" href="https://github.com/Interlisp">github.com/Interlisp</a>,
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Interlisp">Wikipedia on Interlisp</a>
+          </p>
         </div>
       </div>
-    </header>
-    <main class="site-main">
-      <div id="bib" class="container">
-        <div class="row">
-          <div class="col-sm-6 col-md-8">
-            <h2>Bibliography</h2>
-          </div>
-          <div class="col-md-4 col-sm-6 d-flex align-items-center">
-            <input class="fuzzy-search form-control" placeholder="Search" />
-          </div>
+    </div>
+  </header>
+  <main class="site-main">
+    <div id="bib" class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-8">
+          <h2>Bibliography</h2>
         </div>
-        <div class="row">
-          <div class="col-sm-12">
-            <a
-              href="https://www.zotero.org/groups/2914042/interlisp/collections/FSK5IX4F"
-              >For more detail, see our library on Zotero.org.</a
-            >
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-12">
-            <table id="bibTable" class="table">
-              <tr>
-                <td class="text-center">
-                  <div class="spinner-border" role="status">
-                    <span class="sr-only">Loading...</span>
-                  </div>
-                </td>
-              </tr>
-            </table>
-          </div>
+        <div class="col-md-4 col-sm-6 d-flex align-items-center">
+          <input id="search" class="form-control" placeholder="Search" />
         </div>
       </div>
-    </main>
-    <!-- START: JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
-    <script src="citeproc.js"></script>
-    <script src="list.min.js"></script>
+      <div class="row">
+        <div class="col-sm-12">
+          <a href="https://www.zotero.org/groups/2914042/interlisp/collections/FSK5IX4F">For more detail, see our
+            library on Zotero.org.</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <table id="bibTable" class="table">
+            <tr>
+              <td class="text-center">
+                <div class="spinner-border" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- START: JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
 
-    <script>
-      async function initializeEngine(retrieveItem) {
-        const locales = {
-          "en-US": await fetch("locales-en-US.xml").then((response) =>
-            response.text()
-          ),
-        };
+  <script>
+    function extractAnnotation(extra) {
+      if (!extra) return "";
+      var matches = extra.match(/^Annotation: (.*)/);
+      return matches ? matches[1] : "";
+    }
 
-        const style = await fetch("simple.csl").then((response) =>
-          response.text()
-        );
+    /**
+     * Load `bibliography.json` as a CSL JSON file and display it in a table.
+     * @param {HTMLTableElement} table The HTML table to fill. Will be cleared.
+     */
+    async function loadBibliography(table) {
+      let citations = await (await fetch("bibliography.json")).json();
+      citations.sort((a, b) => a['title'].localeCompare(b['title']));
 
-        return new CSL.Engine(
-          {
-            retrieveLocale: (lang) => locales[lang],
-            retrieveItem,
-            variableWrapper: (params, prePunct, str, postPunct) => {
-              if (params.variableNames[0] === "title" && params.itemData.URL) {
-                let url = params.itemData.URL;
-                return (
-                  prePunct + "<a href='" + url + "'>" + str + "</a>" + postPunct
-                );
-              } else {
-                return prePunct + str + postPunct;
-              }
-            },
-          },
-          style
-        );
-      }
+      table.innerHTML =
+        "<thead><tr><th>Authors</th><th>Title</th><th>Note</th></tr></thead>";
+      let tbody = document.createElement("tbody");
+      for (let item of citations) {
+        let metadataRow = document.createElement("tr");
 
-      function reorganizeCslJson(rawData) {
-        var citations = {};
-
-        for (var citation of rawData) {
-          citations[citation.id] = citation;
+        let authorCell = document.createElement('td');
+        authorCell.className = 'text-right';
+        if (item['author']) {
+          for (let author of item['author']) {
+            let authorBlock = document.createElement('div');
+            authorBlock.innerText = formatAuthor(author);
+            authorCell.appendChild(authorBlock);
+          }
         }
+        metadataRow.appendChild(authorCell);
 
-        return citations;
+        let titleCell = document.createElement("td");
+        titleCell.className = "citation";
+
+        let titleSpan = document.createElement('span');
+        if (item['container-title']) {
+          titleSpan.innerText = `"${item['title']}" (${item['container-title']})`;
+        } else {
+          titleSpan.innerText = item['title'];
+          titleSpan.className = 'font-italic';
+        }
+        titleCell.appendChild(titleSpan);
+
+        titleCell.style = "word-wrap: break-word";
+        metadataRow.appendChild(titleCell);
+
+        let fullTextCell = document.createElement("td");
+        fullTextCell.className = "note";
+        fullTextCell.innerText = extractAnnotation(item.note);
+        metadataRow.appendChild(fullTextCell);
+
+        tbody.appendChild(metadataRow);
       }
+      table.appendChild(tbody);
+    }
 
-      function extractAnnotation(extra) {
-        if (!extra) return "";
-        var matches = extra.match(/^Annotation: (.*)/);
-        return matches ? matches[1] : "";
+    function formatAuthor(author) {
+      if (author['literal']) return author['literal'];
+      if (!author['given']) return author['family'];
+      if (!author['family']) return author['given'];
+      return author['given'] + ' ' + author['family'];
+    }
+
+    async function filterRows(searchTerm) {
+      for (let row of table.querySelectorAll('tbody tr')) {
+        if (row.innerText.trim().toLowerCase().includes(searchTerm.trim().toLowerCase())) {
+          row.style.display = '';
+        } else {
+          row.style.display = 'none';
+        }
       }
+    }
 
-      /**
-       * Load a CSL JSON file and display it in a table.
-       * @param {HTMLTableElement} table The HTML table to fill. Will be cleared.
-       * @param {String} srcUrl The URL to load the CSL JSON from.
-       */
-      async function loadBibliography(table) {
-        var citations = reorganizeCslJson(
-          await fetch("bibliography.json").then((r) => r.json())
-        );
-
-        var engine = await initializeEngine((id) => citations[id]);
-
-        table.innerHTML =
-          "<thead><tr><th class='sort' data-sort='citation'>Citation</th><th class='sort' data-sort='note'>Note</th></tr></thead>";
-        var tbody = document.createElement("tbody");
-        tbody.className = "list";
-        engine.updateItems(Object.keys(citations));
-        var bibliography = engine.makeBibliography();
-        var ids = bibliography[0].entry_ids;
-        bibliography[1].forEach((generatedHTML, i) => {
-          var citation = citations[ids[i]];
-          var metadataRow = document.createElement("tr");
-
-          var citationCell = document.createElement("td");
-          citationCell.className = "citation";
-          citationCell.innerHTML = generatedHTML;
-          citationCell.style = "word-wrap: break-word";
-          metadataRow.appendChild(citationCell);
-
-          var fullTextCell = document.createElement("td");
-          fullTextCell.className = "note";
-          fullTextCell.innerText = extractAnnotation(citation.note) || "";
-          metadataRow.appendChild(fullTextCell);
-
-          tbody.appendChild(metadataRow);
-        });
-        table.appendChild(tbody);
-      }
-
+    window.onload = () => {
       var table = document.getElementById("bibTable");
-      loadBibliography(table).then(() => {
-        var options = {
-          valueNames: ["citation", "note"],
-        };
 
-        var userList = new List("bib", options);
+      loadBibliography(table).then(() => {
+        let search = document.getElementById('search');
+        search.addEventListener('input', () => filterRows(search.value));
       });
-    </script>
-  </body>
+    }
+  </script>
+</body>
+
 </html>
