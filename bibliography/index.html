@@ -145,7 +145,7 @@
       citations.sort((a, b) => a['title'].localeCompare(b['title']));
 
       table.innerHTML =
-        "<thead><tr><th>Authors</th><th>Title</th><th>Note</th></tr></thead>";
+        "<thead><tr><th class='text-right'>Authors</th><th>Title</th><th>Note</th></tr></thead>";
       let tbody = document.createElement("tbody");
       for (let item of citations) {
         let metadataRow = document.createElement("tr");
