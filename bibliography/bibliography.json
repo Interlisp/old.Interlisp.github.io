@@ -1,1 +1,4851 @@
-[]
+[
+	{
+		"id": "http://zotero.org/groups/2914042/items/XMCBCFMT",
+		"type": "chapter",
+		"abstract": "CAST.FSM denotes a CAST tool which has been developed at the Institute of Systems Science at the University of Linz during the years 1986–1993. The first version of CAST.FSM was implemented in INTERLISP-D and LOOPS for the Siemens-Xerox workstation 5815 (“Dandelion”). CAST.FSM supports the application of the theory of finite state machines for hardware design tasks between the architecture level and the level of gate circuits. The application domain, to get practical experience for CAST.FSM, was the field of VLSI design of ASICS’s where the theory of finite state machines can be applied to improve the testability of such circuits (“design for testability”) and to optimise the required silicon area of the circuit (“floor planning”). An overview of CAST as a whole and of CAST.FSM as a CAST tool is given in [11]. In our presentation we want to report on the re-engineering of CAST.FSM and on new types of applications of CAST.FSM which are currently under investigation. In this context we will distinguish between three different problems:\n1.\nthe implementation of CAST.FSM in ANSI Common Lisp and the design of a new user interface by Rudolf Mittelmann [5].\n\n \n2.\nthe search for systemstheoretical concepts in modelling intelligent hierarchical systems based on the past work of Arthur Koestler [3] following the concepts presented by Franz Pichler in [10].\n\n \n3.\nthe construction of hierarchical formal models (of multi-layer type) to study attributes which are assumed for SOHO-structures (SOHO = Self Organizing Hierarchical Order) of A. Koestler.\n\n \nThe latter problem will deserve the main attention in our presentation. In the present paper we will build such a hierarchical model following the concepts of parallel decomposition of finite state machines (FSMs) and interpret it as a multi-layer type of model.",
+		"container-title": "Computer Aided Systems Theory — EUROCAST 2001",
+		"event-place": "Berlin, Heidelberg",
+		"ISBN": "978-3-540-42959-3",
+		"language": "en",
+		"note": "collection-title: Lecture Notes in Computer Science\nDOI: 10.1007/3-540-45654-6_3",
+		"page": "36-44",
+		"publisher": "Springer Berlin Heidelberg",
+		"publisher-place": "Berlin, Heidelberg",
+		"source": "DOI.org (Crossref)",
+		"title": "On CAST.FSM Computation of Hierarchical Multi-layer Networks of Automata",
+		"URL": "http://link.springer.com/10.1007/3-540-45654-6_3",
+		"volume": "2178",
+		"collection-editor": [
+			{
+				"family": "Goos",
+				"given": "Gerhard"
+			},
+			{
+				"family": "Hartmanis",
+				"given": "Juris"
+			},
+			{
+				"family": "Leeuwen",
+				"given": "Jan",
+				"non-dropping-particle": "van"
+			}
+		],
+		"editor": [
+			{
+				"family": "Moreno-Díaz",
+				"given": "Roberto"
+			},
+			{
+				"family": "Buchberger",
+				"given": "Bruno"
+			},
+			{
+				"family": "Luis Freire",
+				"given": "José"
+			}
+		],
+		"author": [
+			{
+				"family": "Affenzeller",
+				"given": "Michael"
+			},
+			{
+				"family": "Pichler",
+				"given": "Franz"
+			},
+			{
+				"family": "Mittelmann",
+				"given": "Rudolf"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2001"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/2B4J79N6",
+		"type": "article-journal",
+		"abstract": "Report of a meeting held by the Geological Information Group at the British Petroleum Research Centre, Sunbury, 24 January 1985\n\nThis meeting, concerned mainly with computer manipulation of petroleum exploration data, attracted c. 95 participants. In addition to eight papers presented, there were two computer demonstrations of log analysis systems and a number of poster displays.\n\nThe morning session, concerned with large-scale, integrated hardware and software systems, was chaired by R. Howarth. R. Till of British Petroleum gave the opening paper concerning BP Exploration’s integrated database system. BP Exploration databases fall into three main groups: those containing largely numerical data; databases specifically concerned with text handling; and well-based databases. The ‘numerical’ databases, implemented under the ULTRA database management system (dbms), include a seismic data system, a generalized cartographic database and an earth constants database. Textual databases include a library information system and a Petroconsultants scout data database, both implemented under the BASIS dbms. The well-based systems include a generalized well-data database, a wireline log archive, storage and retrieval system, and a master well index; all three are implemented under the INGRES dbms. Two related BASIS databases contain geochemical and biostratigraphical data.\n\nG. Baxter (co-author M. Hemingway) described the development of Britoil’s well log database which was prompted by the need to have rapid access to digitized wireline log data for c. 1500 wells on the UKCS. Early work involved both locating log information and digitizing those logs held in sepia form only. Each digitized log occupies approximately 1 Mbyte.",
+		"container-title": "Journal of the Geological Society of London",
+		"DOI": "10.1144/gsjgs.142.5.0925",
+		"ISSN": "0016-7649, 2041-479X",
+		"issue": "5",
+		"journalAbbreviation": "Journal of the Geological Society",
+		"language": "en",
+		"page": "925-926",
+		"source": "DOI.org (Crossref)",
+		"title": "Computer manipulation of geological exploration data",
+		"URL": "http://jgs.lyellcollection.org/lookup/doi/10.1144/gsjgs.142.5.0925",
+		"volume": "142",
+		"author": [
+			{
+				"family": "Burwell",
+				"given": "A. D. M."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1985",
+					9,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/8CFC7VH5",
+		"type": "article-journal",
+		"abstract": "The Dipmeter Advisor is a knowledge-base system, linked to a computer work-station, designed to aid in the interpretation of dipmeter results through interaction between the interpreter and the \"expert\" system.\n\nThe system utilizes dipmeter results, other wireline log data, computer processed results such as LITHO*, and user-input local geological knowledge as the framework for the interpretation. A work session proceeds through a number of phases, which leads to first a structural, then a stratigraphic interpretation of the well data.\n\nConclusions made by the Dipmeter Advisor can be accepted, modified, or rejected by the interpreter at any stage of the work session. The user may also make his own conclusions and comments, which are stored as part of the final interpretation and become part of an updated knowledge-base for input to further field studies.",
+		"container-title": "Bulletin of the Geological Society of Malaysia",
+		"DOI": "10.7186/bgsm21198703",
+		"ISSN": "01266187, 2637109X",
+		"journalAbbreviation": "BGSM",
+		"page": "37-54",
+		"source": "DOI.org (Crossref)",
+		"title": "The Dipmeter Advisor - A dipmeter interpretation workstation",
+		"URL": "https://gsm.org.my/content.php?id=54&pid=702001-101136",
+		"volume": "21",
+		"author": [
+			{
+				"family": "Shanor",
+				"given": "Gordy G."
+			},
+			{
+				"family": "Shanor",
+				"given": "Gordy G."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1987",
+					12,
+					30
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/C6TTQVYB",
+		"type": "article-journal",
+		"abstract": "The Interslip-D project was formed to develop a personal machine inplementation of Interlisp for use as an environment for research in artificial intelligence and cognitive science [Burton et al., 80b]. This note describes the principal developments since our last report almost a year ago [Burton et al., 80a].",
+		"container-title": "ACM SIGART Bulletin",
+		"DOI": "10.1145/1056743.1056745",
+		"ISSN": "0163-5719",
+		"issue": "77",
+		"journalAbbreviation": "SIGART Bull.",
+		"page": "31–32",
+		"source": "July 1981",
+		"title": "Interlisp-D: further steps in the flight from time-sharing",
+		"title-short": "Interlisp-D",
+		"URL": "https://doi.org/10.1145/1056743.1056745",
+		"author": [
+			{
+				"family": "Sheil",
+				"given": "Beau"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1981",
+					7,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/LSJRVJU8",
+		"type": "article-journal",
+		"abstract": "INTERLISP (INTERactive LISP) is a LISP system currently implemented on the DEC PDP-10 under the BBN TENEX time sharing system<*R1>. INTERLISP is designed to provide the user access to the large virtual memory allowed by TENEX, with a relatively small penalty in speed (using special paging techniques described in <*R2>). Additional data types have been added, including strings, arrays, and hash association tables (hash links). The system includes a compatible compiler and interpreter. Machine code can be intermixed with INTERLISP expressions via the assemble directive of the compiler. The compiler also contains a facility for \"block compilation\" which allows a group of functions to be compiled as a unit, suppressing internal names. Each successive level of computation, from interpreted through compiled, to block-compiled provides greater speed at a cost of debugging ease.",
+		"container-title": "ACM SIGART Bulletin",
+		"DOI": "10.1145/1056786.1056787",
+		"ISSN": "0163-5719",
+		"issue": "43",
+		"journalAbbreviation": "SIGART Bull.",
+		"page": "8-9",
+		"source": "December 1973",
+		"title": "INTERLISP",
+		"URL": "https://doi.org/10.1145/1056786.1056787",
+		"author": [
+			{
+				"family": "Teitelman",
+				"given": "Warren"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1973",
+					12,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/DVGRZ62H",
+		"type": "paper-conference",
+		"abstract": "I was first introduced to Lisp in 1962 as a first year graduate student at M.I.T. in a class taught by James Slagle. Having programmed in Fortran and assembly, I was impressed with Lisp's elegance. In particular, Lisp enabled expressing recursion in a manner that was so simple that many first time observers would ask the question, \"Where does the program do the work?\" (Answer - between the parentheses!) Lisp also provided the ability to manipulate programs, since Lisp programs were themselves data (S-expressions) the same as other list structures used to represent program data. This made Lisp an ideal language for writing programs that themselves constructed programs or proved things about programs. Since I was at M.I.T. to study Artificial Intelligence, program writing programs was something that interested me greatly.",
+		"collection-title": "LISP50",
+		"container-title": "Celebrating the 50th Anniversary of Lisp",
+		"DOI": "10.1145/1529966.1529971",
+		"event-place": "New York, NY, USA",
+		"ISBN": "978-1-60558-383-9",
+		"page": "1–5",
+		"publisher": "Association for Computing Machinery",
+		"publisher-place": "New York, NY, USA",
+		"source": "ACM Digital Library",
+		"title": "History of Interlisp",
+		"URL": "https://doi.org/10.1145/1529966.1529971",
+		"author": [
+			{
+				"family": "Teitelman",
+				"given": "Warren"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2008",
+					10,
+					20
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/QQ4WARPF",
+		"type": "article-journal",
+		"abstract": "Documentation for INTERSLIP in the form of the INTERSLIP Reference Manual is now available and may be obtained from Warren Teitelman, Xerox Palo Alto Research Center. The new manual replaces all existing documentation, and is completely up to date (as to January, 1974). The manual is available in either loose-leaf or bound form. The lose-leaf version (binders not supplied) comes with printed separator tabs between the chapters. The bound version also includes colored divider pages between chapters, and is printed on somewhat thinner paper than the loose-leaf version, in an effort to make it 'portable' (the manual being approximately 700 pages long). Both versions contain a complete master index (approximately 1600 entries), as well as a separate index for each chapter. Although the manual is intended primarily to be used for reference, many chapters, e.g., the programmer's assistant, do-what-I-mean, CLISP, etc., include introductory and tutorial material. The manual is available in machine-readable form, and an on-line question-answering system using the manual as a data base is currently being implemented.",
+		"container-title": "ACM SIGART Bulletin",
+		"DOI": "10.1145/1045183.1045186",
+		"ISSN": "0163-5719",
+		"issue": "44",
+		"journalAbbreviation": "SIGART Bull.",
+		"page": "5-22",
+		"source": "February 1974",
+		"title": "INTERLISP documentation",
+		"URL": "https://doi.org/10.1145/1045183.1045186",
+		"author": [
+			{
+				"family": "Teitelman",
+				"given": "Warren"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1974",
+					2,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/EFHC285D",
+		"type": "paper-conference",
+		"abstract": "During my tenure as Chairman of the Department of Medicine at the University of Pittsburgh, 1955 to 1970, two points became clear in regard to diagnosis in internal medicine. The first was that the knowledge base in that field had become vastly too large for any single person to encompass it. The second point was that the busy practitioner, even though he knew the items of information pertinent to his patients correct diagnosis, often did not consider the right answer particularly if the diagnosis was an unusual disease. I resigned the position of Chairman in 1970 intending to resume my position as Professor of Medicine. However, the University saw fit to offer me the appointment as University Professor (Medicine). The University of Pittsburgh follows the practice of Harvard University, established by President James Bryant Conant in the late 1930s, in which a University Professor is a professor at large and reports only to the president of the university. He has no department, no school and is not under administrative supervision by a dean or vice-president. Thus the position allows maximal academic freedom. In this new position I felt strongly that I should conduct worthwhile research. It was almost fifteen years since I had worked in my chosen field of clinical investigation, namely splanchnic blood flow and metabolism, and I felt that research in that area had passed me by. Remembering the two points mentioned earlier — the excessive knowledge base of internal medicine and the problem of considering the correct diagnosis — I asked myself what could be done to correct these problems. It seemed that the computer with its huge memory could correct the first and I wondered if it could not help as well with the second. At that point I knew no more about computers than the average layman so I sought advice. Dr. Gerhard Werner, our Chairman of Pharmacology, was working with computers in an attempt to map all of the neurological centers of the human brain stem with particular reference to their interconnections and functions. He was particularly concerned about the actions of pharmacological agents on this complex system. Working with him on this problem was Dr. Harry Pople, a computer scientist with special interest in “artificial intelligence”. The problem chosen was so complex and difficult that Werner and Pople were making little progress. Gerhard listened patiently to my ideas and promptly stated that he thought the projects were feasible utilizing the computer. In regard to the diagnostic component of my ambition he strongly advised that “artificial intelligence” be used. Pople was brought into the discussion and was greatly interested, I believe because of the feasibility of the project and the recognition of its practical application to the practice of medicine. The upshot was that Pople joined me in my project and Werner and Pople abandoned the work on the brain stem. Pople knew nothing about medicine and I knew nothing about computer science. Thus the first step in our collaboration was my analysis for Pople of the diagnostic process. I chose a goodly number of actual cases from clinical pathological conferences (CPCs) because they contained ample clinical data and because the correct diagnoses were known. At each small step of the way through the diagnostic process I was required to explain what the clinical information meant in context and my reasons for considering certain diagnoses. This provided to Pople insight into the diagnostic process. After analyzing dozens of such cases I felt as though I had undergone a sort of “psychoanalysis”. From this experience Pople wrote the first computer diagnostic programs seeking to emulate my diagnostic process. This has led certain “wags” to nickname our project “Jack in the box”. For this initial attempt Pople used the LISP computer language. We were granted access to the PROPHET PDP-10, a time-sharing mainframe maintained in Boston by the National Institutes of Health (NIH) but devoted particularly to pharmacological research. Thus we were interlopers. The first name we applied to our project was DIALOG, for diagnostic logic, but this had to be dropped because the name was in conflict with a computer program already on the market and copyrighted. The next name chosen was INTERNIST for obvious reason. However, the American Society for Internal Medicine publishes a journal entitled “The Internist” and they objected to our use of INTERNIST although there seems to be little relationship or conflict between a printed journal and a computer software program. Rather than fight the issue we simply added the Roman numeral one to our title which then became INTERNIST-I, which continues to this day. Pople's initial effort was unsuccessful, however. He diligently had incorporated details regarding anatomy and much basic pathophysiology, I believe because in my initial CPC analyses I had brought into consideration such items of information so that Pople could understand how I got from A to B etc. The diagnostician in internal medicine knows, of course, much anatomy and patho-physiology but these are brought into consideration in only a minority of diagnostic problems. He knows, for example, that the liver is in the right upper quadrant and just beneath the right leaf of the diaphragm. In most diagnostic instances this information is “subconscious”. Our first computer diagnostic program included too many such details and as a result was very slow and frequently got into analytical “loops” from which it could not extricate itself. We decided that we had to simplify the program but by that juncture much of 1971 had passed on. The new program was INTERNIST-I and even today most of the basic structure devised in 1972 remains intact. INTERNIST-I is written in INTERLISP and has operated on the PDP-10 and the DEC 2060. It has also been adapted to the VAX 780. Certain younger people have contributed significantly to the program, particularly Dr. Zachary Moraitis and Dr. Randolph Miller. The latter interrupted his regular medical school education to spend the year 1974-75 as a fellow in our laboratory and since finishing his formal medical education in 1979 has been active as a full time faculty member of the team. Several Ph.D. candidates in computer science have also made significant contributions as have dozens of medical students during electives on the project. INTERNIST-I is really quite a simple system as far as its operating system or inference engine is concerned. Three basic numbers are concerned in and manipulated in the ranking of elicited disease hypotheses. The first of these is the importance (IMPORT) of each of the more than 4,100 manifestations of disease which are contained in the knowledge base. IMPORTS are a global representation of the clinical importance of a given finding graded from 1 to 5, the latter being maximal, focusing on how necessary it is to explain the manifestation regardless of the final diagnosis. Thus massive splenomegaly has an IMPORT of 5 whereas anorexia has an IMPORT of 1. Mathematical weights are assigned to IMPORT numbers on a non-linear scale. The second basic number is the evoking strength (EVOKS), the numbers ranging from 0 to 5. The number answers the question, that given a particular manifestation of disease, how strongly does one consider disease A versus all other diagnostic possibilities in a clinical situation. A zero indicates that a particular clinical manifestation is non-specific, i.e. so widely spread among diseases that the above question cannot be answered usefully. Again, anorexia is a good example of a non-specific manifestation. The EVOKS number 5, on the other hand, indicates that a manifestation is essentially pathognomonic for a particular disease. The third basic number is the frequency (FREQ) which answers the question that given a particular disease what is the frequency or incidence of occurrence of a particular clinical finding. FREQ numbers range from 1 to 5, one indicating that the finding is rare or unusual in the disease and 5 indicating that the finding is present in essentially all instances of the disease. Each diagnosis which is evoked is ranked mathematically on the basis of support for it, both positive and negative. Like the import number, the values for EVOKS and FREQ numbers increase in a non-linear fashion. The establishment or conclusion of a diagnosis is not based on any absolute score, as in Bayesian systems, but on how much better is the support of diagnosis A as compared to its nearest competitor. This difference is anchored to the value of an EVOKS of 5, a pathognomonic finding. When the list of evoked diagnoses is ranked mathematically on the basis of EVOKS, FREQ and IMPORT, the list is partitioned based upon the similarity of support for individual diagnoses. Thus a heart disease is compared with other heart diseases and not brain diseases since the patient may have a heart disorder and a brain disease concommitantly. Thus apples are compared with apples and not oranges. When a diagnosis is concluded, the computer consults a list of interrelationships among diseases (LINKS) and bonuses are awarded, again in a non-linear fashion for numbers ranging from 1 to 5 — 1 indicating a weak interrelationship and 5 a universal interrelationship. Thus multiple interrelated diagnoses are preferred over independent ones provided the support for the second and other diagnoses is adequate. Good clinicians use this same rule of thumb. LINKS are of various types: PCED is used when disease A precedes disease B, e.g. acute rheumatic fever precedes early rheumatic valvular disease; PDIS - disease A predisposes to disease B, e.g. AIDS predisposes to pneumocystis pneumonia; CAUS - disease A causes disease B, e.g. thrombophlebitis of the lower extremities may cause pulmonary embolism; and COIN - there is a statistical interrelationship between disease A and disease B but scientific medical information is not explicit on the relationship, e.g. Hashimoto's thyroiditis coincides with pernicious anemia, both so called autoimmune diseases. The maximal number of correct diagnoses made in a single case analysis is, to my recollection, eleven. In working with INTERNIST-I during the remainder of the 1970s several important points about the system were learned or appreciated. The first and foremost of these is the importance of a complete and accurate knowledge base. Omissions from a disease profile can be particularly troublesome. If a manifestation of disease is not listed on a disease profile the computer can only conclude that that manifestation does not occur in the disease, and if a patient demonstrates the particular manifestation it counts against the diagnosis. Fortunately, repeated exercise of the diagnostic system brings to attention many inadvertent omissions. It is important to establish the EVOKS and FREQ numbers as accurately as possible. Continual updating of the knowledge base, including newly described diseases and new information about diseases previously profiled, is critical. Dr. Edward Feigenbaum recognized the importance of the accuracy and completeness of knowledge bases as the prime requisite of expert systems of any sort. He emphasized this point in his keynote address to MEDINFO-86 (1). Standardized, clear and explicit nomenclature is required in expressing disease names and particularly in naming the thousands of individual manifestations of disease. Such rigidity can make the use of INTERNIST-I difficult for the uninitiated user. Therefore, in QMR more latitude and guidance is provided the user. For example, the user of INTERNIST-I must enter ABDOMEN PAIN RIGHT UPPER QUADRANT exactly whereas in QMR the user may enter PAI ABD RUQ and the system recognizes the term as above. The importance of “properties” attached to the great majority of clinical manifestations was solidly evident. Properties express such conditions that if A is true then B is automatically false (or true as the case may be). The properties also allow credit to be awarded for or against B as the case may be. Properties also provide order to the asking of questions in the interrogative mode. They also state prerequisites and unrequisites for various procedures. As examples, one generally does not perform a superficial lymph node biopsy unless lymph nodes are enlarged (prerequisite). Similarly, a percutaneous liver biopsy is inadvisable if the blood platelets are less than 50,000 (unrequisite). It became clear quite early in the utilization of INTERNIST-I that systemic or multisystem diseases had an advantage versus localized disorders in diagnosis. This is because systemic diseases have very long and more inclusive manifestation lists. It became necessary, therefore, to subdivide systemic diseases into various components when appropriate. Systemic lupus erythematosus provides a good example. Lupus nephritis must be compared in our system with other renal diseases and such comparison is allowed by our partitioning algorithm. Likewise, cerebral lupus must be differentiated from other central nervous system disorders. Furthermore, either renal lupus or cerebral lupus can occur at times without significant clinical evidence of other systemic involvement. In order to reassemble the components of a systemic disease we devised the systemic LINK (SYST) which expresses the interrelationship of each subcomponent to the parent systemic disease. It became apparent quite early that expert systems like INTERNIST do not deal with the time axis of a disease well at all, and this seems to be generally true of expert systems in “artificial intelligence”. Certain parameters dealing with time can be expressed by devising particular manifestations, e.g. a blood transfusion preceding the development of acute hepatitis B by 2 to 6 months. But time remains a problem which is yet to be solved satisfactorily including QMR. It has been clearly apparent over the years that both the knowledge base and the diagnostic consultant programs of both INTERNIST-I and QMR have considerable educational value. The disease profiles, the list of diseases in which a given clinical manifestation occurs (ordered by EVOKS and FREQ), and the interconnections among diseases (LINKS) provide a quick and ready means of acquiring at least orienting clinical information. Such has proved useful not only to medical students and residents but to clinical practitioners as well. In the interrogative mode of the diagnostic systems the student will frequently ask “Why was that question asked?” An instructor can either provide insight or ready consultation of the knowledge base by the student will provide a simple semi-quantitative reason for the question. Lastly, let the author state that working with INTERNIST-I and QMR over the years seems to have had real influence on his own diagnostic approaches and habits. Thus my original psycho-analysis when working with Pople has been reinforced.",
+		"collection-title": "HMI '87",
+		"container-title": "Proceedings of ACM conference on History of medical informatics",
+		"DOI": "10.1145/41526.41543",
+		"event-place": "New York, NY, USA",
+		"ISBN": "978-0-89791-248-8",
+		"page": "195–197",
+		"publisher": "Association for Computing Machinery",
+		"publisher-place": "New York, NY, USA",
+		"source": "ACM Digital Library",
+		"title": "The background of INTERNIST I and QMR",
+		"URL": "https://doi.org/10.1145/41526.41543",
+		"author": [
+			{
+				"family": "Myers",
+				"given": "J. D."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1987",
+					12,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/FKDCVZJ5",
+		"type": "paper-conference",
+		"abstract": "This paper introduces a special programming environment for the definition of grammars and for the implementation of corresponding parsers. In natural language processing systems it is advantageous to have linguistic knowledge and processing mechanisms separated. Our environment accepts grammars consisting of binary dependency relations and grammatical functions. Well-formed expressions of functions and relations provide constituent surroundings for syntactic categories in the form of two-way automata. These relations, functions, and automata are described in a special definition language.In focusing on high level descriptions a linguist may ignore computational details of the parsing process. He writes the grammar into a DPL-description and a compiler translates it into efficient LISP-code. The environment has also a tracing facility for the parsing process, grammar-sensitive lexical maintenance programs, and routines for the interactive graphic display of parse trees and grammar definitions. Translator routines are also available for the transport of compiled code between various LISP-dialects. The environment itself exists currently in INTERLISP and FRANZLISP. This paper focuses on knowledge engineering issues and does not enter linguistic argumentation.",
+		"collection-title": "EACL '85",
+		"container-title": "Proceedings of the second conference on European chapter of the Association for Computational Linguistics",
+		"DOI": "10.3115/976931.976946",
+		"event-place": "USA",
+		"page": "98–106",
+		"publisher": "Association for Computational Linguistics",
+		"publisher-place": "USA",
+		"source": "ACM Digital Library",
+		"title": "Language-based environment for natural language parsing",
+		"URL": "https://doi.org/10.3115/976931.976946",
+		"author": [
+			{
+				"family": "Lehtola",
+				"given": "A."
+			},
+			{
+				"family": "Jäppinen",
+				"given": "H."
+			},
+			{
+				"family": "Nelimarkka",
+				"given": "E."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1985",
+					3,
+					27
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/PE98QZ2L",
+		"type": "paper-conference",
+		"abstract": "Raster-scan display terminals can significantly improve the quality of interaction with conventional computer systems. The design of a graphics package to provide a “window” into the extensive programming environment of interlisp is presented. Two aspects of the package are described: first, the functional view of display output and interactive input facilities as seen by the programmer, and second, the methods used to link the display terminal to the main computer via a packet-switched computer network. Recommendations are presented for designing operating systems and programming languages so as to simplify attaching display terminals.",
+		"collection-title": "SIGGRAPH '79",
+		"container-title": "Proceedings of the 6th annual conference on Computer graphics and interactive techniques",
+		"DOI": "10.1145/800249.807428",
+		"event-place": "New York, NY, USA",
+		"ISBN": "978-0-89791-004-4",
+		"page": "83–93",
+		"publisher": "Association for Computing Machinery",
+		"publisher-place": "New York, NY, USA",
+		"source": "ACM Digital Library",
+		"title": "Raster graphics for interactive programming environments",
+		"URL": "https://doi.org/10.1145/800249.807428",
+		"author": [
+			{
+				"family": "Sproull",
+				"given": "Robert F."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1979",
+					8,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/ETMY665Q",
+		"type": "paper-conference",
+		"abstract": "Fifty years since the beginning of the Internet, and three decades of the Dexter Hypertext Reference Model and the World Wide Web mark an opportune time to take stock and consider how hypermedia has developed, and in which direction it might be headed. The modern Web has on one hand turned into a place where very few, very large companies control all major platforms with some highly unfortunately consequences. On the other hand, it has also led to the creation of a highly flexible and nigh ubiquitous set of technologies and practices, which can be used as the basis for future hypermedia research with the rise of computational notebooks as a prime example of a new kind of collaborative and highly malleable applications.",
+		"collection-title": "HT '19",
+		"container-title": "Proceedings of the 30th ACM Conference on Hypertext and Social Media",
+		"DOI": "10.1145/3342220.3343666",
+		"event-place": "New York, NY, USA",
+		"ISBN": "978-1-4503-6885-8",
+		"page": "19–28",
+		"publisher": "Association for Computing Machinery",
+		"publisher-place": "New York, NY, USA",
+		"source": "ACM Digital Library",
+		"title": "From NoteCards to Notebooks: There and Back Again",
+		"title-short": "From NoteCards to Notebooks",
+		"URL": "https://doi.org/10.1145/3342220.3343666",
+		"author": [
+			{
+				"family": "Bouvin",
+				"given": "Niels Olof"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					9,
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/4QGNIKFU",
+		"type": "article-journal",
+		"abstract": "This article is a perspective on some important developments in semantics and in computational linguistics over the past forty years. It reviews two lines of research that lie at opposite ends of the field: semantics and morphology. The semantic part deals with issues from the 1970s such as discourse referents, implicative verbs, presuppositions, and questions. The second part presents a brief history of the application of finite-state transducers to linguistic analysis starting with the advent of two-level morphology in the early 1980s and culminating in successful commercial applications in the 1990s. It offers some commentary on the relationship, or the lack thereof, between computational and paper-and-pencil linguistics. The final section returns to the semantic issues and their application to currently popular tasks such as textual inference and question answering.",
+		"container-title": "Computational Linguistics",
+		"DOI": "10.1162/coli.2007.33.4.443",
+		"ISSN": "0891-2017",
+		"issue": "4",
+		"journalAbbreviation": "Comput. Linguist.",
+		"page": "443–467",
+		"source": "December 2007",
+		"title": "Word play",
+		"URL": "https://doi.org/10.1162/coli.2007.33.4.443",
+		"volume": "33",
+		"author": [
+			{
+				"family": "Karttunen",
+				"given": "Lauri"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2007",
+					12,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/U5SNW5LI",
+		"type": "chapter",
+		"abstract": "Fortran (q.v.) is the only language in widespread use that is older than Lisp (LISt Processor). Lisp owes its longevity to two facts. First, its core elements occupy a kind of local optimum in the \"space\" of programming languages, given the resistance to purely notational changes. Recursive use of conditional expressions, representation of symbolic information externally by lists and internally by list data structures (q.v.), and the representation of programs in the same way as data will probably have a very long life.",
+		"container-title": "Encyclopedia of Computer Science",
+		"ISBN": "0-470-86412-5",
+		"page": "991–992",
+		"publisher": "John Wiley and Sons Ltd.",
+		"source": "ACM Digital Library",
+		"title": "Lisp",
+		"URL": "https://dl.acm.org/doi/10.5555/1074100.1074543",
+		"author": [
+			{
+				"family": "Fateman",
+				"given": "Richard"
+			},
+			{
+				"family": "McCarthy",
+				"given": "John"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2003",
+					1,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/ZRI4MHTQ",
+		"type": "article-journal",
+		"container-title": "Interactions",
+		"DOI": "10.1145/287821.287827",
+		"ISSN": "1072-5520",
+		"issue": "6",
+		"journalAbbreviation": "interactions",
+		"page": "36–47",
+		"source": "Nov./Dec. 1998",
+		"title": "A conversation with Austin Henderson",
+		"URL": "https://doi.org/10.1145/287821.287827",
+		"volume": "5",
+		"author": [
+			{
+				"family": "Ehrlich",
+				"given": "Kate"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1998",
+					11,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/9SEIVVBA",
+		"type": "paper-conference",
+		"abstract": "We describe enhancements to graphical search and replace that allow users to extend the capabilities of a graphical editor. Interactive constraint-based search and replace can search for objects that obey user-specified sets of constraints and automatically apply other constraints to modify these objects. We show how an interactive tool that employs this technique makes it possible for users to define sets of constraints graphically that modify existing illustrations or control the creation of new illustrations. The interace uses the same visual language as the editor and allows users to understand and create powerful rules without conventional programming. Rules can be saved and retrieved for use alone or in combination. Examples, generated with a working implementation, demonstrate applications to drawing beautification and transformation.",
+		"collection-title": "CHI '92",
+		"container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
+		"DOI": "10.1145/142750.143053",
+		"event-place": "New York, NY, USA",
+		"ISBN": "978-0-89791-513-5",
+		"page": "609–618",
+		"publisher": "Association for Computing Machinery",
+		"publisher-place": "New York, NY, USA",
+		"source": "ACM Digital Library",
+		"title": "Interactive constraint-based search and replace",
+		"URL": "https://doi.org/10.1145/142750.143053",
+		"author": [
+			{
+				"family": "Kurlander",
+				"given": "David"
+			},
+			{
+				"family": "Feiner",
+				"given": "Steven"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1992",
+					6,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/XK2RYFWN",
+		"type": "book",
+		"abstract": "A Xerox Star 8010 Emulator. Contribute to livingcomputermuseum/Darkstar development by creating an account on GitHub.",
+		"genre": "C#",
+		"note": "original-date: 2019-01-15T20:40:02Z",
+		"source": "GitHub",
+		"title": "livingcomputermuseum/Darkstar",
+		"URL": "https://github.com/livingcomputermuseum/Darkstar",
+		"author": [
+			{
+				"family": "Museum+Labs",
+				"given": "Living Computers:"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					12,
+					25
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/G796KZSG",
+		"type": "article-journal",
+		"abstract": "In an ideal list-processing system there would be enough core memory to contain all the data and programs. Described in this paper are a number of techniques that have been used to build a LISP system utilizing a drum for its principal storage medium, with a surprisingly low time penalty for use of this slow storage device. The techniques include careful segmentation of system programs, allocation of virtual memory to allow address arithmetic for type determination, and a special algorithm for building reasonably linearized lists. A scheme for binding variables is described which is good in this environment and allows for complete compatibility between compiled and interpreted programs with no special declarations.",
+		"container-title": "Communications of the ACM",
+		"DOI": "10.1145/363162.363185",
+		"ISSN": "0001-0782, 1557-7317",
+		"issue": "3",
+		"journalAbbreviation": "Commun. ACM",
+		"language": "en",
+		"page": "155-159",
+		"source": "DOI.org (Crossref)",
+		"title": "Structure of a LISP system using two-level storage: Communications of the ACM",
+		"URL": "https://dl.acm.org/doi/10.1145/363162.363185",
+		"volume": "10",
+		"author": [
+			{
+				"family": "Bobrow",
+				"given": "Daniel G."
+			},
+			{
+				"family": "Murphy",
+				"given": "Daniel L."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1967",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/EM6WJF9A",
+		"type": "article-journal",
+		"abstract": "Many control and access environment structures require that storage for a procedure activation exist at times when control is not nested within the procedure activated. This is straightforward to implement by dynamic storage allocation with linked blocks for each activation, but rather expensive in both time and space. This paper presents an implementation technique using a single stack to hold procedure activation storage which allows retention of that storage for durations not necessarily tied to control flow. The technique has the property that, in the simple case, it runs identically to the usual automatic stack allocation and deallocation procedure. Applications of this technique to multitasking, coroutines, backtracking, label-valued variables, and functional arguments are discussed. In the initial model, a single real processor is assumed, and the implementation assumes multiple-processes coordinate by passing control explicitly to one another. A multiprocessor implementation requires only a few changes to the basic technique, as described.",
+		"container-title": "Communications of the ACM",
+		"DOI": "10.1145/362375.362379",
+		"ISSN": "0001-0782, 1557-7317",
+		"issue": "10",
+		"journalAbbreviation": "Commun. ACM",
+		"language": "en",
+		"page": "591-603",
+		"source": "DOI.org (Crossref)",
+		"title": "A model and stack implementation of multiple environments",
+		"URL": "https://dl.acm.org/doi/10.1145/362375.362379",
+		"volume": "16",
+		"author": [
+			{
+				"family": "Bobrow",
+				"given": "Daniel G."
+			},
+			{
+				"family": "Wegbreit",
+				"given": "Ben"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1973",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/QFBSW8AZ",
+		"type": "article-journal",
+		"abstract": "In current machine designs, a machine address gives the user direct access to a single piece of information, namely the contents of that machine word. This note is based on the observation that it is often useful to associate additional information, with some (relatively few) address locations determined at run time, without the necessity of preallocating the storage at all possible such addresses. That is, it can be useful to have an effective extra bit, field, or address in some words without every word having to contain a bit (or bits) to mark this as a special case. The key idea is that this extra associated information can be found by a table search. Although it could be found by any search technique (e.g. linear, binary sorted, etc.), we suggest that an appropriate low overhead mechanism is to use hash search on a table in which the key is the address of the cell to be augmented.",
+		"container-title": "Communications of the ACM",
+		"DOI": "10.1145/360881.360920",
+		"ISSN": "0001-0782, 1557-7317",
+		"issue": "7",
+		"journalAbbreviation": "Commun. ACM",
+		"language": "en",
+		"page": "413-415",
+		"source": "DOI.org (Crossref)",
+		"title": "A note on hash linking",
+		"URL": "https://dl.acm.org/doi/10.1145/360881.360920",
+		"volume": "18",
+		"author": [
+			{
+				"family": "Bobrow",
+				"given": "Daniel G."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1975",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/G4F5FZND",
+		"type": "paper-conference",
+		"abstract": "This paper presents some of the issues involved in implementing Interlisp [19] on a VAX computer [24] with the goal of producing a version that runs under UNIX[17], specifically Berkeley VM/UNIX. This implementation has the following goals:\n• To be compatible with and functionally equivalent to Interlisp-10.\n\n• To serve as a basis for future Interlisp implementations on other mainframe computers. This goal requires that the implementation to be portable.\n\n• To support a large virtual address space.\n\n• To achieve a reasonable speed.\n\nThe implemention draws directly from three sources, Interlisp-10 [19], Interlisp-D [5], and Multilisp [12]. Interlisp-10, the progenitor of all Interlisps, runs on the PDP-10 under the TENEX [2] and TOPS-20 operating systems. Interlisp-D, developed at Xerox Palo Alto Research Center, runs on personal computers also developed at PARC. Multilisp, developed at the University of British Columbia, is a portable interpreter containing a kernel of Interlisp, written in Pascal [9] and running on the IBM Series/370 and the VAX. The Interlisp-VAX implementation relies heavily on these implementations. In turn, Interlisp-D and Multilisp were developed from The Interlisp Virtual Machine Specification [15] by J Moore (subsequently referred to as the VM specification), which discusses what is needed to implement an Interlisp by describing an Interlisp Virtual Machine from the implementors' point of view. Approximately six man-years of effort have been spent exclusively in developing Interlisp-VAX, plus the benefit of many years of development for the previous Interlisp implementations.",
+		"container-title": "Proceedings of the 1982 ACM symposium on LISP and functional programming  - LFP '82",
+		"DOI": "10.1145/800068.802138",
+		"event": "the 1982 ACM symposium",
+		"event-place": "Pittsburgh, Pennsylvania, United States",
+		"ISBN": "978-0-89791-082-6",
+		"language": "en",
+		"page": "81-87",
+		"publisher": "ACM Press",
+		"publisher-place": "Pittsburgh, Pennsylvania, United States",
+		"source": "DOI.org (Crossref)",
+		"title": "Implementation of Interlisp on the VAX",
+		"URL": "http://portal.acm.org/citation.cfm?doid=800068.802138",
+		"author": [
+			{
+				"family": "Bates",
+				"given": "Raymond L."
+			},
+			{
+				"family": "Dyer",
+				"given": "David"
+			},
+			{
+				"family": "Koomen",
+				"given": "Johannes A. G. M."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1982",
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/RAASKHRE",
+		"type": "article-journal",
+		"abstract": "This paper describes a new way of solving the storage reclamation problem for a system such as Lisp that allocates storage automatically from a heap, and does not require the programmer to give any indication that particular items are no longer useful or accessible. A reference count scheme for reclaiming non-self-referential structures, and a linearizing, compacting, copying scheme to reorganize all storage at the users discretion are proposed. The algorithms are designed to work well in systems which use multiple levels of storage, and large virtual address space. They depend on the fact that most cells are referenced exactly once, and that reference counts need only be accurate when storage is about to be reclaimed. A transaction file stores changes to reference counts, and a multiple reference table stores the count for items which are referenced more than once.",
+		"container-title": "Communications of the ACM",
+		"DOI": "10.1145/360336.360345",
+		"ISSN": "0001-0782, 1557-7317",
+		"issue": "9",
+		"journalAbbreviation": "Commun. ACM",
+		"language": "en",
+		"page": "522-526",
+		"source": "DOI.org (Crossref)",
+		"title": "An efficient, incremental, automatic garbage collector",
+		"URL": "https://dl.acm.org/doi/10.1145/360336.360345",
+		"volume": "19",
+		"author": [
+			{
+				"family": "Deutsch",
+				"given": "L. Peter"
+			},
+			{
+				"family": "Bobrow",
+				"given": "Daniel G."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1976",
+					9
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/V3ECJHJ3",
+		"type": "report",
+		"abstract": "The INTERLISP Virtual Machine is the environment in which the INTERLISP System is implemented. It includes such abstract objects as \"Literal Atoms\", \"List Cells\", \"Integers\", etc., the basic LISP functions for manipulating them, the underlying program control and variable binding mechanisms, the input/output facilities, and interrupt processing facilities. In order to Implement the INTER LISP System (as described in The INTERLISP Reference Manual by W. Teitelman, et. al.) on some physical machine, it is only necessary to implement the INTERLISP Virtual Machine, since Virtual Machine compatible source code for the rest of the INTERLISP System can be obtained from publicly available files. This document specifies the behavior of the INTER LISP Virtual Machine from the implementor's point of view. That is, it is an attempt to make explicit those things which must be implemented to allow the INTERLISP System to run on some machine. KEY WORDS AND PHRASES programming language semantics, LISP, dynamic storage allocation, interpreters, spaghetti stacks, abstract data types, function objects, FUNARGs, applicative programming languages, control structures, interactive systems, DWIM, programmer's assistant, automatic error correction, eval, error handling, interrupt",
+		"publisher": "Xerox Palo Alto Research Center",
+		"source": "CiteSeer",
+		"title": "The Interlisp Virtual Machine Specification",
+		"URL": "https://www.abebooks.com/Interlisp-Virtual-Machine-Specification-Moore-Strother/30587741782/bd",
+		"author": [
+			{
+				"family": "Moore",
+				"given": "J. Strother"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1976"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/S82MS337",
+		"type": "report",
+		"abstract": "This report describes briefly a set of display primitives that we have developed at PARC toextend the capabilities of InterLisp[l]. These primitives are designed to operate araster-scanned displaYt and concentrate on facilities for placing text carefully on the displayand for moving chunks of an already-created display.",
+		"event-place": "Xerox Palo Alto Research Center3333 Coyote H iII RoadPalo Altot California 94304",
+		"language": "en-US",
+		"publisher-place": "Xerox Palo Alto Research Center3333 Coyote H iII RoadPalo Altot California 94304",
+		"source": "CiteSeer",
+		"title": "INTERLISP DISPLAY PRIMITIVES",
+		"URL": "http://scholar.googleusercontent.com/scholar?q=cache:fAjwtL8R9ogJ:scholar.google.com/+INTERLISP+DISPLAY+PRIl%5ClITIVES&hl=en&as_sdt=0,5",
+		"author": [
+			{
+				"family": "Sproull",
+				"given": "Robert F."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1977",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/S2ZC62QX",
+		"type": "webpage",
+		"abstract": "17 new photos added to shared album",
+		"container-title": "Google Photos",
+		"language": "en",
+		"title": "Interlisp-D at AAAI-82",
+		"URL": "https://photos.google.com/share/AF1QipORUrk2uwraYYJVOZ2R8mH51U4n5uv30V1KJk5zvu5Pd5XtEXuXp8jg1BfwdHBHkw?key=OGxZSU5LbXZPaTdmbnU3QmZiOTRlYnR6SDdMNUJ3",
+		"author": [
+			{
+				"family": "Masinter",
+				"given": "Larry"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					9,
+					30
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/IVA8R7A2",
+		"type": "article",
+		"abstract": "The LOOPS (Lisp Object-Oriented Language) project was started to support development of expert systems project at PARC. We wanted a language that had many of the\nfeatures of frame languages, such as objects, annotated values, inheritance, and attached procedures. We drew heavily on Smalltalk-80, which was being developed next door.",
+		"language": "en",
+		"source": "Zotero",
+		"title": "Programming Languages -- The LOOPS Project (1982-1986)",
+		"URL": "https://larrymasinter.net/stefik-loops.pdf",
+		"author": [
+			{
+				"family": "Bobrow",
+				"given": "Daniel"
+			},
+			{
+				"family": "Mittal",
+				"given": "Sanjay"
+			},
+			{
+				"family": "Lanning",
+				"given": "Stanley"
+			},
+			{
+				"family": "Stefik",
+				"given": "Mark"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2003"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/CI5AB787",
+		"type": "patent",
+		"abstract": "An information retrieval system and method are provided in which an operator inputs one or more query words which are used to determine a search key for searching through a corpus of documents, and which returns any matches between the search key and the corpus of documents as a phrase containing the word data matching the query word(s), a non-stop (content) word next adjacent to the matching word data, and all intervening stop-words between the matching word data and the next adjacent non-stop word. The operator, after reviewing one or more of the returned phrases can then use one or more of the next adjacent non-stop-words as new query words to reformulate the search key and perform a subsequent search through the document corpus. This process can be conducted iteratively, until the appropriate documents of interest are located. The additional non-stop-words from each phrase are preferably aligned with each other (e.g., by columnation) to ease viewing of the \"new\" content words.",
+		"call-number": "US07/745,794",
+		"number": "US5278980A",
+		"title": "Iterative technique for phrase query formation and an information retrieval &hellip;",
+		"URL": "https://patents.google.com/patent/US5278980A",
+		"author": [
+			{
+				"literal": "Jan O. Pedersen"
+			},
+			{
+				"literal": "Per-Kristian Halvorsen"
+			},
+			{
+				"literal": "Douglass R. Cutting"
+			},
+			{
+				"literal": "John W. Tukey"
+			},
+			{
+				"literal": "Eric A. Bier"
+			},
+			{
+				"literal": "Daniel G. Bobrow"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					16
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1994",
+					1,
+					11
+				]
+			]
+		},
+		"submitted": {
+			"date-parts": [
+				[
+					"1991",
+					8,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/GTHVJ545",
+		"type": "patent",
+		"abstract": "A workspace data structure, such as a window hierarchy or network, includes functional data units that include data relating to workspace functionality. These functional data units are associated with data units corresponding to the workspaces such that a functional data unit can be replaced by a functional data unit compatible with a different set of functions without modifying the structure of other data units. Each workspace data unit may have a replaceably associated functional data unit called an input contract relating to its input functions and another called an output contract relating to its output functions. A parent workspace's data unit and the data units of its children may together have a replaceably associated functional data unit, called a windowing contract, relating to the windowing relationship between the parent and the children. The data structure may also include an auxiliary data unit associated between the data units of the parent and children windows, and the windowing contract may be associated with the auxiliary data unit. The contracts can be accessed and replaced by a processor in a system that includes the data structure. The contracts can be instances of classes in an object-oriented programming language, and can be replaceably associated by pointers associated with the system objects. Alternatively, a contract can be replaceably associated through dynamic multiple inheritance, with the superclasses of each workspace class including one or more contract classes such that changing the class of an instance of a workspace class serves to replace the contract.",
+		"call-number": "US07/614,957",
+		"number": "US5121478A",
+		"title": "Window system with independently replaceable window functionality",
+		"URL": "https://patents.google.com/patent/US5121478A",
+		"author": [
+			{
+				"family": "Rao",
+				"given": "Ramana B."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					16
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1992",
+					6,
+					9
+				]
+			]
+		},
+		"submitted": {
+			"date-parts": [
+				[
+					"1990",
+					11,
+					15
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/PGGC8GAZ",
+		"type": "article",
+		"title": "Recent Improvements to 940 LISP Library",
+		"URL": "http://bitsavers.informatik.uni-stuttgart.de/pdf/sds/9xx/940/ucbProjectGenie/940_LISP_Memo_2_Apr67.pdf",
+		"author": [
+			{
+				"family": "Teitelman",
+				"given": "Warren"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1967",
+					4,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/PMXCAM4Y",
+		"type": "article",
+		"language": "English",
+		"title": "1985 Harmony and Intermezzo releases Koto release (for Xerox 1186), some bits of Common Lisp",
+		"URL": "https://www.google.com/search?client=firefox-b-d&q=1985+Harmony+and+Intermezzo+releases+Koto+release+%28for+Xerox+1186%29%2C+some+bits+of+Common+Lisp",
+		"author": [
+			{
+				"literal": "XEROX"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1985",
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/IKAJUF8S",
+		"type": "webpage",
+		"container-title": "VENUE",
+		"title": "Medley",
+		"URL": "https://web.archive.org/web/20100304002925/http://top2bottom.net:80/medley.html",
+		"author": [
+			{
+				"literal": "Jill Marci Sybalsky"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2010",
+					3,
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/9B3ESHMP",
+		"type": "report",
+		"abstract": "This report consists of five papers on Interlisp-0, a refinement and implementation of the\nI[ tnterlisp virtual machine [Moore, 761 which supports the interlisp programming system\n[Teitelman et at., 781 on the Dolphin and Dorado personal computers",
+		"collection-title": "COGNITIVE AND INSTRUCTIONAL SCIENCES SERIES CIS.5 (SSL-80-4",
+		"page": "52",
+		"source": "Google Scholar",
+		"title": "Papers on interlisp-D",
+		"URL": "http://www.softwarepreservation.net/projects/LISP/interlisp-d/Papers_On_Interlisp-D.pdf",
+		"author": [
+			{
+				"family": "Burton",
+				"given": "Richard R."
+			},
+			{
+				"family": "Kaplan",
+				"given": "Ronald M."
+			},
+			{
+				"family": "Masinter",
+				"given": "B."
+			},
+			{
+				"family": "Sheil",
+				"given": "B. A."
+			},
+			{
+				"family": "Bell",
+				"given": "A."
+			},
+			{
+				"family": "Bobrow",
+				"given": "D. G."
+			},
+			{
+				"family": "Deutsch",
+				"given": "L. P."
+			},
+			{
+				"family": "Haugeland",
+				"given": "W. S."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1980",
+					9
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/JELN3BBL",
+		"type": "entry-encyclopedia",
+		"abstract": "Interlisp (also seen with a variety of capitalizations) is a programming environment built around a version of the programming language Lisp. Interlisp development began in 1966 at Bolt, Beranek and Newman (renamed BBN Technologies) in Cambridge, Massachusetts with Lisp implemented for the Digital Equipment Corporation (DEC) PDP-1 computer by Danny Bobrow and D. L. Murphy. In 1970, Alice K. Hartley implemented BBN LISP, which ran on PDP-10 machines running the operating system TENEX (renamed TOPS-20). In 1973, when Danny Bobrow, Warren Teitelman and Ronald Kaplan moved from BBN to the Xerox Palo Alto Research Center (PARC), it was renamed Interlisp. Interlisp became a popular Lisp development tool for artificial intelligence (AI) researchers at Stanford University and elsewhere in the community of the Defense Advanced Research Projects Agency (DARPA). Interlisp was notable for integrating interactive development tools into an integrated development environment (IDE), such as a debugger, an automatic correction tool for simple errors (via do what I mean (DWIM) software design, and analysis tools.",
+		"container-title": "Wikipedia",
+		"language": "en",
+		"source": "Wikipedia",
+		"title": "Interlisp",
+		"URL": "https://en.wikipedia.org/w/index.php?title=Interlisp&oldid=1014034897",
+		"editor": [
+			{
+				"literal": "Jekkara"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					3,
+					24
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/IRKEPIAR",
+		"type": "post-weblog",
+		"abstract": "Via libingcomputers.org: Josh Dersch writes about research into the Xerox 8010 Information System (codenamed “Dandelion” during development) and commonly referred to as the Star. The Star was envisioned as center point of the office of the future, combining high-resolution graphics with the now-familiar mouse, Ethernet networking for sharing and collaborating, and Xerox’s Laser Printer technology for faithful “WYSIWYG” document reproduction. A revolutionary system when most everyone else was using text based systems.",
+		"container-title": "Adafruit Industries - Makers, hackers, artists, designers and engineers!",
+		"language": "en-US",
+		"title": "Introducing Darkstar: A Xerox Star Emulator",
+		"title-short": "Introducing Darkstar",
+		"URL": "https://blog.adafruit.com/2019/01/23/introducing-darkstar-a-xerox-star-emulator-vintagecomputing-xerox-emulation/",
+		"author": [
+			{
+				"family": "Barela",
+				"given": "Anne"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					1,
+					23
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/IWAVJBR2",
+		"type": "thesis",
+		"abstract": "This disscrttion dcscribes a programming tool. implemented in Lisp. callcd SCOPE. The basic\nidea behind ScoPE can be stated simply: SCOPE analyzes a user's programs. rcmembers what it\nsees. is able to answer questions based on the facts it remembers. and is able to incrcmentay\nupdate thc data basc when a picce of thc program changes. A varicty of program infonnation\nis available about cross rcfcrences. data flow and program organi7.aticil. Facts about programs\nare stored in a data bas: to answer a question. SCOPE rctrieves and makes inferences basd on\ninfonnation in the data base. SCOPE is interactive because it keeps track of which par of the\nprograms have changed during the course of an editing and debugging sesion. and is able to\nautomatically and incrementally update its data bas. Because SCOPE perfonns whatever re\nanalysis is necesry to answer the question when the question is asked. SCOPE maintans the\nilusion that the data bas is always up to date-ther than the additional wait tie. it is as if\nSCOPE knew the answer al along.\nSCOPE'S foundation is a representauon system in which propertes of pieces of progras ca be\nexpred. The objects of SCOPE'S language are pieces of progrs, and in par.\ndefinitions of symbols-.g.. the definition of a proedure or a data strcture. SCOPE doe not\nmodel propertes of individua statements or expreions in the program: SCOPE knows only\nindividual facts about procedures varables data strctures and other pieces of a progr\nwhich ca be asigned as the definiuon of symbols. The facts are relauons between the name\nof a definiuon and other symbols. For example. one of the relauons that SCOPE keeps trk of\nis Call: Call(FNl'FNil holds if the definiùon whose nae is FNi contans a ca to a\nprocedure named FNi\"\nSCOPE has two interfaces: one to the user and one to other progras. The user interface is an\nEnglish-like command language which allows for a unifonn command strcture and convenient\ndefaults: the most frequently used commands are the easiest to type. All of the power avaiable\nwith the command language is accesible Jirough the progra interface as well. The\ncompiler and varouš other uulities use the progra interf~\"",
+		"event-place": "3333 Coyote Hil Road I Palo Alto I Caliornia 94304",
+		"genre": "Doctor of Philosophy",
+		"language": "en-US",
+		"number-of-pages": "114",
+		"publisher": "PALO ALTO RESEARCH CENTER",
+		"publisher-place": "3333 Coyote Hil Road I Palo Alto I Caliornia 94304",
+		"title": "Global Program Analysis in an Interactive Envi ronment by Larry Melvin Masinter SSL.80-1 JANUARY 1980",
+		"URL": "https://larrymasinter.net/thesis.pdf",
+		"author": [
+			{
+				"family": "Masinter",
+				"given": "Larry Melvin"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					17
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1980"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/LQAA78HI",
+		"type": "report",
+		"abstract": "This report describes the LISP system implemented at BBN on the \nSDS 940 Computer. This LISP is an upward compatible extension of \nLISP 1.5 for the IBM 7090, with a number of new features which \nmake it work well as an on-line language. These new features \ninclude tracing, and conditional breakpoints in functions for \ndebugging and a sophisticated LISP oriented editor. The BBN 940 \nLISP SYSTEM has a large memory store (approximately 50,000 free \nwords) utilizing special paging techniques for a drum to provide \nreasonable computation times. The system includes both an \ninterpreter, a fully compatible compiler, and an assembly language \nfacility for inserting machine code subroutines.",
+		"language": "English",
+		"number": "9",
+		"page": "138",
+		"title": "The BBN-LISP System",
+		"URL": "http://www.softwarepreservation.org/projects/LISP/bbnlisp/BBN940Lisp_Jul67.pdf/view",
+		"author": [
+			{
+				"literal": "Daniel G. Bobrow"
+			},
+			{
+				"literal": "D. Lucille Darley"
+			},
+			{
+				"literal": "L. Peter Deutsch"
+			},
+			{
+				"literal": "Daniel L. Murphy"
+			},
+			{
+				"literal": "Warren Teitelman"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1967",
+					7,
+					15
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/F9XE85C9",
+		"type": "article",
+		"language": "en",
+		"publisher": "Xerox Corporation",
+		"title": "Artificial intelligence Systems Xerox LOOPS, A Friendly Primer",
+		"title-short": "Interlisp-D_A-Friendly-Primer",
+		"URL": "http://www.bitsavers.org/pdf/xerox/interlisp-d/198510_Koto/3102242_Xerox_LOOPS_A_Friendly_Primer_Mar87.pdf",
+		"author": [
+			{
+				"family": "Mears",
+				"given": "Lyn Ann"
+			},
+			{
+				"family": "Rees",
+				"given": "Ted"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1987",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/8AB9NPK7",
+		"type": "book",
+		"edition": "First",
+		"event-place": "300 N. Halstead St. Pasadena CA 91107 USA",
+		"language": "English",
+		"number-of-pages": "57",
+		"publisher": "Xerox Corporation",
+		"publisher-place": "300 N. Halstead St. Pasadena CA 91107 USA",
+		"title": "Interlisp-VAX Users Manual",
+		"URL": "http://www.softwarepreservation.org/projects/LISP/interlisp/Interlisp-VAX-Users_Manual.pdf/view",
+		"author": [
+			{
+				"family": "Bates",
+				"given": "Raymond"
+			},
+			{
+				"family": "David",
+				"given": "Dayer"
+			},
+			{
+				"family": "Koomen",
+				"given": "Johannes"
+			},
+			{
+				"family": "Saunders",
+				"given": "Steven"
+			},
+			{
+				"family": "Voreck",
+				"given": "Donald"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1982",
+					12,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/6BCFJ639",
+		"type": "report",
+		"event-place": "Stailford University Stanford, CA 94305",
+		"number": "SUN-CS-81-879",
+		"page": "13",
+		"publisher": "Department of Computer Science, Stanford University",
+		"publisher-place": "Stailford University Stanford, CA 94305",
+		"title": "Interlisp-VAX: A Report",
+		"URL": "http://www.softwarepreservation.org/projects/LISP/interlisp/Interlisp-VAX_A_Report.pdf/view",
+		"author": [
+			{
+				"family": "Masintcr",
+				"given": "Larry M."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1981",
+					8,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/398X5WQZ",
+		"type": "webpage",
+		"container-title": "Software Preservation Group",
+		"title": "new-lisp-messages.txt.1.",
+		"URL": "http://www.softwarepreservation.org/projects/LISP/interlisp/tenex/sumex-aim/new-lisp-messages.txt.1/view",
+		"author": [
+			{
+				"family": "Teitelman",
+				"given": "Warren"
+			},
+			{
+				"family": "Kaplan",
+				"given": "Ron"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1979"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/P43BUE35",
+		"type": "webpage",
+		"container-title": "Software Preservation Group",
+		"title": "PARCMESSAGE.TXT.1.",
+		"URL": "http://www.softwarepreservation.org/projects/LISP/interlisp/tenex/twenex.org/PARCMESSAGE.TXT.1/view",
+		"author": [
+			{
+				"family": "Masinter",
+				"given": "Larry"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1976",
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/PB5L9AVM",
+		"type": "article-journal",
+		"abstract": "LISP appears to be the language of choice among the developers of knowledge-based expert systems. Analysis of structures in INTERLISP environment is discussed in this paper. An interactive INTERLISP program is presented for analysis of frames which can be used as part of an expert system for computer-aided design of structures. Some of the concepts and characteristics of INTERLISP language are explained by referring to the INTERLISP program.",
+		"container-title": "Computers & structures",
+		"DOI": "https://doi.org/10.1016/0045-7949(86)90231-2",
+		"issue": "3",
+		"page": "393-407",
+		"source": "Google Scholar",
+		"title": "Computer-aided analysis of structures in INTERLISP environment",
+		"URL": "https://www.sciencedirect.com/science/article/abs/pii/0045794986902312",
+		"volume": "23",
+		"author": [
+			{
+				"family": "Adeli",
+				"given": "H."
+			},
+			{
+				"family": "Paek",
+				"given": "Y. J."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1986"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/E5NDSA26",
+		"type": "article-journal",
+		"source": "Google Scholar",
+		"title": "AQINTERLISP: An INTERLISP Program for Inductive Generalization of VL1 Event Sets",
+		"title-short": "AQINTERLISP",
+		"URL": "https://www.mli.gmu.edu/papers/81-85/83-28.pdf",
+		"author": [
+			{
+				"family": "Becker",
+				"given": "Jeffrey M."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1983",
+					9
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/M6869X84",
+		"type": "book",
+		"ISBN": "0-262-59004-2",
+		"publisher": "The M.I.T. Press",
+		"source": "Google Scholar",
+		"title": "The programming language LISP: Its operation and applications",
+		"title-short": "The programming language LISP",
+		"URL": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.641.6472&rep=rep1&type=pdf",
+		"author": [
+			{
+				"family": "Berkeley",
+				"given": "Edmund Callis"
+			},
+			{
+				"family": "Bobrow",
+				"given": "Daniel Gureasko"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1966"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/I2U8XT9Z",
+		"type": "article-journal",
+		"abstract": "This first (long delayed) LISP Bulletin contains samples of most of those types of items which the editor feels are relevant to this publication. These include announcements of new (i.e. not previously announced here) implementations of LISP (or closely related) systems; quick tricks in LISP; abstracts of LISP related papers; short writeups and listings of useful programs; and longer articles on problems of general interest to the entire LISP community. Printing of these last articles in the Bulletin does not interfere with later publications in formal journals or books. Short write-ups of new features added to LISP are of interest, preferably upward compatible with LISP 1.5, especially if they are illustrated by programming examples.",
+		"container-title": "ACM SIGPLAN Notices",
+		"DOI": "10.1145/1132291.1132032",
+		"ISSN": "0362-1340",
+		"issue": "9",
+		"journalAbbreviation": "SIGPLAN Not.",
+		"page": "17-57",
+		"source": "September 1969",
+		"title": "LISP bulletin",
+		"URL": "https://doi.org/10.1145/1132291.1132032",
+		"volume": "4",
+		"author": [
+			{
+				"family": "Bobrow",
+				"given": "D. G."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					25
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1969",
+					9,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/B2PF228B",
+		"type": "report",
+		"abstract": "This report describes measurements performed for the purpose of determining areas of potential improvement to the efficiency of INTERLISP running under TENEX.",
+		"language": "English",
+		"number": "DTIC_ADA1045834",
+		"page": "61",
+		"publisher": "BOLT BERANEK AND NEWMAN INC CAMBRIDGE MA",
+		"source": "Google Scholar",
+		"title": "Interlisp performance measurements",
+		"URL": "https://archive.org/details/DTIC_ADA1045834",
+		"author": [
+			{
+				"family": "Bobrow",
+				"given": "Robert"
+			},
+			{
+				"family": "Grignetti",
+				"given": "Mario"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1976",
+					6,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/L6DXES8K",
+		"type": "article-journal",
+		"abstract": "In the fall of 1978 we decided to produce a special issue of the SIGART Newsletter devoted to a survey of current knowledge representation research. We felt that there were twe useful functions such an issue could serve. First, we hoped to elicit a clear picture of how people working in this subdiscipline understand knowledge representation research, to illuminate the issues on which current research is focused, and to catalogue what approaches and techniques are currently being developed. Second -- and this is why we envisaged the issue as a survey of many different groups and projects -- we wanted to provide a document that would enable the reader to acquire at least an approximate sense of how each of the many different research endesvours around the world fit into the field as a whole.It would of course be impossible to produce a final or definitive document accomplishing these goals: rather, we hoped that this survey could initiate a continuing dialogue on issues in representation, a project for which this newsletter seems the ideal forum. It has been many months since our original decision was made, but we are finally able to present the results of that survey. Perhaps more than anything else, it has emerged as a testament to an astounding range and variety of opinions held by many different people in many different places.The following few pages are intended as an introduction to the survey as a whole, and to this issue of the newsletter. We will briefly summarize the form that the survey took, discuss the strategies we followed in analyzing and tabulating responses, briefly review the overall sense we received from the answers that were submitted, and discuss various criticisms which were submitted along with the responses. The remainder of the volume has been designed to be roughly self-explanatory at each point, so that one may dip into it at different places at will. Certain conventions, however, particularly regarding indexing and tabulating, will also be explained in the remainder of this introduction.As editors, we are enormously grateful to the many people who devoted substantial effort to responding to our survey. It is our hope that the material presented here will be interesting and helpful to our readers, and that fruitful discussion of these and other issues will continue energetically and enthusiastically into the future.",
+		"container-title": "ACM SIGART Bulletin",
+		"DOI": "10.1145/1056751.1056752",
+		"ISSN": "0163-5719",
+		"issue": "70",
+		"journalAbbreviation": "SIGART Bull.",
+		"page": "1-138",
+		"source": "February 1980",
+		"title": "Special issue on knowledge representation",
+		"URL": "https://doi.org/10.1145/1056751.1056752",
+		"author": [
+			{
+				"family": "Brachman",
+				"given": "Ronald J."
+			},
+			{
+				"family": "Smith",
+				"given": "Brian C."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					25
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1980",
+					2,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/THYZ7UPH",
+		"type": "report",
+		"abstract": "The TXDT package is a collection of INTERLISP programs designed for those who wish to build text editors in INTERLISP. TXDT provides a new INTERLISP data type, called a buffer, and programs for efficiently inserting, deleting, searching and manipulating text in buffers. Modifications may be made undoable. A unique feature of TXDT is that an address may be \"stuck\" to a character occurrence so as to follow that character wherever it Is subsequently moved. TXDT also has provisions for fonts.",
+		"event-place": "California",
+		"page": "34",
+		"publisher": "Xerox. Palo Alto Research Center",
+		"publisher-place": "California",
+		"source": "Google Scholar",
+		"title": "The TXDT Package-Interlisp Text Editing Primitives",
+		"URL": "http://129.69.211.95/pdf/xerox/parc/techReports/CSL-81-2_The_TXDT_Package.pdf",
+		"author": [
+			{
+				"family": "Moore",
+				"given": "J. Strother"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1981"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/DNCVYGJC",
+		"type": "article-journal",
+		"abstract": "The problem of the use of two levels of storage for programs is explored in the context of a LISP system which uses core memory as a buffer for a large virtual memory stored on a drum. Details of timing are given for one particular problem.",
+		"container-title": "Communications of the ACM",
+		"DOI": "10.1145/363567.363581",
+		"ISSN": "0001-0782, 1557-7317",
+		"issue": "8",
+		"journalAbbreviation": "Commun. ACM",
+		"language": "en",
+		"page": "558",
+		"source": "DOI.org (Crossref)",
+		"title": "A note on the efficiency of a LISP computation in a paged machine",
+		"URL": "https://dl.acm.org/doi/10.1145/363567.363581",
+		"volume": "11",
+		"author": [
+			{
+				"family": "Bobrow",
+				"given": "Daniel G."
+			},
+			{
+				"family": "Murphy",
+				"given": "Daniel L."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1968",
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/BSE5UV9A",
+		"type": "article-journal",
+		"abstract": "List structures provide a general mechanism for representing easily changed structured data, but can introduce inefficiencies in the use of space when fields of uniform size are used to contain pointers to data and to link the structure. Empirically determined regularity can be exploited to provide more space-efficient encodings without losing the flexibility inherent in list structures. The basic scheme is to provide compact pointer fields big enough to accommodate most values that occur in them and to provide “escape” mechanisms for exceptional cases. Several examples of encoding designs are presented and evaluated, including two designs currently used in Lisp machines. Alternative escape mechanisms are described, and various questions of cost and implementation are discussed. In order to extrapolate our results to larger systems than those measured, we propose a model for the generation of list pointers and we test the model against data from two programs. We show that according to our model, list structures with compact cdr fields will, as address space grows, continue to be compacted well with a fixed-width small field. Our conclusion is that with a microcodable processor, about a factor of two gain in space efficiency for list structure can be had for little or no cost in processing time.",
+		"container-title": "ACM Transactions on Programming Languages and Systems",
+		"DOI": "10.1145/357073.357081",
+		"ISSN": "0164-0925, 1558-4593",
+		"issue": "2",
+		"journalAbbreviation": "ACM Trans. Program. Lang. Syst.",
+		"language": "en",
+		"page": "266-286",
+		"source": "DOI.org (Crossref)",
+		"title": "Compact Encodings of List Structure",
+		"URL": "https://dl.acm.org/doi/10.1145/357073.357081",
+		"volume": "1",
+		"author": [
+			{
+				"family": "Bobrow",
+				"given": "Daniel G."
+			},
+			{
+				"family": "Clark",
+				"given": "Douglas W."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					21
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1979",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/QXTFTCCF",
+		"type": "article-journal",
+		"abstract": "The major limitations in building large software have always been (a) its brittleness when confronted by problems that were not foreseen by its builders, and (by the amount of manpower required. The recent history of expert systems, for example highlights how constricting the brittleness and knowledge acquisition bottlenecks are. Moreover, standard software methodology (e.g., working from a detailed \"spec\") has proven of little use in AI, a field which by definition tackles ill- structured problems. How can these bottlenecks be widened? Attractive, elegant answers have included machine learning, automatic programming, and natural language understanding. But decades of work on such systems have convinced us that each of these approaches has difficulty \"scaling up\" for want a substantial base of real world knowledge.",
+		"container-title": "AI magazine",
+		"DOI": "https://doi.org/10.1609/aimag.v6i4.510",
+		"issue": "4",
+		"page": "65-65",
+		"source": "Google Scholar",
+		"title": "CYC: Using common sense knowledge to overcome brittleness and knowledge acquisition bottlenecks",
+		"title-short": "CYC",
+		"URL": "https://ojs.aaai.org/index.php/aimagazine/article/view/510",
+		"volume": "6",
+		"author": [
+			{
+				"family": "Lenat",
+				"given": "Douglas B."
+			},
+			{
+				"family": "Prakash",
+				"given": "Mayank"
+			},
+			{
+				"family": "Shepherd",
+				"given": "Mary"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1985",
+					3,
+					15
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/YR58NY6F",
+		"type": "paper-conference",
+		"abstract": "CommonLoops blends object-oriented programming smoothly and tightly with the procedure-oriented design of Lisp. Functions and methods are combined in a more general abstraction. Message passing is invoked via normal Lisp function call. Methods are viewed as partial descriptions of procedures. Lisp data types are integrated with object classes. With these integrations, it is easy to incrementally move a program between the procedure and object-oriented styles. One of the most important properties of CommonLoops is its extensive use of meta-objects. We discuss three kinds of meta-objects: objects for classes, objects for methods, and objects for discriminators. We argue that these meta-objects make practical both efficient implementation and experimentation with new ideas for object-oriented programming. CommonLoops' small kernel is powerful enough to implement the major object-oriented systems in use today.",
+		"collection-title": "OOPSLA '86",
+		"container-title": "Conference proceedings on Object-oriented programming systems, languages and applications",
+		"DOI": "10.1145/28697.28700",
+		"event-place": "New York, NY, USA",
+		"ISBN": "978-0-89791-204-7",
+		"page": "17-29",
+		"publisher": "Association for Computing Machinery",
+		"publisher-place": "New York, NY, USA",
+		"source": "ACM Digital Library",
+		"title": "CommonLoops: merging Lisp and object-oriented programming",
+		"title-short": "CommonLoops",
+		"URL": "https://doi.org/10.1145/28697.28700",
+		"author": [
+			{
+				"family": "Bobrow",
+				"given": "Daniel G."
+			},
+			{
+				"family": "Kahn",
+				"given": "Kenneth"
+			},
+			{
+				"family": "Kiczales",
+				"given": "Gregor"
+			},
+			{
+				"family": "Masinter",
+				"given": "Larry"
+			},
+			{
+				"family": "Stefik",
+				"given": "Mark"
+			},
+			{
+				"family": "Zdybel",
+				"given": "Frank"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					25
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1986",
+					6,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/WPDGQV37",
+		"type": "paper-conference",
+		"abstract": "DoradoLisp is an implementation of the Interlisp programming system on a large personal computer. It has evolved from AltoLisp, an implementation on a less powerful machine. The major goal of the Dorado implementation was to eliminate the performance deficiencies of the previous system. This paper describes the current status of the system and discusses some of the issues that arose during its implementation. Among the techniques that helped us meet our performance goal were transferring much of the kernel software into Lisp, intensive use of performance measurement tools to determine the areas of worst performance, and use of the Interlisp programming environment to allow rapid and widespread improvements to the system code. The paper lists some areas in which performance was critical and offers some observations on how our experience might be useful to other implementations of Interlisp.",
+		"collection-title": "LFP '80",
+		"container-title": "Proceedings of the 1980 ACM conference on LISP and functional programming",
+		"DOI": "10.1145/800087.802812",
+		"event-place": "New York, NY, USA",
+		"ISBN": "978-1-4503-7396-8",
+		"page": "243-247",
+		"publisher": "Association for Computing Machinery",
+		"publisher-place": "New York, NY, USA",
+		"source": "ACM Digital Library",
+		"title": "Overview and status of DoradoLisp",
+		"URL": "https://doi.org/10.1145/800087.802812",
+		"author": [
+			{
+				"family": "Burton",
+				"given": "Richard R."
+			},
+			{
+				"family": "Masinter",
+				"given": "L. M."
+			},
+			{
+				"family": "Bobrow",
+				"given": "Daniel G."
+			},
+			{
+				"family": "Haugeland",
+				"given": "Willie Sue"
+			},
+			{
+				"family": "Kaplan",
+				"given": "Ronald M."
+			},
+			{
+				"family": "Sheil",
+				"given": "B. A."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					25
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1980",
+					8,
+					25
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/A52363YK",
+		"type": "article-journal",
+		"abstract": "Effective information access involves rich interactions between users and information residing in diverse locations. Users seek and retrieve information from the sources—for example, file serves, databases, and digital libraries—and use various tools to browse, manipulate, reuse, and generally process the information. We have developed a number of techniques that support various aspects of the process of user/information interaction. These techniques can be considered attempts to increase the bandwidth and quality of the interactions between users and information in an information workspace—an environment designed to support information work (see Figure 1).",
+		"container-title": "Communications of the ACM",
+		"DOI": "10.1145/205323.205326",
+		"ISSN": "0001-0782",
+		"issue": "4",
+		"journalAbbreviation": "Commun. ACM",
+		"page": "29-39",
+		"source": "April 1995",
+		"title": "Rich interaction in the digital library",
+		"URL": "https://doi.org/10.1145/205323.205326",
+		"volume": "38",
+		"author": [
+			{
+				"family": "Rao",
+				"given": "Ramana"
+			},
+			{
+				"family": "Pedersen",
+				"given": "Jan O."
+			},
+			{
+				"family": "Hearst",
+				"given": "Marti A."
+			},
+			{
+				"family": "Mackinlay",
+				"given": "Jock D."
+			},
+			{
+				"family": "Card",
+				"given": "Stuart K."
+			},
+			{
+				"family": "Masinter",
+				"given": "Larry"
+			},
+			{
+				"family": "Halvorsen",
+				"given": "Per-Kristian"
+			},
+			{
+				"family": "Robertson",
+				"given": "George C."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					25
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1995",
+					4,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/48ESB5WE",
+		"type": "book",
+		"abstract": "LISP, as a language, has been around for about 25 years [mcca78]. It was originally developed to support artificial intelligence (AI) research. At first, it seemed\nto be little noticed except by a small band of academics who implemented some\nof the early LISP interpreters and wrote some of the early AI programs. In the\nearly 60’s, LISP began to diverge as various implementations were developed for\ndifferent machines. McCarthy [mcca78] gives a short history of its early days.",
+		"event-place": "Canada",
+		"language": "eng",
+		"number-of-pages": "1181",
+		"publisher": "A Wiley-lnterscience Publication JOHN WILEY & SONS",
+		"publisher-place": "Canada",
+		"source": "Internet Archive",
+		"title": "INTERLISP The Language And Its Usage",
+		"URL": "https://interlisp.org/docs/Interlisp-language-usage-sk.pdf",
+		"author": [
+			{
+				"literal": "Stephen H. Kaisler"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					25
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1986"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/4EDHAKDB",
+		"type": "paper-conference",
+		"abstract": "We describe the local optimization phase of a compiler for translating the INTERLISP dialect of LISP into stack-architecture (0-address) instruction sets. We discuss the general organization of the compiler, and then describe the set of optimization techniques found most useful, based on empirical results gathered by compiling a large set of programs. The compiler and optimization phase are machine independent, in that they generate a stream of instructions for an abstract stack machine, which an assembler subsequently turns into the actual machine instructions. The compiler has been in successful use for several years, producing code for two different instruction sets.",
+		"collection-title": "LFP '80",
+		"container-title": "Proceedings of the 1980 ACM conference on LISP and functional programming",
+		"DOI": "10.1145/800087.802810",
+		"event-place": "New York, NY, USA",
+		"ISBN": "978-1-4503-7396-8",
+		"page": "223–230",
+		"publisher": "Association for Computing Machinery",
+		"publisher-place": "New York, NY, USA",
+		"source": "ACM Digital Library",
+		"title": "Local optimization in a compiler for stack-based Lisp machines",
+		"URL": "https://doi.org/10.1145/800087.802810",
+		"author": [
+			{
+				"family": "Masinter",
+				"given": "Larry M."
+			},
+			{
+				"family": "Deutsch",
+				"given": "L. Peter"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					26
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1980",
+					8,
+					25
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/TEHSJNIS",
+		"type": "motion_picture",
+		"abstract": "This clip looks at two examples of larger tutorial--CAI systems that were developed by the Ontario Institute for Studies and Education, and Xerox's PARC.\n\nIt is from Episode 7 of the classic 1983 television series, Bits and Bytes, which starred Luba Goy and Billy Van.  It was produced by TVOntario, but is no longer available for purchase.",
+		"dimensions": "5:42",
+		"source": "YouTube",
+		"title": "Computer-Assisted Instruction (Bits and Bytes, Episode 7)",
+		"URL": "https://www.youtube.com/watch?v=eURtTV_qKw8&t=147s",
+		"author": [
+			{
+				"literal": "PBS NewsHour"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2012",
+					5,
+					19
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/4CCTNX5G",
+		"type": "motion_picture",
+		"abstract": "Reuploaded from: \nhttp://people.csail.mit.edu/riastradh...​\n\nThanks to \"lispm\" on reddit for all the info: \nhttps://www.reddit.com/r/lisp/comment...​\n\nFrom what I understand SEdit was developed later than DEdit. SEdit is documented first in the 1987 Lyric release of Interlisp-D, see Appendix B:\nhttp://bitsavers.trailing-edge.com/pd...​\nSEdit is expanded in the virtual machine version of Interlisp-D, called Medley. See the Medley 1.0 release notes, appendix B:\nhttp://bitsavers.trailing-edge.com/pd...​\nSome hints for using SEdit\nhttp://bitsavers.trailing-edge.com/pd...​\nIf you want to try it out, maybe this contains the editors:\nhttp://www2.parc.com/isl/groups/nltt/...​",
+		"dimensions": "4:53",
+		"publisher": "thoughtupquick",
+		"source": "YouTube",
+		"title": "Lisp Editing in the 80s - Interlisp SEdit",
+		"URL": "https://www.youtube.com/watch?v=2qsmF8HHskg",
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					6,
+					22
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/ZE7EVJYM",
+		"type": "motion_picture",
+		"abstract": "Guy DesVignes and R. Wayne Oldford, 1988 \n \nThis video (in 3 pieces) describes the use of graphical programming with an example, showing the encapsulation of several steps of an analysis into a single reusable tool.   An INTERLISP-D programming environment with the object oriented system LOOPS is used for software development. \nWork is on a Xerox Lisp Workstation  (Xerox 1186). \n \nFirst of 3 pieces of a single video. \n \nFirst piece: Graphical Programming (1988) - Part 0 \n       Contains: \n        \"Opening\"   \n            -  Introduction by a young Wayne Oldford   \n               (refers to earlier video called \"Data Analysis Networks \n                in DINDE\")  \n       \"Part 0 Statistical Analysis Maps\" \n            - review of the interactive data analysis network representation  \n              of a statistical analysis. \n \nSecond piece:  Graphical Programming (1988) - Parts 1 and 2 \n       Contains: \n        \"Part 1   Toolboxes\"   \n            -  Review of the elements of a statistical toolbox in DINDE  \n       \"Part 2 The Analysis Path\" \n            - Demonstrates exploration of a path in an existing \n              analysis map and its representation as a pattern, \n              It is shown how to capture this pattern in DINDE as a new \n             new program represented as an \"AnalysisPath\" object.. \n              This is what is meant by  \"graphical programming\". \n \n \nThird piece: \"Graphical Programming (1988) - Part 3\" \n       Contains: \n        \"Part 3   Graphical Programming \n                        Example: Added Variable Plots\"   \n            - Demonstrates graphical programming by constructing \n              an added variable plot.  This is done by constructing the \n              appropriate analysis path on some data, capturing the pattern \n              adding it to the toolbox and then applying it to new data. \n \n        \"Summary\" \n \n \nSound has been cleaned up a little. \nComplete video also available in whole at  \n        stat-graphics.org/movies/graphical-programming.html",
+		"dimensions": "6:28",
+		"publisher": "Xerox Lisp Workstation",
+		"source": "YouTube",
+		"title": "Graphical Programming (1988) - Part 0",
+		"URL": "https://www.youtube.com/watch?v=J4F6ioMKiqw&t=53s",
+		"author": [
+			{
+				"family": "Oldford",
+				"given": "Wayne"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2012",
+					2,
+					16
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/FJ2M3GNL",
+		"type": "motion_picture",
+		"abstract": "Guy DesVignes and R. Wayne Oldford, 1988 \n \nThis video (in 3 pieces) describes the use of graphical programming with an example, showing the encapsulation of several steps of an analysis into a single reusable tool.   An INTERLISP-D programming environment with the object oriented system LOOPS is used for software development. \nWork is on a Xerox Lisp Workstation  (Xerox 1186). \n \nSecond of 3 pieces of a single video. \n \nFirst piece: Graphical Programming (1988) - Part 0 \n       Contains: \n        \"Opening\"   \n            -  Introduction by Wayne Oldford   \n               (refers to earlier video called \"Data Analysis Networks \n                in DINDE\")  \n       \"Part 0 Statistical Analysis Maps\" \n            - review of the interactive data analysis network representation  \n              of a statistical analysis. \n \nSecond piece:  Graphical Programming (1988) - Parts 1 and 2 \n       Contains: \n        \"Part 1   Toolboxes\"   \n            -  Review of the elements of a statistical toolbox in DINDE  \n       \"Part 2 The Analysis Path\" \n            - Demonstrates exploration of a path in an existing \n              analysis map and its representation as a pattern, \n              It is shown how to capture this pattern in DINDE as a new \n             new program represented as an \"AnalysisPath\" object.. \n              This is what is meant by  \"graphical programming\". \n \n \nThird piece: \"Graphical Programming (1988) - Part 3\" \n       Contains: \n        \"Part 3   Graphical Programming \n                        Example: Added Variable Plots\"   \n            - Demonstrates graphical programming by constructing \n              an added variable plot.  This is done by constructing the \n              appropriate analysis path on some data, capturing the pattern \n              adding it to the toolbox and then applying it to new data. \n \n        \"Summary\" \n \n \nSound has been cleaned up a little. \nComplete video also available in whole at  \n        stat-graphics.org/movies/graphical-programming.html",
+		"dimensions": "11:18",
+		"publisher": "Xerox Lisp Workstation",
+		"source": "YouTube",
+		"title": "Graphical Programming (1988) - Parts 1 and 2",
+		"URL": "https://www.youtube.com/watch?v=wlN0hHLZL8c",
+		"author": [
+			{
+				"family": "Oldford",
+				"given": "Wayne"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2012",
+					2,
+					17
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/ITWWEVAK",
+		"type": "motion_picture",
+		"abstract": "The Information Lens\nThomas Malone (MIT)\n\nCHI+GI '87 Technical Video Program\n\nAbstract\nAn intelligent system for information sharing and coordination (subtitle from the video)\n\nWEB:: http://www.cs.umd.edu/hcil/chivideosl...​\n\nPublished in two videotapes: issue 27, and issue 33-34 of ACM SIGGRAPH Video Review (issue 27 appeared in same tape as issue 26, i.e. the CHI '87 Electronic Theater).\nVideo Chair: Richard J. Beach (Xerox PARC)\nLocation: Toronto, Canada",
+		"dimensions": "15:24",
+		"event-place": "Toronto, Canada",
+		"publisher": "ACM SIGCHI",
+		"publisher-place": "Toronto, Canada",
+		"source": "YouTube",
+		"title": "The Information Lens",
+		"URL": "https://www.youtube.com/watch?v=o7P0cM5VqKc",
+		"author": [
+			{
+				"literal": "PBS NewsHour"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					1,
+					13
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/W96JCCYH",
+		"type": "paper-conference",
+		"abstract": "DED is a display-oriented editor that was designed to add the power and convenience of display terminals to INTERLISPs teletype-oriented structure editor. DED divides the display screen into a Prettypnnt Region and an Interaction Region. The Prettypnnt Region gives a prettyprinted view of the structure being edited; the Interaction Region contains the interaction between the user and INTERLISPs standard editor. DEDs prettyprinter allows ellision, and the user may zoom in or out to see the expression being edited with more or less detail. There are several arrow keys which allow the user to change quite easily the locus of attention in certain structural ways, as well as a menu-like facility for common command sequences. Together, these features provide a display-facility that considerably augments INTERLISPs otherwise quite sophisticated user interface.",
+		"collection-title": "IJCAI'81",
+		"container-title": "Proceedings of the 7th international joint conference on Artificial intelligence - Volume 2",
+		"event-place": "San Francisco, CA, USA",
+		"page": "927–929",
+		"publisher": "Morgan Kaufmann Publishers Inc.",
+		"publisher-place": "San Francisco, CA, USA",
+		"source": "ACM Digital Library",
+		"title": "Overview of a display-oriented editor for INTERLISP",
+		"URL": "https://dl.acm.org/doi/abs/10.5555/1623264.1623329",
+		"author": [
+			{
+				"family": "Barstow",
+				"given": "David R."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					4
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1981",
+					8,
+					24
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/7T3AV4PM",
+		"type": "article-journal",
+		"abstract": "Integration, extensibility, and ease of modification made Interlisp unique and powerful. Its adaptations will enhance the power of the coming world of personal computing and advanced displays.",
+		"container-title": "Computer",
+		"DOI": "10.1109/C-M.1981.220410",
+		"ISSN": "0018-9162",
+		"issue": "04",
+		"language": "English",
+		"note": "publisher: IEEE Computer Society",
+		"page": "25-33",
+		"source": "www.computer.org",
+		"title": "The Interlisp Programming Environment",
+		"URL": "https://www.computer.org/csdl/magazine/co/1981/04/01667317/13rRUyv53Ic",
+		"volume": "14",
+		"author": [
+			{
+				"family": "Teitelman",
+				"given": "W."
+			},
+			{
+				"family": "Masinter",
+				"given": "L."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					5
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1981",
+					4,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/MJP8UYEV",
+		"type": "motion_picture",
+		"abstract": "In 1983 the Knowledge Systems Area at Xerox PARC taught experimental courses on knowledge programming. The Truckin' knowledge competition was the final exam at the end of a one week course. Students programmed their trucks to compete in Truckin' simulation world -- buying and selling goods, getting gas as needed, avoiding bandits, and so on. All of the trucks competed in the final. The winner was the truck with the most cash parked nearest Alice's Restaurant. See www.markstefik.com/?page_id=359",
+		"dimensions": "2:28",
+		"source": "YouTube",
+		"title": "Truckin Knowledge Competition (1983)",
+		"URL": "https://www.youtube.com/watch?v=Pt-Sv1ynGKc",
+		"author": [
+			{
+				"literal": "Mark Stefik"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					17
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2011",
+					4,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/PUPZYPIV",
+		"type": "motion_picture",
+		"abstract": "The Colab project at PARC was an experiment in creating an electronic meeting room. This project developed multi-user interfaces, telepointers, and other innovations at the time. This movie shows the Cognoter tool which was a multi-user brainstorming tool used for collaborative development of an outline for a paper. See /www.markstefik.com/?page_id=155\"",
+		"dimensions": "3:23",
+		"source": "YouTube",
+		"title": "The Colab Movie (1987)",
+		"title-short": "The Colab Movie",
+		"URL": "https://www.youtube.com/watch?v=iPZTOosKjAE",
+		"author": [
+			{
+				"literal": "Mark Stefik"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					17
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2011",
+					4,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/FW3Z9TSW",
+		"type": "report",
+		"abstract": "This report describes the file system for the experimental large file management support system currently being implemented at SRI. INTERLISP, an interactive, development-oriented computer programming system, has been augmented to support applications requiring large data bases maintained on secondary store.  The data base support programs are separated into two levels  an advanced file system and relational data base management procedures. The file system allows programmers to make full use of the capabilities of on-line random access devices using problem related symbolic primitives rather than page and word numbers.  It also performs several useful data storage functions such as data compression, sequencing, and generation of symbols which are unique for a file.",
+		"language": "en",
+		"note": "section: Technical Reports",
+		"publisher": "STANFORD RESEARCH INST MENLO PARK CALIF",
+		"source": "apps.dtic.mil",
+		"title": "An Interlisp Relational Data Base System.",
+		"URL": "https://apps.dtic.mil/sti/citations/ADA018962",
+		"author": [
+			{
+				"family": "Weyl",
+				"given": "Stephen"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					29
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1975",
+					11,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/NPV6XFQB",
+		"type": "report",
+		"abstract": "A preliminary version of QL1SP is described. QLISP permits free intermingling of QA4-like constructs with INTERLISP code. The preliminary version contains features similar to those of QA4 except for the backtracking of control environments. It provides several new features as well. This preliminary manual presumes a familiarity with both INTERL1SPand the basic concepts of QA4. It is intended to update rather than replace the existing documentation of QA4.",
+		"language": "en",
+		"note": "section: Technical Reports",
+		"page": "38",
+		"publisher": "Stanford Research Institute Menlo Park United States",
+		"source": "apps.dtic.mil",
+		"title": "A Preliminary QLISP Manual",
+		"URL": "https://apps.dtic.mil/sti/citations/AD1015722",
+		"author": [
+			{
+				"family": "Reboh",
+				"given": "Rene"
+			},
+			{
+				"family": "Sacerdoti",
+				"given": "Earl"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					29
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1973",
+					8,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/QXZFUW4U",
+		"type": "article-journal",
+		"abstract": "This paper presents the design of an Interlisp system running on a microprogrammed minicomputer. We discuss the constraints imposed by compatibility requirements and by the hardware, the important design decisions, and the most prominent successes and failures of our design, and offer some suggestions for future designers of small Lisp systems. This extended abstract contains only qualitative results. Supporting measurement data will be presented at MICRO-11.",
+		"container-title": "ACM SIGMICRO Newsletter",
+		"DOI": "10.1145/1014198.804321",
+		"ISSN": "1050-916X",
+		"issue": "4",
+		"journalAbbreviation": "SIGMICRO Newsl.",
+		"page": "128–129",
+		"source": "Dec. 1978",
+		"title": "Experience with a microprogrammed Interlisp system",
+		"URL": "https://doi.org/10.1145/1014198.804321",
+		"volume": "9",
+		"author": [
+			{
+				"family": "Deutsch",
+				"given": "L. Peter"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					31
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1978",
+					11,
+					19
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/8SMP58AA",
+		"type": "paper-conference",
+		"abstract": "This paper describes in detail the most interesting aspects of ByteLisp, a transportable Lisp system architecture which implements the Interlisp dialect of Lisp, and its first implementation, on a microprogrammed minicomputer called the Alto. Two forthcoming related papers will deal with general questions of Lisp machine and system architecture, and detailed measurements of the Alto ByteLisp system described here. A highly condensed summary of the series was published at MICRO-11 in November 197815.",
+		"collection-title": "LFP '80",
+		"container-title": "Proceedings of the 1980 ACM conference on LISP and functional programming",
+		"DOI": "10.1145/800087.802811",
+		"event-place": "New York, NY, USA",
+		"ISBN": "978-1-4503-7396-8",
+		"page": "231–242",
+		"publisher": "Association for Computing Machinery",
+		"publisher-place": "New York, NY, USA",
+		"source": "ACM Digital Library",
+		"title": "ByteLisp and its Alto implementation",
+		"URL": "https://doi.org/10.1145/800087.802811",
+		"author": [
+			{
+				"family": "Deutsch",
+				"given": "L. Peter"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					31
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1980",
+					8,
+					25
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/MSBZ5IMI",
+		"type": "article",
+		"abstract": "Interlisp began with an implementation of the Lisp programming language for the PDP-1 at Bolt. Beranek and Newman in 1966. It was followed in 1967 by 940 Lisp, an upward compatible implementation for\nthe SDS-940 computer. 940 Lisp was the first Lisp system to demonstrate the feasibility of using software paging techniques and a large vinual memory in conjunction with a list-processing system [Bobrow & ( -----\\\n) Murphy, 1967]. 940 Lisp was patterned after the Lisp 1.5 ~plementation for CTSS at MIT, with several' ) 1ew facilities added to take advantage of its timeshared. on-line environment. DWIM, the Do-What+\nMean error correction facility, was introduced into this system in 1968 by Warren Teitelman [Teitelman. 1969].",
+		"language": "English",
+		"note": "OCLC: 802551877",
+		"publisher": "Xerox Corporation",
+		"source": "Open WorldCat",
+		"title": "Interlisp reference manual",
+		"title-short": "Interlisp reference manual",
+		"URL": "https://larrymasinter.net/86-interlisp-manual-opt.pdf",
+		"author": [
+			{
+				"literal": "Xerox"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1983",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/L378BFRQ",
+		"type": "book",
+		"event-place": "Palo Alto Research Center, Pasadena, Calif.",
+		"language": "English",
+		"note": "OCLC: 11098633",
+		"publisher": "Xerox Corp.",
+		"publisher-place": "Palo Alto Research Center, Pasadena, Calif.",
+		"source": "Open WorldCat",
+		"title": "Interlisp reference manual: Revised",
+		"author": [
+			{
+				"literal": "Michael Sannella"
+			},
+			{
+				"literal": "Xerox"
+			},
+			{
+				"literal": "Palo Alto Research Center"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1983"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/JP52RFKS",
+		"type": "report",
+		"event-place": "Palo Alto",
+		"language": "eng",
+		"page": "2",
+		"publisher": "PARC/CSL",
+		"publisher-place": "Palo Alto",
+		"source": "Internet Archive",
+		"title": "Status Report on Alto Lisp",
+		"title-short": "xerox",
+		"URL": "http://www.bitsavers.org/pdf/xerox/alto/memos_1975/Status_Report_on_Alto_Lisp_May75.pdf",
+		"author": [
+			{
+				"family": "Deutsch",
+				"given": "P."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					31
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1975",
+					5,
+					14
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/NQXP9QH8",
+		"type": "paper-conference",
+		"abstract": "This paper presents a machine designed for compact representation and rapid execution of LISP programs. The machine language is a factor of 2 to 5 more compact than S-expressions or conventional compiled code, and the compiler is extremely simple. The encoding scheme is potentially applicable to data as well as program. The machine also provides for user-defined data structures.",
+		"collection-title": "IJCAI'73",
+		"container-title": "Proceedings of the 3rd international joint conference on Artificial intelligence",
+		"event-place": "San Francisco, CA, USA",
+		"page": "697–703",
+		"publisher": "Morgan Kaufmann Publishers Inc.",
+		"publisher-place": "San Francisco, CA, USA",
+		"source": "ACM Digital Library",
+		"title": "A LISP machine with very compact programs",
+		"URL": "https://dl.acm.org/doi/abs/10.5555/1624775.1624860",
+		"author": [
+			{
+				"family": "Deutsch",
+				"given": "L. Peter"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					31
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1973",
+					8,
+					20
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/JEW9IHTC",
+		"type": "article",
+		"language": "English",
+		"publisher": "Xerox Palo Alto Research Center",
+		"title": "INSIDE INTERLISP: TWO IMPLEMENTATIONS",
+		"author": [
+			{
+				"family": "Deutsch",
+				"given": "L. Peter"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1978",
+					11,
+					26
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/25TEJPHA",
+		"type": "article",
+		"abstract": "The Xerox Common Lisp Implementation Notes cover several aspects of the Lyric release. In these notes you will find:\n• An explanation of how Xerox Common Lisp extends the Common Lisp standard. For example, in Xerox Common Lisp the Common Lisp array-constructing function make-array has additional keyword\narguments that enhance its functionality.\n• An explanation of how several ambiguities in Steele's Common Lisp: the Language were\nresolved.\n• A description of additional features that provide far more than extensions to Common Lisp.",
+		"language": "English",
+		"publisher": "XEROX",
+		"title": "XEROX COMMON LISP IMPLEMENTATION NOTES",
+		"title-short": "IMPLEMENTATION NOTES",
+		"URL": "http://www.bitsavers.org/pdf/xerox/interlisp-d/198706_Lyric/3102464_Lyric_Common_Lisp_Implementation_Notes_Jun87.pdf",
+		"author": [
+			{
+				"literal": "Anonymous"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1987",
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/YEUXRBGZ",
+		"type": "article",
+		"language": "en",
+		"publisher": "Xerox Corporation",
+		"title": "Artificial Intelligence Systems, Interlisp-D: A Friendly Primer",
+		"URL": "http://www.bitsavers.org/pdf/xerox/interlisp-d/198510_Koto/3102300_Interlisp-D_A_Friendly_Primer_Nov86.pdf",
+		"author": [
+			{
+				"literal": "Xerox"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					4,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1986",
+					11
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/YC65PT77",
+		"type": "article",
+		"abstract": "The Koto release of Interlisp-D provides a wide range of added functionality, increased performance and improved reliability Central among these is that Koto is the first release of Interlisp that supports the new Xerox 1185i1186 artificial i nteil igence work stations, including the new features of these work stations such as the expanded 19\" display and the PC emulation option. Of course, like previous releases of Interlisp, Koto also supports the other current members of the 1100 series of machines, specifically the 1132 and various models of the 1108.",
+		"language": "English",
+		"publisher": "Xerox Corporation",
+		"title": "INTERLISP-D RELEASE NOTES",
+		"URL": "http://www.bitsavers.org/pdf/xerox/interlisp-d/198706_Lyric/3102464_Lyric_Common_Lisp_Implementation_Notes_Jun87.pdf",
+		"author": [
+			{
+				"literal": "Anonymous"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1985",
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/DXD65IKD",
+		"type": "book",
+		"event-place": "S.l.",
+		"language": "English",
+		"note": "OCLC: 802551877",
+		"number-of-pages": "296",
+		"publisher": "Xerox Corporation",
+		"publisher-place": "S.l.",
+		"source": "Open WorldCat",
+		"title": "Interlisp-D Reference Manual, Volume I: Language",
+		"title-short": "Volume I: Language",
+		"URL": "http://www.bitsavers.org/pdf/xerox/interlisp-d/198510_Koto/3101272_Interlisp-D_Vol_1_Language_Oct85.pdf",
+		"volume": "1",
+		"editor": [
+			{
+				"family": "Sannella",
+				"given": "Michael"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1985",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/PUQ8EKTK",
+		"type": "book",
+		"event-place": "S.l.",
+		"language": "English",
+		"note": "OCLC: 802551877",
+		"number-of-pages": "436",
+		"publisher": "Xerox Corporation",
+		"publisher-place": "S.l.",
+		"source": "Open WorldCat",
+		"title": "Interlisp-D Reference Manual, Volume II: Environment",
+		"title-short": "Volume II: Environment",
+		"URL": "http://www.bitsavers.org/pdf/xerox/interlisp-d/198510_Koto/3101273_Interlisp-D_Vol_2_Environment_Oct85.pdf",
+		"volume": "2",
+		"editor": [
+			{
+				"family": "Sannella",
+				"given": "Michael"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1985",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/6D2EJDZD",
+		"type": "book",
+		"event-place": "S.l.",
+		"language": "English",
+		"note": "OCLC: 802551877",
+		"number-of-pages": "388",
+		"publisher": "Xerox Corporation",
+		"publisher-place": "S.l.",
+		"source": "Open WorldCat",
+		"title": "Interlisp-D Reference Manual, Volume III: Input/Output",
+		"title-short": "Volume III: Input/Output",
+		"URL": "http://www.bitsavers.org/pdf/xerox/interlisp-d/198510_Koto/3101274_Interlisp-D_Vol_3_Input_Output_Oct85.pdf",
+		"volume": "3",
+		"editor": [
+			{
+				"family": "Sannella",
+				"given": "Michael"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1985",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/3H5F6TBA",
+		"type": "paper-conference",
+		"abstract": "This paper continues and extends previous work by the author in developing systems which provide the user with various forms of explicit and implicit assistance, and in general cooperate with the user in the development of his programs. The system described in this paper makes extensive use of a bit map display and pointing device (a mouse) to significantly enrich the user's interactions with the system, and to provide capabilities not possible with terminals that essentially emulate hard copy devices. For example, any text that is displayed on the screen can be pointed at and treated as input, exactly as though it were typed, i.e., the user can say use this expression or that value, and then simply point. The user views his programming environment through a collection of display windows, each of which corresponds to a different task or context. The user can manipulate the windows, or the contents of a particular window, by a combination of keyboard inputs or pointing operations. The technique of using different windows for different tasks makes it easy for the user to manage several simultaneous tasks and contexts, e.g., defining programs, testing programs, editing, asking the system for assistance, sending and receiving messages, etc and to switch back and forth between these tasks at his convenience.",
+		"collection-title": "IJCAI'77",
+		"container-title": "Proceedings of the 5th international joint conference on Artificial intelligence - Volume 2",
+		"event-place": "San Francisco, CA, USA",
+		"page": "905–915",
+		"publisher": "Morgan Kaufmann Publishers Inc.",
+		"publisher-place": "San Francisco, CA, USA",
+		"source": "ACM Digital Library",
+		"title": "A display oriented programmer's assistant",
+		"URL": "https://dl.acm.org/doi/10.5555/1622943.1623025",
+		"author": [
+			{
+				"family": "Teitelman",
+				"given": "Warren"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					31
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1977",
+					8,
+					22
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/IZ6P44N3",
+		"type": "article-journal",
+		"abstract": "This paper continues and extends previous work by the author in developing systems which provide the user with various forms of explicit and implicit assistance, and in general co-operate with the user in the development of his programs. The system described in this paper makes extensive use of a bit map display and pointing device (a mouse) to significantly enrich the user's interactions with the system, and to provide capabilities not possible with terminals that essentially emulate hard copy devices. For example, any text that is displayed on the screen can be pointed at and treated as input, exactly as though it were typed, i.e. the user can say use this expression or that value, and then simply point. The user views his programming environment through a collection of display windows, each of which corresponds to a different task or context. The user can manipulate the windows, or the contents of a particular window, by a combination of keyboard inputs or pointing operations. The technique of using different windows for different tasks makes it easy for the user to manage several simultaneous tasks and contexts, e.g. defining programs, testing programs, editing, asking the system for assistance, sending and receiving messages, etc. and to switch back and forth between these tasks at his convenience.",
+		"container-title": "International Journal of Man-Machine Studies",
+		"DOI": "10.1016/S0020-7373(79)80015-2",
+		"ISSN": "0020-7373",
+		"issue": "2",
+		"journalAbbreviation": "International Journal of Man-Machine Studies",
+		"language": "en",
+		"page": "157-187",
+		"source": "ScienceDirect",
+		"title": "A display oriented programmer's assistant",
+		"URL": "https://www.sciencedirect.com/science/article/pii/S0020737379800152",
+		"volume": "11",
+		"author": [
+			{
+				"family": "Teitelman",
+				"given": "Warren"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					31
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1979",
+					3,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/VCQ8JN33",
+		"type": "article-journal",
+		"abstract": "This paper gives a tutorial introduction to INTERLISP/360-370, a subset of INTERLISP, which can be implemented on IBM/360 and\nsimilar systems. oe·scriptions of a large number of functions in INTERLISP with numerous examples, exercises and solutions are contained. The use of edit, break, advice, file handling and compiler are given and both interactive and batch use of the system is taken care of.",
+		"container-title": "Oatalogi1aboratoriet, Sturegatan 1. S-752 23 Uppsala, -Sweden",
+		"ISSN": "9150600346",
+		"language": "English",
+		"page": "217",
+		"title": "LISP-details INTERLlSP / 360 - 370",
+		"URL": "http://www.softwarepreservation.org/projects/LISP/uppsala/Haraldson-LISP_details.pdf",
+		"author": [
+			{
+				"literal": "Anders Haraidson"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1975"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/QBBQSH3V",
+		"type": "article-journal",
+		"abstract": "Clisp is an attempt to make Lisp programs easier to read and write by extending the syntax of Lisp to include infix operators, IF-THEN statements, FOR-DO-WHILE statements, and similar Algol-like constructs, without changing the structure or representation of the language. Clisp is implemented through Lisp's error handling machinery, rather than by modifying the interpreter. When an expression is encountered whose evaluation causes an error, the expression is scanned for possible Clisp constructs, which are then converted to the equivalent Lisp expressions. Thus, users can freely intermix Lisp and Clisp without ut having to distinguish which is which. Emphasis in the design and development of Clisp has been on the system aspects of such a facility, with the goal of producing a useful tool, not just another language. To this end, Clisp includes interactive error correction and many \"do-what-I-mean\" features.",
+		"container-title": "IEEE Transactions on Computers",
+		"DOI": "10.1109/TC.1976.1674617",
+		"ISSN": "0018-9340",
+		"issue": "4",
+		"note": "event: IEEE Transactions on Computers",
+		"page": "354-357",
+		"source": "IEEE Xplore",
+		"title": "Clisp: Conversational Lisp",
+		"title-short": "Clisp",
+		"URL": "http://www.softwarepreservation.org/projects/LISP/interlisp/Teitelman-3IJCAI.pdf/view",
+		"volume": "C-25",
+		"author": [
+			{
+				"family": "Teitelman",
+				"given": "Warren"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1976",
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/QWKIX8DW",
+		"type": "paper-conference",
+		"abstract": "This paper describes a research effort and programming system designed to facilitate the production of programs. Unlike automated programming, which focuses on developing systems that write programs, automated programmering involves developing systems which automate (or at least greatly facilitate) those tasks that a programmer performs other than writing programs: e.g., repairing syntactical errors to get programs to run in the first place, generating test cases, making tentative changes, retesting, undoing changes, reconfiguring, massive edits, et al., plus repairing and recovering from mistakes made during the above. When the system in which the programmer is operating is cooperative and helpful with respect to these activities, the programmer can devote more time and energy to the task of programming itself, i.e., to conceptualizing, designing and implementing. Consequently, he can be more ambitious, and more productive.",
+		"collection-title": "AFIPS '72 (Fall, part II)",
+		"container-title": "Proceedings of the December 5-7, 1972, fall joint computer conference, part II",
+		"DOI": "10.1145/1480083.1480119",
+		"event-place": "New York, NY, USA",
+		"ISBN": "978-1-4503-7913-7",
+		"page": "917–921",
+		"publisher": "Association for Computing Machinery",
+		"publisher-place": "New York, NY, USA",
+		"source": "ACM Digital Library",
+		"title": "Automated programmering: the programmer's assistant",
+		"title-short": "Automated programmering",
+		"URL": "https://doi.org/10.1145/1480083.1480119",
+		"author": [
+			{
+				"family": "Teitelman",
+				"given": "Warren"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					31
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1972",
+					12,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/Y73ECKA4",
+		"type": "article-journal",
+		"container-title": "IEEE Intelligent Systems",
+		"DOI": "10.1109/MEX.1987.4307102",
+		"ISSN": "1541-1672",
+		"issue": "03",
+		"language": "English",
+		"note": "publisher: IEEE Computer Society",
+		"page": "94-94",
+		"source": "www.computer.org",
+		"title": "Interlisp: The Language and Its Usage",
+		"title-short": "Interlisp",
+		"URL": "https://www.computer.org/csdl/magazine/ex/1987/03/04307102/1e7uj6wTMVG",
+		"volume": "2",
+		"author": [
+			{
+				"family": "Kaisler",
+				"given": "Stephen H."
+			},
+			{
+				"family": "Gladwin",
+				"given": "Lee A."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					31
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1987",
+					7,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/59BVIIF8",
+		"type": "report",
+		"abstract": "The INTERLISP Virtual Machine is the environment in which the INTERLISP System is implemented. It includes such abstract objects as ~Literal Atom s~. List CelIs~, ‘Integers. etc.. the basic LISP functions for manipulating them, the underlying program control, and variable binding mechanisms. the input/output facilities, and interrupt processing facilities. In order to implement the INTERLISP System (as described in The INTERLISP Reference Manual by W. Teitelman. et. al.) on some physical machine, it is only necessary to implement the INTERLISP Virtual Machine. since Virtual Machine compatible source code for the rest of the INTERLISP System can be obtained from publicly available files. This document specifies the behavior of the INTERLISP Virtual Machine from the implementor s point of view. That is. it is an attempt to make explicit those things that must be implemented to allow the INTERLISP System to run on some machine.",
+		"page": "126",
+		"source": "CiteSeer",
+		"title": "The INTERLISP Virtual Machine Specification: Revised",
+		"author": [
+			{
+				"family": "Moore",
+				"given": "J. Strother"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1979",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/K4LSMPDE",
+		"type": "article",
+		"abstract": "Several conflicting goal must be resolved in deciding on a set of display facilities for Lisp: ease of lisp, efficient access to hardware facilities, and device and system independence. Thiss memo suggests a set of facilities constructed in two layers: a lower layer that gives direct access to the Alto\nbitmap capability, while retaining Lisp's tradition of freeing the programmer\nfrom  storage allocation worries and an upper Iayer that uses the lower (on the Alto) or a character-stream protocol (for VTS t on MAXC) to provide for writing strings, scrolling, edting, etc. on the screen,",
+		"publisher": "Palo Alto Research Center, Xerox Corporation",
+		"title": "Display primitives in Lisp",
+		"author": [
+			{
+				"family": "Deutsch",
+				"given": "P."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1974",
+					11,
+					18
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/RTRAYUTG",
+		"type": "article",
+		"language": "English",
+		"title": "930 LISP Reference Manual",
+		"URL": "http://bitsavers.org/pdf/sds/9xx/940/ucbProjectGenie/30.50.40_930_LISP_Reference_Feb66.pdf",
+		"author": [
+			{
+				"family": "Deutsch",
+				"given": "L. Peter"
+			},
+			{
+				"family": "Lampson",
+				"given": "Butler W."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1965",
+					6,
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/6M8ISEUL",
+		"type": "article",
+		"language": "English",
+		"title": "Preliminary Specification for BBN 940 LISP",
+		"URL": "http://www.softwarepreservation.org/projects/LISP/bbnlisp/BBN940LispPrelimSpec_Oct1966.pdf",
+		"author": [
+			{
+				"literal": "Daniel G. Bobrow"
+			},
+			{
+				"literal": "Daniel L. Murphy"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1966",
+					10,
+					13
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/LQQWKMEZ",
+		"type": "paper-conference",
+		"abstract": "This article describes a notation and a programming language for expressing, from within a LISP system, string transformations such as those performed in COMIT or SNOBOL. A simple transformation (or transformation rule) is specified by providing a pattern which must match the structure to be transformed and a format which specifies how to construct a new structure according to the segmentation specified by the pattern. The patterns and formats are greatly generalized versions of the left-half and right-half rules of COMIT and SNOBOL. For example, elementary patterns and formats can be variable names, results of computations, disjunctive sets, or repeating subpatterns; predicates can be associated with elementary patterns which check relationships among separated elements of the match; it is no longer necessary to restrict the operations to linear strings since elementary patterns can themselves match structures. The FLIP language has been implemented in LISP 1.5, and has been successfully used in such disparate tasks as editing LISP functions and parsing Kleene regular expressions.",
+		"collection-title": "SYMSAC '66",
+		"container-title": "Proceedings of the first ACM symposium on Symbolic and algebraic manipulation",
+		"DOI": "10.1145/800005.807968",
+		"event-place": "New York, NY, USA",
+		"ISBN": "978-1-4503-7371-5",
+		"page": "0301–0329",
+		"publisher": "Association for Computing Machinery",
+		"publisher-place": "New York, NY, USA",
+		"source": "ACM Digital Library",
+		"title": "Format-directed list processing in LISP",
+		"URL": "https://doi.org/10.1145/800005.807968",
+		"author": [
+			{
+				"family": "Bobrow",
+				"given": "Daniel G."
+			},
+			{
+				"family": "Teitelman",
+				"given": "Warren"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					5,
+					31
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1966",
+					1,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/ZK7MFMNE",
+		"type": "article",
+		"abstract": "The editor described here is implemented within the PDP-l and SDS 940 time-sharing LISP systems, but can be used with minor changes within any LISP system which includes the capabilities of LISP 1.5. It was begun by the author in 1965 and later extended by Bobrow and Teitelman at BBN.",
+		"title": "Preliminary Guide to the LISP Editor",
+		"URL": "http://www.softwarepreservation.org/projects/LISP/bbnlisp/W-21_LISP_Editor_Apr67.pdf/view",
+		"author": [
+			{
+				"family": "Deutsch",
+				"given": "P."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1967",
+					4,
+					18
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/PVEEX4BT",
+		"type": "report",
+		"abstract": "Conversion of the LogLispLogic programming in Lisp Artificial Intelligence programming environment from its original RutgersUCI-Lisp RUCI-Lisp implementation to an InterLisp implementation is described. This report may be useful to researchers wishing to convert LogLisp to yet another Lisp dialect, or to those wishing to convert other RUCI-Lisp programs into InterLisp. It is also intended to help users of the InterLisp version of LogLisp to understand the implementation. The conversion process is described at a level aimed toward potential translators who might benefit from approaches taken and lessons learned. General issues of conversion of Lisp software between dialects are discussed, use of InterLisps dialect translation package is described, and specific issues of non-mechanizable conversion are addressed. The latter include dialect differences in function definitions, arrays, integer arithmetic, io, interrupts, and macros. Subsequent validation, compilation, and efficiency enhancement of the InterLisp version are then described. A brief users guide to the InterLisp version and points of contact for information on LogLisp software distribution are also provided. Author",
+		"language": "en",
+		"note": "section: Technical Reports",
+		"publisher": "ROME AIR DEVELOPMENT CENTER GRIFFISS AFB NY",
+		"source": "apps.dtic.mil",
+		"title": "Notes on the Conversion of LogLisp from Rutgers/UCI-Lisp to InterLisp,",
+		"URL": "https://apps.dtic.mil/sti/citations/ADA127718",
+		"author": [
+			{
+				"family": "Schrag",
+				"given": "Robert C."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1983",
+					1,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/GCAQS8MG",
+		"type": "report",
+		"abstract": "The contract covered by this annual report includes a variety of activities and services centering around the continued growth and well-being of INTERLISP, a large, interactive system widely used in the ARPA community for developing advanced and sophisticated computer-based systems.",
+		"language": "en",
+		"note": "section: Technical Reports",
+		"publisher": "XEROX CORP PALO ALTO RESEARCH CENTER CA",
+		"source": "apps.dtic.mil",
+		"title": "Proposal for Research on Interlisp and Network-Based Systems",
+		"URL": "https://apps.dtic.mil/sti/citations/ADA033633",
+		"author": [
+			{
+				"family": "Teitelman",
+				"given": "W."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1976",
+					10,
+					26
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/BNAYT94G",
+		"type": "paper-conference",
+		"abstract": "This paper reports on recent developments of the ISI- Interlisp implementation of Interlisp on a VAX computer. ISI-Interlisp currently runs under UNIX, specifically the Berkeley VM/UNIX and VMS operating systems. Particular attention is paid to the current status of the implementation and the growing pains experienced in the last few years. Included is a discussion of the conversion from UNIX to VAX/VMS, recent modifications and improvements, current limitations, and projected goals. Since much of the recent effort has concerned performance tuning, our observations on this activity are included. ISI-Interlisp, formerly known as Interlisp-VAX, was reported in 1982 ACM Symposium on LISP and Functional Programming, August 1982 [1]. Experiences and recommendations since the 1982 LISP conference are presented.",
+		"collection-title": "LFP '84",
+		"container-title": "Proceedings of the 1984 ACM Symposium on LISP and functional programming",
+		"DOI": "10.1145/800055.802029",
+		"event-place": "New York, NY, USA",
+		"ISBN": "978-0-89791-142-3",
+		"page": "129–139",
+		"publisher": "Association for Computing Machinery",
+		"publisher-place": "New York, NY, USA",
+		"source": "ACM Digital Library",
+		"title": "Recent developments in ISI-interlisp",
+		"URL": "https://doi.org/10.1145/800055.802029",
+		"author": [
+			{
+				"family": "Bates",
+				"given": "Raymond L."
+			},
+			{
+				"family": "Dyer",
+				"given": "David"
+			},
+			{
+				"family": "Feber",
+				"given": "Mark"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1984",
+					8,
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/P5MUCJX3",
+		"type": "article-journal",
+		"abstract": "One of the major stumbling blocks to more effective used computers by naive users is the lack of natural means of communication between the user and the computer system. This report discusses a paradigm for constructing efficient and friendly man-machine interface systems involving subsets of natural language for limited domains of discourse. As such this work falls somewhere between highly constrained formal language query systems and unrestricted natural language under-standing systems. The primary purpose of this research is not to advance our theoretical under-standing of natural language but rather to put forth a set of techniques for embedding both semantic/conceptual and pragmatic information into a useful natural language interface module. Our intent has been to produce a front end system which enables the user to concentrate on his problem or task rather than making him worry about how to communicate his ideas or questions to the machine.",
+		"container-title": "ACM SIGART Bulletin",
+		"DOI": "10.1145/1045283.1045290",
+		"ISSN": "0163-5719",
+		"issue": "61",
+		"journalAbbreviation": "SIGART Bull.",
+		"language": "en",
+		"page": "26",
+		"source": "February 1977",
+		"title": "Semantic grammar: an engineering technique for constructing natural language understanding systems",
+		"title-short": "Semantic grammar",
+		"URL": "https://doi.org/10.1145/1045283.1045290",
+		"author": [
+			{
+				"family": "Burton",
+				"given": "Richard R."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1977",
+					2,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/RV6K2EVG",
+		"type": "thesis",
+		"abstract": "Abstract machine definitions have been recognized as convenient and powerful tools for enhancing software portability. One such machine, the Inter lisp Virtual Machine, is examined in this thesis. We present the Multilisp System as an implementation of the Virtual Machine and discuss some of the design criteria and difficulties encountered in mapping the Virtual Machine onto a particular environment. On the basis of our experience with Multilisp we indicate several weaknesses of the Virtual Machine which impair its adequacy as a basis for a portable Interlisp System.",
+		"language": "eng",
+		"note": "DOI: 10.14288/1.0051801",
+		"publisher": "University of British Columbia",
+		"source": "open.library.ubc.ca",
+		"title": "The interlisp virtual machine : study of its design and its implementation as multilisp",
+		"title-short": "The interlisp virtual machine",
+		"URL": "https://open.library.ubc.ca/cIRcle/collections/ubctheses/831/items/1.0051801",
+		"author": [
+			{
+				"family": "Koomen",
+				"given": "Johannes A. G. M."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1980"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/68LHCGJF",
+		"type": "book",
+		"abstract": "The final report of the Stanford Lisp Performance Study, Performance and Evaluation of Lisp Systems is the first book to present descriptions on Lisp implementation techniques actually in use. It provides performance information using the tools of benchmarking to measure the various Lisp systems, and provides an understanding of the technical tradeoffs made during the implementation of a Lisp system. The study is divided into three parts. The first provides the theoretical background, outlining the factors that go into evaluating the performance of a Lisp system. The second part presents the Lisp implementations: MacLisp, MIT CADR, LMI Lambda, S-I Lisp, Franz Lisp, MIL, Spice Lisp, Vax Common Lisp, Portable Standard Lisp, and Xerox D-Machine. A final part describes the benchmark suite that was used during the major portion of the study and the results themselves.",
+		"event-place": "USA",
+		"ISBN": "978-0-262-07093-5",
+		"number-of-pages": "285",
+		"publisher": "Massachusetts Institute of Technology",
+		"publisher-place": "USA",
+		"source": "ACM Digital Library",
+		"title": "Performance and evaluation of LISP systems",
+		"URL": "https://dreamsongs.com/Files/Timrep.pdf",
+		"author": [
+			{
+				"family": "Gabriel",
+				"given": "Richard P."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1985",
+					1,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/3QK929A2",
+		"type": "chapter",
+		"abstract": "This chapter discusses the power tools for programmers. Essentially, all of the intelligent programming tools described in this volume are at most experimental prototypes. Given that these tools are still quite far from being commercial realities, it is worthwhile to note that there is a completely different way in which artificial intelligence research has to help programmers. Artificial intelligence researchers are themselves programmers. Creating such programs is more a problem of exploration than implementation and does not conform to conventional software lifecycle models. The artificial intelligence programming community has always been faced with this kind of exploratory programming and has, therefore, had a head start on developing appropriate language, environment, and hardware features. Redundancy protects the design from unintentional change, the conventional programming technology restrains the programmer, and the programming languages used in exploratory systems minimize and defer constraints on the programmer.",
+		"container-title": "Readings in Artificial Intelligence and Software Engineering",
+		"ISBN": "978-0-934613-12-5",
+		"language": "en",
+		"note": "DOI: 10.1016/B978-0-934613-12-5.50048-3",
+		"page": "573-580",
+		"publisher": "Morgan Kaufmann",
+		"source": "ScienceDirect",
+		"title": "POWER TOOLS FOR PROGRAMMERS",
+		"title-short": "DATAMATION®",
+		"URL": "https://www.sciencedirect.com/science/article/pii/B9780934613125500483",
+		"author": [
+			{
+				"family": "Sheil",
+				"given": "Beau"
+			}
+		],
+		"editor": [
+			{
+				"family": "Rich",
+				"given": "Charles"
+			},
+			{
+				"family": "Waters",
+				"given": "Richard C."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1986",
+					1,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/SYHYTLHH",
+		"type": "patent",
+		"abstract": "A computer-based tool, in the form of a computer system and method, for designing, constructing and interacting with any system containing or comprising concurrent asychronous processes, such as a factory operation. In the system according to the invention a variety of development and execution tools are supported. The invention features a highly visual user presentation of a control system, including structure, specification, and operation, offering a user an interactive capability for rapid design, modification, and exploration of the operating characteristics of a control system comprising asynchronous processes. The invention captures a representation of the system (RS) that is equivalent to the actual system (AS)--rather than a simulation of the actual system. This allows the invention to perform tests and modification on RS instead of AS, yet get accurate results. RS and AS are equivalent because AS is generated directly from RS by an automated process. Effectively, pressing a button in the RS environment can \"create\" the AS version or any selected portion of it, by \"downloading\" a translation of the RS version that can be executed by a programmable processor in the AS environment. Information can flow both ways between AS and RS. That AS and RS can interact is important. This allows RS to \"take on\" the \"state\" of AS whenever desired, through an \"uploading\" procedure, thereby reflecting accurately the condition of AS at a specific point in time.",
+		"authority": "United States",
+		"call-number": "US07/261,953",
+		"number": "US4914567A",
+		"title": "Design system using visual language",
+		"URL": "https://patents.google.com/patent/US4914567A/en",
+		"author": [
+			{
+				"family": "Lipkis",
+				"given": "Thomas A."
+			},
+			{
+				"family": "Mark",
+				"given": "William S."
+			},
+			{
+				"family": "Pirtle",
+				"given": "Melvin W."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1990",
+					4,
+					3
+				]
+			]
+		},
+		"submitted": {
+			"date-parts": [
+				[
+					"1988",
+					10,
+					24
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/KXVS2RBT",
+		"type": "patent",
+		"abstract": "Workspaces provided by an object-based user interface appear to share windows and other display objects. Each workspace's data structure includes, for each window in that workspace, a linking data structure called a placement which links to the display system object which provides that window, which may be a display system object in a preexisting window system. The placement also contains display characteristics of the window when displayed in that workspace, such as position and size. Therefore, a display system object can be linked to several workspaces by a placement in each of the workspaces' data structures, and the window it provides to each of those workspaces can have unique display characteristics, yet appear to the user to be the same window or versions of the same window. As a result, the workspaces appear to be sharing a window. Workspaces can also appear to share a window if each workspace's data structure includes data linking to another workspace with a placement to the shared window. The user can invoke a switch between workspaces by selecting a display object called a door, and a back door to the previous workspace is created automatically so that the user is not trapped in a workspace. A display system object providing a window to a workspace being left remains active so that when that workspace is reentered, the window will have the same contents as when it disappeared. Also, the placements of a workspace are updated so that when the workspace is reentered its windows are organized the same as when the user left that workspace. The user can enter an overview display which shows a representation of each workspace and the windows it contains so that the user can navigate to any workspace from the overview.",
+		"authority": "United States",
+		"call-number": "US07/030,766",
+		"number": "US5072412A",
+		"title": "User interface with multiple workspaces for sharing display system objects",
+		"URL": "https://patents.google.com/patent/US5072412A/en",
+		"author": [
+			{
+				"family": "Jr",
+				"given": "D. Austin Henderson"
+			},
+			{
+				"family": "Card",
+				"given": "Stuart K."
+			},
+			{
+				"family": "III",
+				"given": "John T. Maxwell"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1991",
+					12,
+					10
+				]
+			]
+		},
+		"submitted": {
+			"date-parts": [
+				[
+					"1987",
+					3,
+					25
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/ELBQRBKS",
+		"type": "patent",
+		"abstract": "A text-compression technique utilizes a plurality of word-number mappers (\"WNMs\") in a frequency-ordered hierarchical structure. The particular structure of the set of WNMs depends on the specific encoding regime, but can be summarized as follows. Each WNM in the set is characterized by an ordinal WNM number and a WNM size (maximum number of tokens) that is in general a non-decreasing function of the WNM number. A given token is assigned a number pair, the first being one of the WNM numbers, and the second being the token's position or number in that WNM. Typically, the most frequently occurring tokens are mapped with a smaller-numbered WNM. The set of WNMs is generated on a first pass through the database to be compressed. The database is parsed into tokens, and a rank-order list based on the frequency of occurrence is generated. This list is partitioned in a manner to define the set of WNMs. Actual compression of the data base occurs on a second pass, using the set of WNMs generated on the first pass. The database is parsed into tokens, and for each token, the set of WNMs is searched to find the token. Once the token is found, it is assigned the appropriate number pair and is encoded. This proceeds until the entire database has been compressed.",
+		"authority": "United States",
+		"call-number": "US07/942,665",
+		"number": "US5325091A",
+		"title": "Text-compression technique using frequency-ordered array of word-number mappers",
+		"URL": "https://patents.google.com/patent/US5325091A/en",
+		"author": [
+			{
+				"family": "Kaplan",
+				"given": "Ronald M."
+			},
+			{
+				"family": "Maxwell",
+				"given": "John T. III"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1994",
+					6,
+					28
+				]
+			]
+		},
+		"submitted": {
+			"date-parts": [
+				[
+					"1992",
+					9,
+					9
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/PX3PWI8C",
+		"type": "patent",
+		"abstract": "A declarative object-oriented approach to menu construction provides a mechanism for specifying the behavior, appearance and function of menus as part of an interactive user interface. Menus are constructed from interchangeable object building blocks to obtain the characteristics wanted without the need to write new code or code and maintaining a coherent interface standard. The approach is implemented by dissecting interface menu behavior into modularized objects specifying orthogonal components of desirable menu behaviors. Once primary characteristics for orthogonal dimensions of menu behavior are identified, individual objects are constructed to provide specific alternatives for the behavior within the definitions of each dimension. Finally, specific objects from each dimension are combined to construct a menu having the desired selections of menu behaviors.",
+		"authority": "United States",
+		"call-number": "US07/754,366",
+		"number": "US5119475A",
+		"title": "Object-oriented framework for menu definition",
+		"URL": "https://patents.google.com/patent/US5119475A/en",
+		"author": [
+			{
+				"family": "Smith",
+				"given": "Reid G."
+			},
+			{
+				"family": "Schoen",
+				"given": "Eric J."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1992",
+					6,
+					2
+				]
+			]
+		},
+		"submitted": {
+			"date-parts": [
+				[
+					"1991",
+					8,
+					29
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/C4NIHH58",
+		"type": "patent",
+		"abstract": "A computer user interface includes a mechanism of graphically representing and displaying user-definable objects of multiple types. The object types that can be represented include data records, not limited to a particular kind of data, and agents. An agent processes information automatically on behalf of the user. Another mechanism allows a user to define objects, for example by using a template. These two mechanisms act together to allow each object to be displayed to the user and acted upon by the user in a uniform way regardless of type. For example, templates for defining objects allow a specification to be input by a user defining processing that can be performed by an agent.",
+		"authority": "United States",
+		"call-number": "US08/484,415",
+		"number": "US5790116A",
+		"title": "Object-oriented computer user interface",
+		"URL": "https://patents.google.com/patent/US5790116A/en",
+		"author": [
+			{
+				"family": "Malone",
+				"given": "Thomas W."
+			},
+			{
+				"family": "Lai",
+				"given": "Kum-Yew"
+			},
+			{
+				"family": "Yu",
+				"given": "Keh-Chiang"
+			},
+			{
+				"family": "Berenson",
+				"given": "Richard W."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1998",
+					8,
+					4
+				]
+			]
+		},
+		"submitted": {
+			"date-parts": [
+				[
+					"1995",
+					6,
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/J62GHLSJ",
+		"type": "patent",
+		"abstract": "An apparatus and a method are disclosed for composing an imposition in terms of an arrangement of printing plates on selected of the image positions on selected units of a printing press to print a given edition, by first assigning each section of this edition to one of the press areas. Thereafter, each printing unit is examined to determine an utilization value thereof in terms of the placement of the printing plates on the image positions and the relative number of image positions to which printing plates are assigned with respect to the total number of image positions. Thereafter, a list of the image positions for each of the sections and its area, is constructed by examining one printing unit at a time in an order according to the placement of that printing unit in the array and examining its utilization value to determine whether or not to include a particular image position of that printing unit in the list. As a result, a list of the image positions is constructed in a sequence corresponding to numerical order of the pages in the section under consideration. Finally, that list of the image positions and the corresponding section and page numbers is displayed in a suitable fashion to inform a user of how to place the printing plates in the desired arrangement onto the printing units of the press to print this given edition.",
+		"authority": "United States",
+		"call-number": "US07/105,159",
+		"number": "US4984773A",
+		"title": "Method of and apparatus for composing a press imposition",
+		"URL": "https://patents.google.com/patent/US4984773A/en",
+		"author": [
+			{
+				"family": "Balban",
+				"given": "Morton S."
+			},
+			{
+				"family": "Lan",
+				"given": "Ming-Shong"
+			},
+			{
+				"family": "Panos",
+				"given": "Rodney M."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1991",
+					1,
+					15
+				]
+			]
+		},
+		"submitted": {
+			"date-parts": [
+				[
+					"1987",
+					10,
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/7MK4IUTY",
+		"type": "patent",
+		"authority": "European Union",
+		"call-number": "EP89312093A",
+		"language": "en",
+		"number": "EP0370778B1",
+		"title": "Method for manipulating digital text data",
+		"URL": "https://patents.google.com/patent/EP0370778B1/en",
+		"author": [
+			{
+				"family": "Nunberg",
+				"given": "Geoffrey D."
+			},
+			{
+				"family": "Stansbury",
+				"given": "Tayloe H."
+			},
+			{
+				"family": "Abbott",
+				"given": "Curtis"
+			},
+			{
+				"family": "Smith",
+				"given": "Brian C."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1998",
+					6,
+					3
+				]
+			]
+		},
+		"submitted": {
+			"date-parts": [
+				[
+					"1989",
+					11,
+					21
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/78B7IS7F",
+		"type": "patent",
+		"abstract": "A method and apparatus are shown for improving bit-image quality in video display terminals and xerographic processors. In one embodiment, each scan line of a source image is ANDed with the scan line above to remove half-bits and thin halftones. In other embodiments, entire blocks of data are processed by bit-block transfer operations, such as ANDing a copy of the source image with a copy of itself shifted by one bit. Also, a source image can be compared to a shifted copy of itself to locate diagonal lines in order to place gray pixels bordering these lines.",
+		"authority": "United States",
+		"call-number": "US07/636,395",
+		"number": "US5250934A",
+		"title": "Method and apparatus for thinning printed images",
+		"URL": "https://patents.google.com/patent/US5250934A/en",
+		"author": [
+			{
+				"family": "Denber",
+				"given": "Michel J."
+			},
+			{
+				"family": "Jankowski",
+				"given": "Henry P."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1993",
+					10,
+					5
+				]
+			]
+		},
+		"submitted": {
+			"date-parts": [
+				[
+					"1990",
+					12,
+					31
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/5QACWN9U",
+		"type": "patent",
+		"abstract": "A system and method for interactive design of user manipulable graphic elements. A computer has display and stored tasks wherein the appearance of graphic elements and methods for their manipulation are defined. Each graphic element is defined by at least one figure specification, one mask specification and one map specification. An interactive display editor program defines specifications of said graphic elements. An interactive program editor program defines programming data and methods associated with said graphic elements. A display program uses the figure, map and mask specifications for assembling graphic elements upon the display and enabling user manipulation of said graphic elements.",
+		"authority": "United States",
+		"call-number": "US07/261,770",
+		"number": "US5041992A",
+		"title": "Interactive method of developing software interfaces",
+		"URL": "https://patents.google.com/patent/US5041992A/en",
+		"author": [
+			{
+				"family": "Cunningham",
+				"given": "Robert E."
+			},
+			{
+				"family": "Bonar",
+				"given": "Jeffery G."
+			},
+			{
+				"family": "Corbett",
+				"given": "John D."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1991",
+					8,
+					20
+				]
+			]
+		},
+		"submitted": {
+			"date-parts": [
+				[
+					"1988",
+					10,
+					24
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/MV2TXBJZ",
+		"type": "patent",
+		"authority": "European Union",
+		"call-number": "EP19910307114",
+		"language": "en",
+		"number": "EP0471484B1",
+		"title": "Image display systems",
+		"URL": "https://patents.google.com/patent/EP0471484B1/en",
+		"author": [
+			{
+				"family": "Mackinlay",
+				"given": "Jock D."
+			},
+			{
+				"family": "Card",
+				"given": "Stuart K."
+			},
+			{
+				"family": "Robertson",
+				"given": "George G."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1998",
+					9,
+					16
+				]
+			]
+		},
+		"submitted": {
+			"date-parts": [
+				[
+					"1991",
+					8,
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/LP7U9CZK",
+		"type": "patent",
+		"abstract": "In a graphic display system, display control software is modified to impart motion to a pop-up menu to attract the attention of the user. The menu becomes animated when a control and comparison circuit confirms that a mouse driven cursor on the screen is moving away from the pop-up menu indicating that the operator is unaware of the menu's presence. The menu moves or \"tags-along\" after the cursor until the user takes notice and makes the appropriate selection.",
+		"authority": "European Union",
+		"call-number": "EP91110869A",
+		"language": "en",
+		"number": "EP0464742A2",
+		"title": "Graphics display system with improved dynamic menu selection",
+		"URL": "https://patents.google.com/patent/EP0464742A2/en",
+		"author": [
+			{
+				"family": "Denber",
+				"given": "Michel J."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1992",
+					1,
+					8
+				]
+			]
+		},
+		"submitted": {
+			"date-parts": [
+				[
+					"1991",
+					7,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/HXGPKBTB",
+		"type": "patent",
+		"abstract": "An FSM data structure is encoded by generating a transition unit of data corresponding to each transition which leads ultimately to a final state of the FSM. Information about the states is included in the transition units, so that the encoded data structure can be written without state units of data. The incoming transition units to a final state each contain an indication of finality. The incoming transition units to a state which has no outgoing transition units each contain a branch ending indication. The outgoing transition units of each state are ordered into a comparison sequence for comparison with a received element, and all but the last outgoing transition unit contain an alternative indication of a subsequent alternative outgoing transition. The indications are incorporated with the label of each transition unit into a single byte, and the remaining byte values are allocated among a number of pointer data units, some of which begin full length pointers and some of which begin pointer indexes to tables where pointers are entered. The pointers may be used where a state has a large number of incoming transitions or where the block of transition units depending from a state is broken down to speed access. The first outgoing transition unit of a state is positioned immediately after one of the incoming transitions so that it may be found without a pointer. Each alternative outgoing transition unit is stored immediately after the block beginning with the previous outgoing transition unit so that it may be found by proceeding through the transition units until the number of alternative bits and the number of branch ending bits balance.",
+		"authority": "United States",
+		"call-number": "US07/855,129",
+		"number": "US5450598A",
+		"title": "Finite state machine data storage where data transition is accomplished without the use of pointers",
+		"URL": "https://patents.google.com/patent/US5450598A/en",
+		"author": [
+			{
+				"family": "Kaplan",
+				"given": "Ronald M."
+			},
+			{
+				"family": "Kay",
+				"given": "Martin"
+			},
+			{
+				"family": "Maxwell",
+				"given": "John"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1995",
+					9,
+					12
+				]
+			]
+		},
+		"submitted": {
+			"date-parts": [
+				[
+					"1992",
+					3,
+					18
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/RNAZ2XUW",
+		"type": "paper-conference",
+		"abstract": "We describe an effort to translate the Interlisp KL-ONE system into Franzlisp to enable it to be run on a VAX . This effort has involved Tim Finin, Richard Duncan and Hassan Ait-Kaci from the University of Pennsylvania, Judy Weiner from Temple University, Jane Barnett from Computer Corporation of America and Jim Schmolze from Bolt Beranek and Newman. The primary motivation for this project was to make a version of KL-ONE available on a PDP 1 1/780 VAX . A VAX Interlisp is not yet available, although one is being written and will soon be available . Currently, the only substantial Lisp for a Vax is the Berkeley FranzLisp system. As a secondary motivation, we are interested in making KL-ONE more available in general - on a variety of Lisp dialects and machines.",
+		"container-title": "Proceedings of the Second KL-One Workshop",
+		"language": "en",
+		"page": "106-114",
+		"publisher": "Bolt Beranek and Newman",
+		"source": "ebiquity.umbc.edu",
+		"title": "Translating KL-One from interlisp to Franzlisp",
+		"URL": "https://ebiquity.umbc.edu/paper/html/id/738/Translating-KL-One-from-interlisp-to-Franzlisp",
+		"author": [
+			{
+				"family": "Finin",
+				"given": "Tim"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1982",
+					6,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/6RAE6DBF",
+		"type": "report",
+		"abstract": "In an ideal list-processing system there would be enough core memory to contain all the data and programs. The paper describes a number of techniques used to build a LISP system which utilizes a drum for its principal storage medium, with a surprisingly low time-penalty for use of this slow storage device. The techniques include careful segmentation of system programs, allocation of virtual memory to allow address arithmetic for type determination, and a special algorithm for building reasonably linearized lists. A scheme is described for binding variables which is good in this environment and allows for complete compatibility between compiled and interpreted programs with no special declarations.",
+		"language": "en",
+		"note": "section: Technical Reports",
+		"publisher": "BOLT BERANEK AND NEWMAN INC CAMBRIDGE MA",
+		"source": "apps.dtic.mil",
+		"title": "THE STRUCTURE OF A LISP SYSTEM USING TWO-LEVEL STORAGE, SCIENTIFIC REPROT",
+		"URL": "https://apps.dtic.mil/sti/citations/AD0647601",
+		"author": [
+			{
+				"family": "Bobrow",
+				"given": "Daniel G."
+			},
+			{
+				"family": "Murphy",
+				"given": "Daniel L."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1966",
+					11,
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/23ZCTJ9Z",
+		"type": "article-journal",
+		"abstract": "In the late 1960s, a small group of developers at Bolt, Beranek, and Newman (BBN) in Cambridge, Massachusetts, began work on a new computer operating system, including a kernel, system call API, and user command interface (shell). While such an undertaking, particularly with a small group, became rare in subsequent decades, it was not uncommon in the 1960s. During development, this OS was given the name TENEX. A few years later, TENEX was adopted by Digital Equipment Corporation (DEC) for its new line of large machines to be known as the DECSYSTEM-20, and the operating system was renamed to TOPS-20. The author followed TENEX (or vice versa) on this journey, and these are some reflections and observations from that journey. He touches on some of the technical aspects that made TENEX notable in its day and an influence on operating systems that followed as well as on some of the people and other facets involved in the various steps along the way.",
+		"container-title": "Annals of the History of Computing, IEEE",
+		"DOI": "10.1109/MAHC.2015.15",
+		"journalAbbreviation": "Annals of the History of Computing, IEEE",
+		"page": "75-82",
+		"source": "ResearchGate",
+		"title": "TENEX and TOPS-20",
+		"URL": "https://www.researchgate.net/publication/273523084_TENEX_and_TOPS-20",
+		"volume": "37",
+		"author": [
+			{
+				"family": "Murphy",
+				"given": "Dan"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					1,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/KP33M4DP",
+		"type": "article",
+		"publisher": "Bolt, Beranek and Newman, Inc. (BBN)",
+		"title": "BBN - LISP, TENEX Reference Manual, Revised",
+		"URL": "http://www.bitsavers.org/pdf/bbn/tenex/TenexLispRef_Aug72.pdf",
+		"author": [
+			{
+				"family": "Teitelman",
+				"given": "W."
+			},
+			{
+				"family": "Bobrow",
+				"given": "D. G."
+			},
+			{
+				"family": "Hartley",
+				"given": "A. K."
+			},
+			{
+				"family": "Murphy",
+				"given": "D. L."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1972",
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/XSVG2PVI",
+		"type": "report",
+		"abstract": "The report describes the LISP system implemented at BBN on the SDS 940 Computer. This LISP is an upward compatible extension of LISP 1.5 for the IBM 7090, with a number of new features which make it work well as an on-line language. These new features include tracing, and conditional breakpoints in functions for debugging and a sophisticated LISP oriented editor. The BBN 940 LISP SYSTEM has a large memory store approximately 50,000 free words utilizing special paging techniques for a drum to provide reasonable computation times. The system includes both an interpreter, a fully compatible compiler, and an assembly language facility for inserting machine code subroutines.",
+		"language": "en",
+		"note": "section: Technical Reports",
+		"publisher": "BOLT BERANEK AND NEWMAN INC CAMBRIDGE MA",
+		"source": "apps.dtic.mil",
+		"title": "THE BBN 940 LISP SYSTEM",
+		"URL": "https://apps.dtic.mil/sti/citations/AD0656771",
+		"author": [
+			{
+				"family": "Bobrow",
+				"given": "Daniel G."
+			},
+			{
+				"family": "Darley",
+				"given": "D. Lucille"
+			},
+			{
+				"family": "Deutsch",
+				"given": "L. Peter"
+			},
+			{
+				"family": "Murphy",
+				"given": "Daniel L."
+			},
+			{
+				"family": "Teitelman",
+				"given": "Warren"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1967",
+					7,
+					15
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/6KKLXERD",
+		"type": "report",
+		"abstract": "The paper discusses some of the considerations involved in designing and implementing a pattern matching or COMIT feature inside of LISP. The programming language FLIP is presented here as a paradigm for such a feature. The design and implementation of FLIP discussed below emphasizes compact notation and efficiency of operation. In addition, FLIP is a modular language and can be readily extended and generalized to include features found in other pattern driven languages such as CONVERT and SNOBOL. This makes it extremely versatile. The development of this paper proceeds from abstract considerations to specific details. The syntax and semantics of FLIP are presented first, followed by a discussion of the implementation with especial attention devoted to techniques used for reducing the number of conses required as well as improving search strategy. Finally FLIP is treated as a working system and viewed from the users standpoint. Here we present some of the additions and extensions to FLIP that have evolved out of almost two years of experimentation. These transform it from a notational system into a practical and useful programming system.",
+		"language": "en",
+		"note": "section: Technical Reports",
+		"publisher": "BOLT BERANEK AND NEWMAN INC CAMBRIDGE MA",
+		"source": "apps.dtic.mil",
+		"title": "DESIGN AND IMPLEMENTATION OF FLIP, A LISP FORMAT DIRECTED LIST PROCESSOR",
+		"URL": "https://apps.dtic.mil/sti/citations/AD0660548",
+		"author": [
+			{
+				"family": "Teitelman",
+				"given": "Warren"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1967",
+					7,
+					15
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/9SDF3BWD",
+		"type": "book",
+		"abstract": "This document describes the BEN-LISP system currently implemented on the SDS 940. It is a dialect of LISP 1.5 and the differences between IBM 7090 version and this system are described in Appendix\n1 and 2. Principally, this system has been expanded from the LISP 1.5 on the 7090 in a number of different ways. BBN-LISP is\ndesigned to utilize a drum for storage and to provide the user a large virtual memory, with a relatively small penalty in speed (using special paging techniques described in Bobrow and Murphy 1967).",
+		"call-number": "Z699.5.L28 B62 1969",
+		"event-place": "Cambridge",
+		"number-of-pages": "368",
+		"publisher": "Bolt, Beranek and Newman Inc",
+		"publisher-place": "Cambridge",
+		"source": "Library Catalog (Blacklight)",
+		"title": "The BBN-LISP system: Reference Manual",
+		"title-short": "The BBN-LISP system",
+		"URL": "https://searchworks.stanford.edu/view/9804798",
+		"editor": [
+			{
+				"family": "Bobrow",
+				"given": "Daniel G."
+			},
+			{
+				"family": "Murphy",
+				"given": "D. L."
+			},
+			{
+				"family": "Teitelman",
+				"given": "Warren"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1969",
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/JCVVQUVD",
+		"type": "article",
+		"publisher": "Bolt, Beranek and Newman, Inc. (BBN)",
+		"title": "BBN - LISP, TENEX Reference Manual",
+		"URL": "https://www.computerhistory.org/collections/catalog/102720753",
+		"author": [
+			{
+				"family": "Teitelman",
+				"given": "W."
+			},
+			{
+				"family": "Bobrow",
+				"given": "D. G."
+			},
+			{
+				"family": "Hartley",
+				"given": "A. K."
+			},
+			{
+				"family": "Murphy",
+				"given": "D. L."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1971",
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/XR77BB2T",
+		"type": "paper-conference",
+		"abstract": "ROSS [7] is an object-oriented language developed for building knowledge-based simulations [4]. SWIRL [5, 6] is a program written in ROSS that embeds knowledge about defensive and offensive air battle strategies. Given an initial configuration of military forces, SWIRL simulates the resulting air battle. We have implemented ROSS and SWIRL in several different Lisp environments. We report upon this experience by comparing the various environments in terms of cpu usage, real-time usage, and various user aids.",
+		"collection-title": "IJCAI'83",
+		"container-title": "Proceedings of the Eighth international joint conference on Artificial intelligence - Volume 2",
+		"event-place": "San Francisco, CA, USA",
+		"page": "859–861",
+		"publisher": "Morgan Kaufmann Publishers Inc.",
+		"publisher-place": "San Francisco, CA, USA",
+		"source": "ACM Digital Library",
+		"title": "Large-scale system development in several lisp environments",
+		"URL": "https://dl.acm.org/doi/10.5555/1623516.1623579",
+		"author": [
+			{
+				"family": "Naraln",
+				"given": "Sanjai"
+			},
+			{
+				"family": "McArthur",
+				"given": "David"
+			},
+			{
+				"family": "Klahr",
+				"given": "Philip"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1983",
+					8,
+					8
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/6L8UHVSY",
+		"type": "article-journal",
+		"abstract": "This paper describes two related tools developed to support the isolation and analysts of optimization errors in the vpo optimizer. Both tools rely on vpo identifying sequences of changes, referred to as transformations. that result in semantically equivalent (and usually improved) code. One tool determines the first transfer. motion that causes incorrect output of the execution of the compiled program. This tool not only automatically isolates the illegal transformation, but also identifies the location and instant the transformation is performed in vpo. To assist in the analysis of an optimization error, a graphical optimization viewer was also implemented that can display the state of the generated instructions before and after each transformation performed by vpo. Unique features of the optimization viewer include reverse viewing (or undoing) of transformations and the ability to stop at breakpoints associated with the generated instructions. Both tools are useful independently. Together these tools form a powerful environment for facilitating the retargeting of vpo to a new machine and supporting experimentation with new optimizations. In addition, the optimization viewercan be used as a teaching aid in compiler classes.",
+		"container-title": "ACM SIGPLAN Notices",
+		"DOI": "10.1145/173262.155093",
+		"ISSN": "0362-1340",
+		"issue": "6",
+		"journalAbbreviation": "SIGPLAN Not.",
+		"page": "26–35",
+		"source": "June 1993",
+		"title": "Isolation and analysis of optimization errors",
+		"URL": "https://doi.org/10.1145/173262.155093",
+		"volume": "28",
+		"author": [
+			{
+				"family": "Boyd",
+				"given": "Mickey R."
+			},
+			{
+				"family": "Whalley",
+				"given": "David B."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1993",
+					6,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/YK6MRM4K",
+		"type": "chapter",
+		"abstract": "Major dialect of LISP <34>, designed for high-resolution, bit-mapped display, distinguished by (a) use of in-core editor for structures, and thus code, (b) programming environment of tools for automatic error-correction, syntax (sic) extension and structure declaration/access, (c) implementation of almost-compatible dialects (Interlisp <X>) on several machines, (d) extensive usage of display orientated tools and facilities. Emphasis: Personal Lisp workstation, user interface tools.",
+		"collection-title": "Symbolic Computation",
+		"container-title": "Catalogue of Artificial Intelligence Tools",
+		"event-place": "Berlin, Heidelberg",
+		"ISBN": "978-3-642-96868-6",
+		"language": "en",
+		"note": "DOI: 10.1007/978-3-642-96868-6_103",
+		"page": "52-52",
+		"publisher": "Springer",
+		"publisher-place": "Berlin, Heidelberg",
+		"source": "Springer Link",
+		"title": "Interlisp-D",
+		"URL": "https://doi.org/10.1007/978-3-642-96868-6_103",
+		"author": [
+			{
+				"family": "Bundy",
+				"given": "Alan"
+			},
+			{
+				"family": "Wallen",
+				"given": "Lincoln"
+			}
+		],
+		"editor": [
+			{
+				"family": "Bundy",
+				"given": "Alan"
+			},
+			{
+				"family": "Wallen",
+				"given": "Lincoln"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1984"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/HLN62MVN",
+		"type": "article-journal",
+		"abstract": "CommonLoops blends object-oriented programming smoothly and tightly with the procedure-oriented design of Lisp. Functions and methods are combined in a more general abstraction. Message passing is invoked via normal Lisp function call. Methods are viewed as partial descriptions of procedures. Lisp data types are integrated with object classes. With these integrations, it is easy to incrementally move a program between the procedure and object-oriented styles. One of the most important properties of CommonLoops is its extensive use of meta-objects. We discuss three kinds of meta-objects: objects for classes, objects for methods, and objects for discriminators. We argue that these meta-objects make practical both efficient implementation and experimentation with new ideas for object-oriented programming. CommonLoops' small kernel is powerful enough to implement the major object-oriented systems in use today.",
+		"container-title": "ACM SIGPLAN Notices",
+		"DOI": "10.1145/960112.28700",
+		"ISSN": "0362-1340",
+		"issue": "11",
+		"journalAbbreviation": "SIGPLAN Not.",
+		"page": "17–29",
+		"source": "Nov. 1986",
+		"title": "CommonLoops: merging Lisp and object-oriented programming",
+		"title-short": "CommonLoops",
+		"URL": "https://doi.org/10.1145/960112.28700",
+		"volume": "21",
+		"author": [
+			{
+				"family": "Bobrow",
+				"given": "Daniel G."
+			},
+			{
+				"family": "Kahn",
+				"given": "Kenneth"
+			},
+			{
+				"family": "Kiczales",
+				"given": "Gregor"
+			},
+			{
+				"family": "Masinter",
+				"given": "Larry"
+			},
+			{
+				"family": "Stefik",
+				"given": "Mark"
+			},
+			{
+				"family": "Zdybel",
+				"given": "Frank"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1986",
+					6,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/H5Q65H3M",
+		"type": "paper-conference",
+		"collection-title": "EUROSAM '79",
+		"container-title": "Proceedings of the International Symposiumon on Symbolic and Algebraic Computation",
+		"event-place": "Berlin, Heidelberg",
+		"ISBN": "978-3-540-09519-5",
+		"page": "481–489",
+		"publisher": "Springer-Verlag",
+		"publisher-place": "Berlin, Heidelberg",
+		"source": "ACM Digital Library",
+		"title": "Extending Interlisp for modularization and efficiency",
+		"URL": "https://dl.acm.org/doi/10.5555/646670.699000",
+		"author": [
+			{
+				"family": "Bobrow",
+				"given": "Daniel G."
+			},
+			{
+				"family": "Deutsch",
+				"given": "L. Peter"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					6,
+					3
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1979",
+					6,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/THLV47EY",
+		"type": "article-journal",
+		"source": "Google Scholar",
+		"title": "Emulation & Virtualization as Preservation Strategies",
+		"author": [
+			{
+				"family": "Rosenthal",
+				"given": "David SH"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2016",
+					1,
+					22
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2015"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/PVJ9RNNH",
+		"type": "book",
+		"publisher": "Citeseer",
+		"source": "Google Scholar",
+		"title": "The Interlisp virtual machine specification",
+		"author": [
+			{
+				"family": "Moore",
+				"given": "J. Strother"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1976"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/2914042/items/WRHC5YI7",
+		"type": "paper-conference",
+		"container-title": "Proceedings of the June 7-10, 1976, national computer conference and exposition",
+		"page": "349-356",
+		"source": "Google Scholar",
+		"title": "Qlisp: a language for the interactive development of complex systems",
+		"title-short": "Qlisp",
+		"author": [
+			{
+				"family": "Sacerdoti",
+				"given": "Earl D."
+			},
+			{
+				"family": "Fikes",
+				"given": "Richard E."
+			},
+			{
+				"family": "Reboh",
+				"given": "Rene"
+			},
+			{
+				"family": "Sagalowicz",
+				"given": "Daniel"
+			},
+			{
+				"family": "Waldinger",
+				"given": "Richard J."
+			},
+			{
+				"family": "Wilber",
+				"given": "B. Michael"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"1976"
+				]
+			]
+		}
+	}
+]
