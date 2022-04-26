@@ -1,0 +1,21 @@
+.container {
+    margin: 0px;
+    max-width: 100%;
+    width: 100%;
+}
+
+#docs-sidebar {
+    list-style-type: none;
+}
+
+#docs-sidebar li {
+    padding: 5px;
+}
+
+#docs-sidebar a {
+    text-decoration: none;
+}
+
+#docs-sidebar a:active {
+    border-left: 1px solid #563d7c;
+}
