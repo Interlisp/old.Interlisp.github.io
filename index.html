@@ -1,185 +1,189 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Interlisp.Org</title>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Interlisp.Org</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<link rel="stylesheet"
-      href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"/>
-<!-- SEO -->
-<meta name="description"
-      content="Revival of Medley Interlisp / Common Lisp">
-<meta name="Robots" content="index, follow">
-<link rel="Canonical" href="https://Interlisp.org/">
-<!-- Theme fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
-<!-- end fonts -->
-<link rel="stylesheet" href="theme.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet"
+		href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"/>
+	<!-- SEO -->
+	<meta name="description"
+		content="Revival of Medley Interlisp / Common Lisp">
+	<meta name="Robots" content="index, follow">
+	<link rel="Canonical" href="https://Interlisp.org/">
+	<!-- Theme fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
+	<!-- end fonts -->
+	<link rel="stylesheet" href="theme.css">
 </head>
 <body data-spy="scroll" data-target="#toc">
-<!-- START: Header -->
-<header class="site-header">
-  <div class="container text-center text-md-left">
-    <!-- CHANGE WHEN NEW LOGO -->
-    <div class="personal-info clearfix"> <a href="#"> <img src="images/Interlisp-D.png" class="float-left" alt="Interlisp.Org logo showing windows" width="50" height="50"></a>
-      <div class="infos float-left">
-        <h1><a href="#">Interlisp.Org Project</a></h1>
-        <p class="p-info"> Email: <a href="mailto:Interlisp@googlegroups.com" >Interlisp@googlegroups.com</a> <a href="https://groups.google.com/forum/#!topic/interlisp/jq0dJQEWDkU">(archives)</a><br>
-        Links: <a target="_blank" href="https://github.com/Interlisp">github.com/Interlisp</a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Interlisp">Wikipedia on Interlisp</a> </p>
-      </div>
-    </div>
-  </div>
-</header>
-<main class="site-main">
-<div class="container">
-<div class="row">
-<!-- sidebar, which will move to the top on a small screen -->
-<div class="col-sm-3">
-  <nav id="toc" data-toggle="toc" class="sticky-top"></nav>
-</div>
-<!-- main content area -->
-<div class="col-sm-9">
-  <h2>News</h2>
-  
-  <p><a href="https://github.com/Interlisp/medley/wiki/Project-News">Interlisp.Org Project News</a> for 3/15/2022. 
-  </p>
-  <p>There has been a lot of activity lately:
-    new Online version; revamped documentation for getting started; getting set up as a non-profit; joining the "Software Preservation Network" as an "Implementation Sponsor; changes to the Medley system itself; plus a set of tools (GITFNS) for using Interlisp to manage git-based workflows. </p>
-    
-<h2>What is Medley Interlisp?</h2>
-
-<p>Medley Interlisp is the environment originally developed for the  Xerox Lisp
-  machines (called D-machines, names Dorado, Dolphin, Dandelion, Daybreak).
-  The project was spun out to a company called Envos, which then
-turned into Venue.</p>
-<p> It was the first IDE with a window/mouse/menu GUI, launched as a product from Xerox
-in 1980. It was a base from which AI
-applications were built, as well as a research project in its own
-right.</p>
-
-<p>  For example, Interlisp SEDIT is the canonical ancestral
-  structure editors. Masterscope and the "file package" included
-  system-management tools that combined features of version control
-  and build systems, with comprehensive cross referencing support.</p>
-
-<p>Medley was the latest release of the Xerox Lisp environment, before
-the whole environment was renamed Medley. It was originally written in
-Interlisp (a dialect separate from the MACLISP/Common Lisp tradition,
-with its own ancestry), but later, Common Lisp also became part of the
-environment. Medley includes a WYSIWYG text editor (TEdit), email
-organizer (Lafite), performance tools (Spy) and many other libraries
-and user contributed code (from the 1980s).</p>
-
-<p> The 1992 <a href=
-"https://awards.acm.org/award_winners/masinter_3814811" >ACM Software
-System Award</a>, to Daniel G. Bobrow, Richard R. Burton, L. Peter
-Deutsch, Ronald M. Kaplan, Larry Masinter, Warren Teitelman
-
-  "... for their pioneering work in programming environments that integrated
-      <ul><li>source-language debuggers,</li>
-	<li> fully compatible integrated interpreter/compiler, </li>
-	<li>automatic change management,</li>
-	<li>structure-based editing,</li>
-	<li>logging facilities,</li>
-	<li>interactive graphics, and</li>
-	<li>analysis/profiling tools</li>
-      </ul>
-      in the Interlisp system."
-</p>
-<h2>About the Project</h2>
-<p>Our aim is to restore Medley Interlisp to usability on modern
-  systems, sufficient to allow someone to develop some code and
-  experience what it was like.  You could think of this as a kind of
-  "vintage software" project, to try to capture the sense of fluidity
-  in the development cycle.  We hope to provide a platform for
-  demonstration of early experiments of hypertext (Notecards), Desktop
-  management (Rooms), Object-oriented programming (LOOPS), as well as
-  Interlisp itself.</p>
-
-<h2>Who is involved? </h2>
-
-  <p>See <a href="https://docs.google.com/document/d/1cGBDNMO5yt6ymi7YiCcf6uNn6RBe5PVS7mW4kFnlzNY/edit#heading=h.z1l9hpktj4v3">Who Are We</a> section of the <a href="https://docs.google.com/document/d/1cGBDNMO5yt6ymi7YiCcf6uNn6RBe5PVS7mW4kFnlzNY/edit?usp=sharing">Annual Report</a></p>
-<p>The <a href="https://groups.google.com/g/lispcore">core group of
-contributors</a> includes <a href="https://LarryMasinter.net">Larry
-Masinter</a>, <a href="https://en.wikipedia.org/wiki/Ronald_Kaplan">Ron Kaplan</a>, Nick Briggs, Frank Halasz, Herb Jellinek, Steve Kaisler, Wayne Marci, Paul McJones, Bruce Mitchener, John
-Cowan, Arun Welch, Michele Denber, Blake McBride, Abe Jellinek. If you want to help out,
-please join
-in. See <a href="https://github.com/interlisp/medley/issues"> GitHub
-issues</a> for some ideas.
-<p>We’re meeting weekly (Monday 10:00am PT) via zoom.</p>
-
-<p>We're hoping to make some demos of various features but could use
-some help. </p>
-		
-<h2>Basic components</h2>
-
-<p>An implementation of the virtual machine (like a port of the microcode that turned the Xerox hardware into a lisp machine.) The emulator, called <strong>maiko</strong>, was  initially developed at Fuji Xerox for the SunOS/SPARC. It was subsequently ported to many different OS and hardware combinations. </p>
-
-<p>The Lisp system itself was split into layered parts:</p>
-<ul>
-  <li>The core of the system written in Lisp to implement system components including memory management, Interlisp and Common Lisp interpreters and compilers.</li>
-  <li>Basic operating system components: thread scheduler, drivers for disk, floppy, display, keyboard; windows, menus, fonts, networking (originally PUP, then XNS, then TCP/IP).</li>
-  <li>The <strong>Library</strong> contains additional utilities and the development environment, text editor (TEdit), debugger, source file manager, email client,etc.</li>
-<li><strong>LispUsers</strong> packages were contributed by users but curated by the Interlisp developer group</li>
-<li>Raster image <strong>Fonts</strong> in display and print resolution</li>
-<li>Documentation and release notes</li>
-<li>Memory images (<strong>sysouts</strong>) that can be loaded run without loading or compiling anything other than compatible maiko.</li>
-</ul>
-
-<h2>GitHub integration</h2>
-
-There is a GitHub Organization <a href="https://github.com/interlisp">Interlisp</a> with
-repositories for <a href="https://github.com/interlisp/maiko">Maiko</a>, <a href="https://github.com/interlisp/medley">Medley</a>, this
-web site (Interlisp.github.io) and others. The <a href="https://github.com/interlisp/medley/wiki">Wiki</a>, <a href="https://github.com/interlisp/medley/releases">Releases</a>, <a href="https://github.com/interlisp/medley/issues">Issues</a>, <a href="https://github.com/interlisp/medley/discussions">Discussions</a>,
-are all under the <a href="https://github.com/interlisp/medley">Medley repository</a>.
-
-
-<h2>Objectives</h2>
-<p>The primary focus of this project is to make Medley usable enough that people can use it in a modern environment. Primarily this is a matter of testing and debugging; raise issues in the <a href="https://github.com/Interlisp/medley/issues">Interlisp/medley</a> repo. But we're also trying to "modernize" some things; for example, we're adding Unicode support for IO (Interlisp-D was built before Unicode, and supports an older Xerox encoding). As with most open source projects, what we're able to accomplish depends on volunteers.
-  <ul>
-    <li>See the <a href="https://github.com/Interlisp/medley/wiki/Guest-Book">Medley Interlisp Virtual Guest Book</a></li>
-    <li>and <a href="https://docs.google.com/document/d/e/2PACX-1vROuZzj7UKCkUWVh0KK6jYM-rpyn2CFyALlC9GBfzb-XhY55XhToDn13km4Ye6YicbTr-v0V0ALbLK3/pub" target="new">Medley Project Goals</a> </li>
-    </ul>
-</p>
-
-<h2>Releases</h2>
-<p>
-   We've establlish a GitHub Actions based way of creating the <a href="https://github.com/interlisp/medley/releases">Medley repo releases</a>. Or point your browser to <a href="https://online.interlisp.org">https://online.interlisp.org</a>. </p>
-
-    <h2>Documentation</h2>
-<p>There is a (hopefully) complete <a href="https://github.com/interlisp/medley/wiki/Documentation">catelog of online documentation</a>.</p>
-  
-
-<h2>Bibliography</h2>
-<ul><li>We've put together an extensive <li><a href="/bibliography/">
-      bibliography</a> based on Zotero. see <a href="https://www.zotero.org/groups/2914042/interlisp/library">here</a> for another view.</li>
-</ul>
-
-<h2>History</h2>
-<p>Currently in two documents:
-  <ul>
-    <li><a href="https://docs.google.com/document/d/1QXUMQ0OUttYYzWUvgdVcnkz5Gym_t1MDnMT8XZJe-NI/">
-	Interlisp Timeline</a>,</li>
-    <li><a href="https://docs.google.com/document/d/1znqCtOMNYP3sb1UVv1S3iYEZIcboL9-SwTSiym6Zym8/">
-	History</a></li>
-  </ul>
-  There is also a separate <a href="https://github.com/Interlisp/history">Interlisp/history</a> repository for older snapshots
-  of Interlisp implementations and documentation.
-</p>
+	<!-- START: Header -->
+	<header class="site-header">
+	<div class="container text-center text-md-left">
+		<!-- CHANGE WHEN NEW LOGO -->
+		<div class="personal-info clearfix"> <a href="#"> <img src="./images/Interlisp-D.png" class="float-left" alt="Interlisp.Org logo showing windows" width="50" height="50"></a>
+		<div class="infos float-left">
+			<h1><a href="#">Interlisp.Org Project</a></h1>
+			<p class="p-info"> Email: <a href="mailto:Interlisp@googlegroups.com" >Interlisp@googlegroups.com</a> <a href="https://groups.google.com/forum/#!topic/interlisp/jq0dJQEWDkU">(archives)</a><br>
+			Links: <a target="_blank" href="https://github.com/Interlisp">github.com/Interlisp</a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Interlisp">Wikipedia on Interlisp</a> </p>
+		</div>
+		</div>
 	</div>
-	</div>
+	</header>
+	<main class="site-main">
+		<div class="container">
+			<div class="row">
+			<!-- sidebar, which will move to the top on a small screen -->
+				<div class="col-sm-3">
+					<nav id="toc" data-toggle="toc" class="sticky-top"></nav>
+				</div>
+			<!-- main content area -->
+
+	<!-- <object data="docs/1980-doradolisp.pdf" type="application/pdf" width="100%" height="100%"> -->
+
+			<div class="col-sm-9">
+				<h2>News</h2>
+				
+				<p><a href="https://github.com/Interlisp/medley/wiki/Project-News">Interlisp.Org Project News</a> for 3/15/2022. 
+				</p>
+				<p>There has been a lot of activity lately:
+					new Online version; revamped documentation for getting started; getting set up as a non-profit; joining the "Software Preservation Network" as an "Implementation Sponsor; changes to the Medley system itself; plus a set of tools (GITFNS) for using Interlisp to manage git-based workflows. </p>
+					
+				<h2>What is Medley Interlisp?</h2>
+
+				<p>Medley Interlisp is the environment originally developed for the  Xerox Lisp
+				machines (called D-machines, names Dorado, Dolphin, Dandelion, Daybreak).
+				The project was spun out to a company called Envos, which then
+				turned into Venue.</p>
+				<p> It was the first IDE with a window/mouse/menu GUI, launched as a product from Xerox
+				in 1980. It was a base from which AI
+				applications were built, as well as a research project in its own
+				right.</p>
+
+				<p>  For example, Interlisp SEDIT is the canonical ancestral
+				structure editors. Masterscope and the "file package" included
+				system-management tools that combined features of version control
+				and build systems, with comprehensive cross referencing support.</p>
+
+				<p>Medley was the latest release of the Xerox Lisp environment, before
+				the whole environment was renamed Medley. It was originally written in
+				Interlisp (a dialect separate from the MACLISP/Common Lisp tradition,
+				with its own ancestry), but later, Common Lisp also became part of the
+				environment. Medley includes a WYSIWYG text editor (TEdit), email
+				organizer (Lafite), performance tools (Spy) and many other libraries
+				and user contributed code (from the 1980s).</p>
+
+				<p> The 1992 <a href=
+				"https://awards.acm.org/award_winners/masinter_3814811" >ACM Software
+				System Award</a>, to Daniel G. Bobrow, Richard R. Burton, L. Peter
+				Deutsch, Ronald M. Kaplan, Larry Masinter, Warren Teitelman
+
+				"... for their pioneering work in programming environments that integrated
+					<ul><li>source-language debuggers,</li>
+					<li> fully compatible integrated interpreter/compiler, </li>
+					<li>automatic change management,</li>
+					<li>structure-based editing,</li>
+					<li>logging facilities,</li>
+					<li>interactive graphics, and</li>
+					<li>analysis/profiling tools</li>
+					</ul>
+					in the Interlisp system."
+				</p>
+				<h2>About the Project</h2>
+				<p>Our aim is to restore Medley Interlisp to usability on modern
+				systems, sufficient to allow someone to develop some code and
+				experience what it was like.  You could think of this as a kind of
+				"vintage software" project, to try to capture the sense of fluidity
+				in the development cycle.  We hope to provide a platform for
+				demonstration of early experiments of hypertext (Notecards), Desktop
+				management (Rooms), Object-oriented programming (LOOPS), as well as
+				Interlisp itself.</p>
+
+				<h2>Who is involved? </h2>
+
+				<p>See <a href="https://docs.google.com/document/d/1cGBDNMO5yt6ymi7YiCcf6uNn6RBe5PVS7mW4kFnlzNY/edit#heading=h.z1l9hpktj4v3">Who Are We</a> section of the <a href="https://docs.google.com/document/d/1cGBDNMO5yt6ymi7YiCcf6uNn6RBe5PVS7mW4kFnlzNY/edit?usp=sharing">Annual Report</a></p>
+				<p>The <a href="https://groups.google.com/g/lispcore">core group of
+				contributors</a> includes <a href="https://LarryMasinter.net">Larry
+				Masinter</a>, <a href="https://en.wikipedia.org/wiki/Ronald_Kaplan">Ron Kaplan</a>, Nick Briggs, Frank Halasz, Herb Jellinek, Steve Kaisler, Wayne Marci, Paul McJones, Bruce Mitchener, John
+				Cowan, Arun Welch, Michele Denber, Blake McBride, Abe Jellinek. If you want to help out,
+				please join
+				in. See <a href="https://github.com/interlisp/medley/issues"> GitHub
+				issues</a> for some ideas.
+				<p>We’re meeting weekly (Monday 10:00am PT) via zoom.</p>
+
+				<p>We're hoping to make some demos of various features but could use
+				some help. </p>
+						
+				<h2>Basic components</h2>
+
+				<p>An implementation of the virtual machine (like a port of the microcode that turned the Xerox hardware into a lisp machine.) The emulator, called <strong>maiko</strong>, was  initially developed at Fuji Xerox for the SunOS/SPARC. It was subsequently ported to many different OS and hardware combinations. </p>
+
+				<p>The Lisp system itself was split into layered parts:</p>
+				<ul>
+				<li>The core of the system written in Lisp to implement system components including memory management, Interlisp and Common Lisp interpreters and compilers.</li>
+				<li>Basic operating system components: thread scheduler, drivers for disk, floppy, display, keyboard; windows, menus, fonts, networking (originally PUP, then XNS, then TCP/IP).</li>
+				<li>The <strong>Library</strong> contains additional utilities and the development environment, text editor (TEdit), debugger, source file manager, email client,etc.</li>
+				<li><strong>LispUsers</strong> packages were contributed by users but curated by the Interlisp developer group</li>
+				<li>Raster image <strong>Fonts</strong> in display and print resolution</li>
+				<li>Documentation and release notes</li>
+				<li>Memory images (<strong>sysouts</strong>) that can be loaded run without loading or compiling anything other than compatible maiko.</li>
+				</ul>
+
+				<h2>GitHub integration</h2>
+
+				There is a GitHub Organization <a href="https://github.com/interlisp">Interlisp</a> with
+				repositories for <a href="https://github.com/interlisp/maiko">Maiko</a>, <a href="https://github.com/interlisp/medley">Medley</a>, this
+				web site (Interlisp.github.io) and others. The <a href="https://github.com/interlisp/medley/wiki">Wiki</a>, <a href="https://github.com/interlisp/medley/releases">Releases</a>, <a href="https://github.com/interlisp/medley/issues">Issues</a>, <a href="https://github.com/interlisp/medley/discussions">Discussions</a>,
+				are all under the <a href="https://github.com/interlisp/medley">Medley repository</a>.
+
+
+				<h2>Objectives</h2>
+				<p>The primary focus of this project is to make Medley usable enough that people can use it in a modern environment. Primarily this is a matter of testing and debugging; raise issues in the <a href="https://github.com/Interlisp/medley/issues">Interlisp/medley</a> repo. But we're also trying to "modernize" some things; for example, we're adding Unicode support for IO (Interlisp-D was built before Unicode, and supports an older Xerox encoding). As with most open source projects, what we're able to accomplish depends on volunteers.
+				<ul>
+					<li>See the <a href="https://github.com/Interlisp/medley/wiki/Guest-Book">Medley Interlisp Virtual Guest Book</a></li>
+					<li>and <a href="https://docs.google.com/document/d/e/2PACX-1vROuZzj7UKCkUWVh0KK6jYM-rpyn2CFyALlC9GBfzb-XhY55XhToDn13km4Ye6YicbTr-v0V0ALbLK3/pub" target="new">Medley Project Goals</a> </li>
+					</ul>
+				</p>
+
+				<h2>Releases</h2>
+				<p>
+				We've establlish a GitHub Actions based way of creating the <a href="https://github.com/interlisp/medley/releases">Medley repo releases</a>. Or point your browser to <a href="https://online.interlisp.org">https://online.interlisp.org</a>. </p>
+
+					<h2>Documentation</h2>
+					<p>There is a (hopefully) complete <a href="https://github.com/interlisp/medley/wiki/Documentation">catelog of online documentation</a>.</p>
+					<P><a href="docs_pages/index.html">View Documents</a></P>
+				
+
+				<h2>Bibliography</h2>
+				<ul><li>We've put together an extensive <li><a href="/bibliography/">
+					bibliography</a> based on Zotero. see <a href="https://www.zotero.org/groups/2914042/interlisp/library">here</a> for another view.</li>
+				</ul>
+
+				<h2>History</h2>
+				<p>Currently in two documents:
+				<ul>
+					<li><a href="https://docs.google.com/document/d/1QXUMQ0OUttYYzWUvgdVcnkz5Gym_t1MDnMT8XZJe-NI/">
+					Interlisp Timeline</a>,</li>
+					<li><a href="https://docs.google.com/document/d/1znqCtOMNYP3sb1UVv1S3iYEZIcboL9-SwTSiym6Zym8/">
+					History</a></li>
+				</ul>
+				There is also a separate <a href="https://github.com/Interlisp/history">Interlisp/history</a> repository for older snapshots
+				of Interlisp implementations and documentation.
+				</p>
+			</div>
+		</div>
 	</main>
-			  <!-- START: JS --> 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> 
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
-<script
-      src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
-      <footer class="site-footer" id="footer">© Copyright 2021 by <a href="https://www.interlisp.org">InterlispOrg Inc</a> </footer>    
+				<!-- START: JS --> 
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script> 
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> 
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+	<script
+		src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+		<footer class="site-footer" id="footer">© Copyright 2021 by <a href="https://www.interlisp.org">InterlispOrg Inc</a> </footer>    
 </body>
 </html>

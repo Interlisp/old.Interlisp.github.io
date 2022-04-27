@@ -13,19 +13,22 @@ body {
 	background: #ffffff; }
 
 	body:before, body:after {
-	height: 3px;
-	content: "";
-	position: absolute;
-	width: 50%;
-	top: 0;
-	background: transparent;
-	z-index: 2; }
+		height: 3px;
+		content: "";
+		position: absolute;
+		width: 50%;
+		top: 0;
+		background: transparent;
+		z-index: 2;
+	}
 	body:before {
-	left: 0;
-	background: #9b59b6; }
+		left: 0;
+		background: #9b59b6;
+	}
 	body:after {
-	right: 0;
-	background: #e74c3c; }
+		right: 0;
+		background: #e74c3c;
+	}
 
 :disabled,
 [disabled] {
