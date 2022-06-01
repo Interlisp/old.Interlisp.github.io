@@ -142,7 +142,9 @@
      */
     async function loadBibliography(table) {
       let citations = await (await fetch("bibliography.json")).json();
-      citations.sort((a, b) => a['title'].localeCompare(b['title']));
+      /**
+       * citations.sort((a, b) => a['title'].localeCompare(b['title'])); 
+       */
 
       table.innerHTML =
         "<thead><tr><th class='text-right'>Authors</th><th>Title</th><th>Note</th></tr></thead>";
